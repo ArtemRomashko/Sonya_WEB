@@ -1,7 +1,3 @@
-// ===============================
-// INDEX of guides (fixed URLs)
-// ===============================
-
 const guidesIndex = [
     {
         title: "Зйом квартири",
@@ -25,10 +21,6 @@ const guidesIndex = [
     }
 ];
 
-// ===============================
-// SEARCH LOGIC
-// ===============================
-
 function searchGuides(query) {
     const q = query.toLowerCase().trim();
     return guidesIndex.filter(item =>
@@ -37,15 +29,13 @@ function searchGuides(query) {
     );
 }
 
-// ===============================
-// RENDER SEARCH RESULTS
-// ===============================
-
 function renderSearchResults() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
 
     const container = document.getElementById("search-results");
+    if (!container) return;
+
     const input = document.getElementById("search-input");
 
     if (!query || query.trim() === "") {
@@ -53,7 +43,6 @@ function renderSearchResults() {
         return;
     }
 
-    // Заповнюємо поле введення текстом запиту
     if (input) input.value = query;
 
     const results = searchGuides(query);
@@ -63,7 +52,6 @@ function renderSearchResults() {
         return;
     }
 
-    // Generate HTML results
     container.innerHTML = results
         .map(item => `
             <a class="search-item" href="${item.url}">

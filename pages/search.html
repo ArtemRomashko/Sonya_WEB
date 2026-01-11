@@ -9,81 +9,67 @@
     <link rel="icon" href="../assets/img/favicon.png" />
     <link rel="stylesheet" href="../assets/css/style.css" />
 
-    <!-- Підключення пошуку -->
     <script defer src="../assets/js/search.js"></script>
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container header__inner">
-            <div class="brand">
-                <div class="brand__name">SelfMade</div>
-                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
-            </div>
-
-            <nav class="nav">
-                <a class="nav__link" href="../index.html">Головна</a>
-                <a class="nav__link" href="categories.html">Категорії</a>
-                <a class="nav__link" href="guides.html">Гайди</a>
-                <a class="nav__link" href="about.html">Про нас</a>
-                <a class="nav__link" href="contacts.html">Контакти</a>
-            </nav>
-
-            <div class="search">
-                <span class="search__icon">🔎</span>
-                <input id="search-input" class="search__input" type="search" placeholder="Пошук по гайдах…"
-                    onkeydown="if (event.key === 'Enter') { window.location.href='/pages/search.html?q=' + encodeURIComponent(this.value); }" />
-            </div>
+<header class="header">
+    <div class="container header__inner">
+        <div class="brand">
+            <div class="brand__name">SelfMade</div>
+            <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
         </div>
-    </header>
 
-    <!-- MAIN -->
-    <main class="container">
+        <nav class="nav">
+            <a class="nav__link" href="../index.html">Головна</a>
+            <a class="nav__link" href="categories.html">Категорії</a>
+            <a class="nav__link" href="guides.html">Гайди</a>
+            <a class="nav__link" href="about.html">Про нас</a>
+            <a class="nav__link" href="contacts.html">Контакти</a>
+        </nav>
 
-        <section class="pagehead">
-            <div class="breadcrumbs">
-                <a href="../index.html">Головна</a> /
-                Пошук
-            </div>
-
-            <h1 class="h1">Пошук</h1>
-            <p class="lead">
-                Введи запит у поле зверху — і тут зʼявляться результати.
-            </p>
-        </section>
-
-        <!-- SEARCH RESULTS -->
-        <section class="section">
-            <div id="search-results"></div>
-        </section>
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container footer__inner">
-            <div>© <span id="y"></span> SelfMade</div>
-            <div>
-                <a class="nav__link" href="privacy.html">Privacy</a>
-                <a class="nav__link" href="terms.html">Terms</a>
-                <a class="nav__link" href="contacts.html">Contacts</a>
-            </div>
+        <div class="search">
+            <span class="search__icon">🔎</span>
+            <input id="search-input" class="search__input" type="search" placeholder="Пошук по гайдах…"
+                onkeydown="if (event.key === 'Enter') { window.location.href='search.html?q=' + encodeURIComponent(this.value); }" />
         </div>
-    </footer>
+    </div>
+</header>
 
-    <script>
-        document.getElementById("y").textContent = new Date().getFullYear();
+<main class="container">
+    <section class="pagehead">
+        <div class="breadcrumbs">
+            <a href="../index.html">Головна</a> /
+            Пошук
+        </div>
 
-        // Запуск пошуку
-        document.addEventListener("DOMContentLoaded", function() {
-            if (typeof renderSearchResults === "function") {
-                renderSearchResults();
-            }
-        });
-    </script>
+        <h1 class="h1">Пошук</h1>
+        <p class="lead">
+            Введи запит у поле зверху — і тут зʼявляться результати.
+        </p>
+    </section>
+
+    <section class="section">
+        <div id="search-results"></div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <div>© <span id="y"></span> SelfMade</div>
+        <div>
+            <a class="nav__link" href="privacy.html">Privacy</a>
+            <a class="nav__link" href="terms.html">Terms</a>
+            <a class="nav__link" href="contacts.html">Contacts</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+    document.addEventListener("DOMContentLoaded", renderSearchResults);
+</script>
 
 </body>
-
 </html>
