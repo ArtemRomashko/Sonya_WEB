@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Дія: як користуватись — SelfMade</title>
+
+    <link rel="icon" href="../../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../../index.html">Головна</a>
+                <a class="nav__link" href="../categories.html">Категорії</a>
+                <a class="nav__link" href="../guides.html">Гайди</a>
+                <a class="nav__link" href="../about.html">Про нас</a>
+                <a class="nav__link" href="../contacts.html">Контакти</a>
+            </nav>
+
+            <!-- поиск кликабельный -->
+            <a class="search" href="../search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../../index.html">Головна</a> /
+                <a href="../categories.html">Категорії</a> /
+                <a href="../category/documents.html">Документи</a> /
+                Дія
+            </div>
+
+            <h1 class="h1">Дія: як користуватись</h1>
+            <p class="lead">
+                Дія ID, підпис, цифрові документи, базові налаштування.
+            </p>
+        </section>
+
+        <!-- CONTENT -->
+        <section class="section">
+
+            <!-- 1 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Як створити Дія ID">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Як створити Дія ID</h3>
+                    <p>Електронний підпис для підписання документів онлайн.
+                    </p>
+                    <ul>
+                        <li>Як зробити:</li>
+                        <p>
+                            1. Встановити «Дію».
+                        </p>
+                        <p>
+                            2. У «Послуги» → «Дія ID» підтвердити особу через банк або NFC ID-картки.
+                        </p>
+                        <p>
+                            3. Створити 5-значний код.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Як підвисувати документи">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Як підвисувати документи</h3>
+                    <p>Завантажуєш PDF → «Підписати Дія ID» → підтверджуєш кодом у додатку. Підпис офіційний рівний
+                        живому.</p>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Цифрові документи">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Цифрові документи</h3>
+                    <p>
+                        У «Дії» доступні: ID-картка, закордонний паспорт, ІПН, водійське, студентський.
+                    </p>
+                    <p>
+                        Визнані офіційними у всіх державних та приватних структурах.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="../privacy.html">Privacy</a>
+                <a class="nav__link" href="../terms.html">Terms</a>
+                <a class="nav__link" href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

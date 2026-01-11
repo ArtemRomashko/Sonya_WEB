@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Сімейний лікар — SelfMade</title>
+
+    <link rel="icon" href="../../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../../index.html">Головна</a>
+                <a class="nav__link" href="../categories.html">Категорії</a>
+                <a class="nav__link" href="../guides.html">Гайди</a>
+                <a class="nav__link" href="../about.html">Про нас</a>
+                <a class="nav__link" href="../contacts.html">Контакти</a>
+            </nav>
+
+            <a class="search" href="../search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../../index.html">Головна</a> /
+                <a href="../categories.html">Категорії</a> /
+                <a href="../category/medicine.html">Медицина</a> /
+                Сімейний лікар
+            </div>
+
+            <h1 class="h1">Сімейний лікар</h1>
+            <p class="lead">Як обрати лікаря, що взяти з собою, як підписати декларацію.</p>
+        </section>
+
+        <!-- CONTENT -->
+        <section class="section">
+
+            <!-- Як підписати декларацію -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <!-- БАНЕР 1400x420 -->
+                    <img src="../../assets/img/medicine-family-doctor-banner.png" alt="Сімейний лікар: декларація">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Як підписати декларацію</h3>
+                    <ol>
+                        <li>Заходиш у helsi.me.</li>
+                        <li>Обираєш найближчий медзаклад або конкретного лікаря.</li>
+                        <li>Потрібні: паспорт/ID, код (ІПН), номер телефону.</li>
+                        <li>Підписуєш Дія.Підписом або приходиш до лікаря з документами.</li>
+                    </ol>
+                    <p>Все, ти закріплений за лікарем.</p>
+                </div>
+            </div>
+
+            <!-- Що входить у безкоштовний пакет -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <!-- БАНЕР 1400x420 (поки можна залишити цей самий) -->
+                    <img src="../../assets/img/medicine-family-doctor-banner.png" alt="Безкоштовний пакет послуг">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Що входить у безкоштовний пакет</h3>
+                    <ul>
+                        <li>Загальні аналізи: кров, сеча, глюкоза.</li>
+                        <li>Флюорографія (раз на рік).</li>
+                        <li>ЕКГ за показами.</li>
+                        <li>Огляд лікаря + направлення до вузьких спеціалістів.</li>
+                        <li>Лікарняні та довідки.</li>
+                    </ul>
+                    <p>Залежить від закладу, але базовий перелік скрізь однаковий.</p>
+                </div>
+            </div>
+
+            <!-- Як записатися онлайн -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <!-- БАНЕР 1400x420 (поки можна залишити цей самий) -->
+                    <img src="../../assets/img/medicine-family-doctor-banner.png" alt="Запис онлайн до лікаря">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Як записатися онлайн</h3>
+                    <ul>
+                        <li>На helsi.me → вибираєш лікаря та час.</li>
+                        <li>Або через кол-центр свого медзакладу.</li>
+                        <li>У багатьох клініках є телеграм-боти.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="../privacy.html">Privacy</a>
+                <a class="nav__link" href="../terms.html">Terms</a>
+                <a class="nav__link" href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

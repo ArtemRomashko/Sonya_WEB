@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Робота — SelfMade</title>
+
+    <link rel="icon" href="../../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../../index.html">Головна</a>
+                <a class="nav__link" href="../categories.html">Категорії</a>
+                <a class="nav__link" href="../guides.html">Гайди</a>
+                <a class="nav__link" href="../about.html">Про нас</a>
+                <a class="nav__link" href="../contacts.html">Контакти</a>
+            </nav>
+
+            <a class="search" href="../search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../../index.html">Головна</a> /
+                <a href="../categories.html">Категорії</a> /
+                Робота
+            </div>
+
+            <h1 class="h1">Робота</h1>
+            <p class="lead">
+                Резюме, співбесіда, перші дні на новому місці та червоні прапорці. По кроках і без зайвого.
+            </p>
+
+            <div class="pills">
+                <a class="pill" href="../guide/work-interview.html">🧑‍💼 Співбесіда</a>
+            </div>
+        </section>
+
+        <!-- GUIDES LIST -->
+        <section class="section">
+            <div class="section__head">
+                <h2 class="section__title">Гайди в категорії</h2>
+                <p class="section__hint">Обери тему і забери конкретні кроки</p>
+            </div>
+
+            <div class="grid">
+
+                <a class="card category" href="../guide/work-interview.html">
+                    <div class="category__name">Співбесіда: як підготуватись</div>
+                    <div class="category__desc">
+                        Питання, відповіді, як не нервувати і що уточнити про умови.
+                    </div>
+                </a>
+
+                <div class="card category is-disabled" aria-disabled="true">
+                    <div class="category__name">Резюме</div>
+                    <div class="category__desc">
+                        Як написати коротко і сильно, приклади — скоро буде.
+                    </div>
+                </div>
+
+                <div class="card category is-disabled" aria-disabled="true">
+                    <div class="category__name">Червоні прапорці</div>
+                    <div class="category__desc">
+                        Небезпечні формулювання в вакансіях і на співбесіді — скоро буде.
+                    </div>
+                </div>
+
+                <div class="card category is-disabled" aria-disabled="true">
+                    <div class="category__name">Перший тиждень на роботі</div>
+                    <div class="category__desc">
+                        Як влитись, що питати, як не вигоріти — скоро буде.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BACK -->
+        <section class="section">
+            <div class="card feature">
+                <h3 class="feature__title">Хочеш подивитись інші теми?</h3>
+                <p class="feature__text">
+                    Перейди до всіх категорій або відкрий повний список гайдів.
+                </p>
+                <div class="pills">
+                    <a class="pill" href="../categories.html">До всіх категорій</a>
+                    <a class="pill" href="../guides.html">До всіх гайдів</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="../privacy.html">Privacy</a>
+                <a class="nav__link" href="../terms.html">Terms</a>
+                <a class="nav__link" href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

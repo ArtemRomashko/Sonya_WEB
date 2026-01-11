@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Контакти — SelfMade</title>
+
+    <link rel="icon" href="../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../index.html">Головна</a>
+                <a class="nav__link" href="categories.html">Категорії</a>
+                <a class="nav__link" href="guides.html">Гайди</a>
+                <a class="nav__link" href="about.html">Про нас</a>
+                <a class="nav__link" href="contacts.html">Контакти</a>
+            </nav>
+
+            <a class="search" href="search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../index.html">Головна</a> /
+                Контакти
+            </div>
+
+            <h1 class="h1">Контакти</h1>
+            <p class="lead">
+                Маєш ідею, помилку на сайті або хочеш запропонувати тему для гайду? Напиши нам.
+            </p>
+        </section>
+
+        <!-- CONTACTS GRID -->
+        <section class="section">
+            <div class="grid about-grid">
+
+                <div class="card">
+                    <h3>Написати</h3>
+                    <p>Найшвидший спосіб — email.</p>
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:selfmade.guide@gmail.com">selfmade.guide@gmail.com</a>
+                    </p>
+                    <p style="opacity:.8; font-size: 14px;">
+
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Соцмережі</h3>
+                    <p>Тут може бути твій Instagram / Telegram.</p>
+                    <ul>
+                        <li><a href="#" class="is-disabled">Instagram (скоро)</a></li>
+                        <li><a href="#" class="is-disabled">Telegram (скоро)</a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Запропонувати тему</h3>
+                    <p>
+                        Напиши коротко:
+                        яка тема, для кого і що саме потрібно пояснити по кроках.
+                    </p>
+                    <div class="pills">
+                        <a class="pill"
+                            href="mailto:selfmade.guide@gmail.com?subject=Ідея%20для%20гайду%20SelfMade&body=Тема:%20%0AКатегорія:%20%0AЩо%20саме%20пояснити:%20%0AДля%20кого:%20">
+                            Запропонувати ідею
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EXTRA -->
+        <section class="section">
+            <div class="card feature">
+                <h3 class="feature__title">Перш ніж писати</h3>
+                <p class="feature__text">
+                    Якщо ти шукаєш конкретну інструкцію — спершу подивись категорії або список гайдів.
+                </p>
+                <div class="pills">
+                    <a class="pill" href="categories.html">Категорії</a>
+                    <a class="pill" href="guides.html">Гайди</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="privacy.html">Privacy</a>
+                <a class="nav__link" href="terms.html">Terms</a>
+                <a class="nav__link" href="contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

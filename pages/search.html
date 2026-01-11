@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Пошук — SelfMade</title>
+
+    <link rel="icon" href="../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../index.html">Головна</a>
+                <a class="nav__link" href="categories.html">Категорії</a>
+                <a class="nav__link" href="guides.html">Гайди</a>
+                <a class="nav__link" href="about.html">Про нас</a>
+                <a class="nav__link" href="contacts.html">Контакти</a>
+            </nav>
+
+            <a class="search" href="search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../index.html">Головна</a> /
+                Пошук
+            </div>
+
+            <h1 class="h1">Пошук</h1>
+            <p class="lead">
+                Тут зʼявиться пошук по гайдах і категоріях.
+            </p>
+        </section>
+
+        <!-- SEARCH PLACEHOLDER -->
+        <section class="section">
+            <div class="card feature">
+                <h3 class="feature__title">Функція в розробці</h3>
+                <p class="feature__text">
+                    Зараз ти можеш скористатися категоріями або списком усіх гайдів.
+                </p>
+
+                <div class="pills">
+                    <a class="pill" href="categories.html">Категорії</a>
+                    <a class="pill" href="guides.html">Усі гайди</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="privacy.html">Privacy</a>
+                <a class="nav__link" href="terms.html">Terms</a>
+                <a class="nav__link" href="contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

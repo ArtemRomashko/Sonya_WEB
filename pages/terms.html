@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terms of Use — SelfMade</title>
+
+    <link rel="icon" href="../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../index.html">Головна</a>
+                <a class="nav__link" href="categories.html">Категорії</a>
+                <a class="nav__link" href="guides.html">Гайди</a>
+                <a class="nav__link" href="about.html">Про нас</a>
+                <a class="nav__link" href="contacts.html">Контакти</a>
+            </nav>
+
+            <!-- SEARCH (enabled) -->
+            <a class="search" href="search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../index.html">Головна</a> /
+                Terms of Use
+            </div>
+
+            <h1 class="h1">Terms of Use</h1>
+            <p class="lead">
+                Умови використання сайту SelfMade.
+            </p>
+        </section>
+
+        <!-- CONTENT -->
+        <section class="section">
+            <div class="grid about-grid">
+
+                <div class="card">
+                    <h3>1. Загальна інформація</h3>
+                    <p>
+                        SelfMade — це інформаційний проєкт, який надає поради та гайди
+                        для повсякденних життєвих ситуацій.
+                    </p>
+                    <p>
+                        Використовуючи сайт, ти погоджуєшся з цими умовами.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>2. Відповідальність</h3>
+                    <p>
+                        Уся інформація на сайті має довідковий характер.
+                        Ми не несемо відповідальності за рішення, прийняті на основі матеріалів сайту.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>3. Авторські права</h3>
+                    <p>
+                        Тексти та структура сайту належать проєкту SelfMade.
+                        Копіювання матеріалів можливе лише з посиланням на джерело.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>4. Зміни умов</h3>
+                    <p>
+                        Ми можемо змінювати ці умови без попереднього повідомлення.
+                        Актуальна версія завжди доступна на цій сторінці.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BACK -->
+        <section class="section">
+            <div class="card feature">
+                <h3 class="feature__title">Питання?</h3>
+                <p class="feature__text">
+                    Якщо маєш запитання щодо умов використання — напиши нам.
+                </p>
+                <div class="pills">
+                    <a class="pill" href="contacts.html">Контакти</a>
+                    <a class="pill" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="privacy.html">Privacy</a>
+                <a class="nav__link" href="terms.html">Terms</a>
+                <a class="nav__link" href="contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

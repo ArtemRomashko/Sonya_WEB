@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Побут — SelfMade</title>
+
+    <link rel="icon" href="../../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../../index.html">Головна</a>
+                <a class="nav__link" href="../categories.html">Категорії</a>
+                <a class="nav__link" href="../guides.html">Гайди</a>
+                <a class="nav__link" href="../about.html">Про нас</a>
+                <a class="nav__link" href="../contacts.html">Контакти</a>
+            </nav>
+
+            <a class="search" href="../search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../../index.html">Головна</a> /
+                <a href="../categories.html">Категорії</a> /
+                Побут
+            </div>
+
+            <h1 class="h1">Побут</h1>
+            <p class="lead">
+                Прання, прибирання та базові речі для дому. Мінімум зусиль — максимум порядку.
+            </p>
+
+            <div class="pills">
+                <a class="pill" href="../guide/everyday-cleaning.html">🧹 Прибирання</a>
+            </div>
+        </section>
+
+        <!-- GUIDES LIST -->
+        <section class="section">
+            <div class="section__head">
+                <h2 class="section__title">Гайди в категорії</h2>
+                <p class="section__hint">Обери тему і забери конкретні кроки</p>
+            </div>
+
+            <div class="grid">
+
+                <a class="card category" href="../guide/everyday-cleaning.html">
+                    <div class="category__name">Прибирання без хаосу</div>
+                    <div class="category__desc">
+                        Простий план: що і як часто прибирати, щоб не перевтомлюватись.
+                    </div>
+                </a>
+
+                <div class="card category is-disabled" aria-disabled="true">
+                    <div class="category__name">Прання</div>
+                    <div class="category__desc">
+                        Режими, сортування, догляд за речами — скоро буде.
+                    </div>
+                </div>
+
+                <div class="card category is-disabled" aria-disabled="true">
+                    <div class="category__name">Організація простору</div>
+                    <div class="category__desc">
+                        Зберігання, порядок у шафах і на кухні — скоро буде.
+                    </div>
+                </div>
+
+                <div class="card category is-disabled" aria-disabled="true">
+                    <div class="category__name">Базовий набір для дому</div>
+                    <div class="category__desc">
+                        Що купити одразу після переїзду — скоро буде.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BACK -->
+        <section class="section">
+            <div class="card feature">
+                <h3 class="feature__title">Потрібні всі категорії?</h3>
+                <p class="feature__text">Перейди на сторінку з усіма темами або відкрий повний список гайдів.</p>
+                <div class="pills">
+                    <a class="pill" href="../categories.html">До всіх категорій</a>
+                    <a class="pill" href="../guides.html">До всіх гайдів</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="../privacy.html">Privacy</a>
+                <a class="nav__link" href="../terms.html">Terms</a>
+                <a class="nav__link" href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

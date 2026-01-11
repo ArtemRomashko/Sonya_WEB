@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Основні документи — SelfMade</title>
+
+    <link rel="icon" href="../../assets/img/favicon.png" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="brand">
+                <div class="brand__name">SelfMade</div>
+                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="../../index.html">Головна</a>
+                <a class="nav__link" href="../categories.html">Категорії</a>
+                <a class="nav__link" href="../guides.html">Гайди</a>
+                <a class="nav__link" href="../about.html">Про нас</a>
+                <a class="nav__link" href="../contacts.html">Контакти</a>
+            </nav>
+
+            <!-- поиск кликабельный -->
+            <a class="search" href="../search.html">
+                <span class="search__icon">🔎</span>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- PAGE HEAD -->
+        <section class="pagehead">
+            <div class="breadcrumbs">
+                <a href="../../index.html">Головна</a> /
+                <a href="../categories.html">Категорії</a> /
+                <a href="../category/documents.html">Документи</a> /
+                Основні документи
+            </div>
+
+            <h1 class="h1">Основні документи</h1>
+            <p class="lead">
+                Огляд найбільш важливих документів для різних етапів життя, від паспорта до довідок.
+            </p>
+        </section>
+
+        <!-- CONTENT -->
+        <section class="section">
+
+            <!-- 1 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Документи для оформлення">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Паспорт/ID-картка</h3>
+                    <p>Головний документ для підтверждення особистості, роботи, банку, договорів і подорожей Україною.
+                    </p>
+                    <ul>
+                        <li>Де роботи: у ЦНАПі або ДП «Документ» за місцем прописки. Цифрова копія - в «Дії».</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Ідентифікаційний код">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Ідентифікаційний код</h3>
+                    <p>Цей код використовується для ідентифікації в різних державних структурах.</p>
+                    <ul>
+                        <li>Де робити: у податковій за місцем реєстрації або через «Дію» онлайн.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Довідка про доходи">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Закордонний паспорт</h3>
+                    <p>
+                        Для поїздок за кордон, біометричний дає безвіз.
+                    </p>
+                    <ul>
+                        <li>Де робити: у ЦНАПі або ДП «Документ» за місцем прописки. Можна замовити терміновий (7 днів)
+                            або стардатний (20 днів).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="card media-block vertical">
+                <div class="media-block__media">
+                    <img src="../../assets/img/home.png" alt="Довідка про доходи">
+                </div>
+
+                <div class="media-block__text">
+                    <h3>Військовий облік</h3>
+                    <p>
+                        Обовʼязково для чоловіків з 17 років. Потрібен для роботи та виїзду за кордон.
+                    </p>
+                    <ul>
+                        <li>Де робити: у військкоматі за місцем прописки. </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>© <span id="y"></span> SelfMade</div>
+            <div>
+                <a class="nav__link" href="../privacy.html">Privacy</a>
+                <a class="nav__link" href="../terms.html">Terms</a>
+                <a class="nav__link" href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
