@@ -8,67 +8,78 @@ const searchIndex = [
     {
         type: "category",
         title: "Житло",
-        url: "/pages/category/housing.html",
+        url: "housing.html",
+        folder: "category",
         keywords: "оренда переїзд комуналка житло квартира договір застави"
     },
     {
         type: "category",
         title: "Документи",
-        url: "/pages/category/documents.html",
+        url: "documents.html",
+        folder: "category",
         keywords: "паспорт ipn діа довіреності документи id"
     },
     {
         type: "category",
         title: "Медицина",
-        url: "/pages/category/medicine.html",
+        url: "medicine.html",
+        folder: "category",
         keywords: "сімейний лікар медкнижка 103 медична допомога"
     },
     {
         type: "category",
         title: "Фінанси",
-        url: "/pages/category/finance.html",
+        url: "finance.html",
+        folder: "category",
         keywords: "картки бюджет податки накопичення гроші банк"
     },
     {
         type: "category",
         title: "Робота",
-        url: "/pages/category/work.html",
+        url: "work.html",
+        folder: "category",
         keywords: "резюме співбесіди червоні прапорці працевлаштування"
     },
     {
         type: "category",
         title: "Транспорт",
-        url: "/pages/category/transport.html",
+        url: "transport.html",
+        folder: "category",
         keywords: "права авто страховка транспорт посвідчення"
     },
     {
         type: "category",
         title: "Побут",
-        url: "/pages/category/home.html",
+        url: "home.html",
+        folder: "category",
         keywords: "прання прибирання базова кухня побут порядок"
     },
     {
         type: "category",
         title: "Психологія",
-        url: "/pages/category/psychology.html",
+        url: "psychology.html",
+        folder: "category",
         keywords: "межі тривожність вигорання емоції психологія"
     },
     {
         type: "category",
         title: "Кухня",
-        url: "/pages/category/kitchen.html",
+        url: "kitchen.html",
+        folder: "category",
         keywords: "сніданки обіди рецепти прості страви кухня"
     },
     {
         type: "category",
         title: "Безпека",
-        url: "/pages/category/safety.html",
+        url: "safety.html",
+        folder: "category",
         keywords: "тривога пожежі екстрені дії безпека"
     },
     {
         type: "category",
         title: "Подорожі",
-        url: "/pages/category/travel.html",
+        url: "travel.html",
+        folder: "category",
         keywords: "аеропорт квитки документи подорожі"
     },
 
@@ -76,85 +87,99 @@ const searchIndex = [
     {
         type: "guide",
         title: "Зйом квартири",
-        url: "/pages/guide/housing-rent.html",
+        url: "housing-rent.html",
+        folder: "guide",
         keywords: "житло перевірки договори застава оренда зйом квартира"
     },
     {
         type: "guide",
         title: "Комунальні платежі",
-        url: "/pages/guide/utilities.html",
+        url: "utilities.html",
+        folder: "guide",
         keywords: "лічильники рахунки хто платить комуналка електрика газ вода"
     },
     {
         type: "guide",
         title: "Сімейний лікар",
-        url: "/pages/guide/family-doctor.html",
+        url: "family-doctor.html",
+        folder: "guide",
         keywords: "декларація лікар запис аналізи нсзу медична допомога"
     },
     {
         type: "guide",
         title: "Екстрена допомога 103",
-        url: "/pages/guide/emergency.html",
-        keywords: "коли дзвонити що сказати невідкладна допомога кровотеча опіки"
+        url: "emergency.html",
+        folder: "guide",
+        keywords: "103 коли дзвонити невідкладна кровотеча опіки шок"
     },
     {
         type: "guide",
         title: "Основні документи",
-        url: "/pages/guide/basic-documents.html",
+        url: "basic-documents.html",
+        folder: "guide",
         keywords: "паспорт id ipn список документи отримати"
     },
     {
         type: "guide",
         title: "Дія: як користуватись",
-        url: "/pages/guide/dia.html",
-        keywords: "дія цифрові документи налаштування підпис qr"
+        url: "dia.html",
+        folder: "guide",
+        keywords: "дія цифрові документи налаштування підтвердження підпис"
     },
     {
         type: "guide",
         title: "Бюджет без болю",
-        url: "/pages/guide/budget.html",
-        keywords: "бюджет витрати накопичення фінанси планування"
+        url: "budget.html",
+        folder: "guide",
+        keywords: "бюджет фінанси витрати накопичення планування"
     },
     {
         type: "guide",
         title: "Співбесіда: як підготуватись",
-        url: "/pages/guide/interview.html",
+        url: "interview.html",
+        folder: "guide",
         keywords: "робота співбесіда питання відповіді червоні прапорці"
     },
     {
         type: "guide",
         title: "Водійське посвідчення",
-        url: "/pages/guide/driving-license.html",
-        keywords: "права авто отримати відновити документи"
+        url: "driving-license.html",
+        folder: "guide",
+        keywords: "права авто посвідчення отримати відновити"
     },
     {
         type: "guide",
         title: "Прибирання без хаосу",
-        url: "/pages/guide/cleaning.html",
-        keywords: "прибирання план порядок побут хаос"
+        url: "cleaning.html",
+        folder: "guide",
+        keywords: "прибирання план порядок хаос побут чистота"
     },
     {
         type: "guide",
         title: "Вигорання",
-        url: "/pages/guide/burnout.html",
-        keywords: "вигорання ознаки причини психологія емоції"
+        url: "burnout.html",
+        folder: "guide",
+        keywords: "вигорання ознаки причини тривожність психологія"
     },
     {
         type: "guide",
         title: "Швидкі сніданки",
-        url: "/pages/guide/quick-breakfasts.html",
+        url: "quick-breakfasts.html",
+        folder: "guide",
         keywords: "сніданки рецепти кухня швидко просто"
     },
     {
         type: "guide",
         title: "Повітряна тривога",
-        url: "/pages/guide/air-alert.html",
-        keywords: "тривога укриття що робити безпека"
+        url: "air-alert.html",
+        folder: "guide",
+        keywords: "тривога укриття безпека сигнал дії"
     },
     {
         type: "guide",
         title: "Аеропорт: вперше",
-        url: "/pages/guide/airport.html",
+        url: "airport.html",
+        folder: "guide",
         keywords: "аеропорт багаж контроль посадка реєстрація"
     }
 ];
@@ -170,6 +195,7 @@ function initLiveSearch() {
     if (!input || !container) return;
 
     input.addEventListener("input", () => {
+
         const query = input.value.toLowerCase().trim();
         container.innerHTML = "";
 
@@ -190,7 +216,7 @@ function initLiveSearch() {
 
         container.innerHTML = results
             .map(item => `
-                <a class="search-item" href="${item.url}">
+                <a class="search-item" href="/pages/${item.folder}/${item.url}">
                     <div class="search-type">${item.type === "guide" ? "Гайд" : "Категорія"}</div>
                     <h3>${item.title}</h3>
                     <p>${item.keywords}</p>
