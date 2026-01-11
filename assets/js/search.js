@@ -1,37 +1,46 @@
-// CONFIG: список всіх гайдів
+// ===============================
+// INDEX of guides (fixed URLs)
+// ===============================
+
 const guidesIndex = [
     {
         title: "Зйом квартири",
         url: "guide/housing-rent.html",
-        keywords: "оренда зйом житло договір перевірка"
+        keywords: "оренда зйом житло договір перевірка квартира"
     },
     {
         title: "Комунальні послуги",
         url: "guide/utilities.html",
-        keywords: "лічильники вода світло тариф платіжка"
+        keywords: "лічильники вода світло тариф платіжка комуналка"
     },
     {
         title: "Сімейний лікар",
         url: "guide/family-doctor.html",
-        keywords: "декларація лікар медпослуги нсзу"
+        keywords: "декларація лікар медпослуги нсзу запис консультація"
     },
     {
         title: "Невідкладні стани",
         url: "guide/emergency.html",
-        keywords: "опіки кровотеча алергія непритомність"
+        keywords: "опіки кровотеча алергія непритомність електрика шок"
     }
 ];
 
-// LOGIC: пошук
+// ===============================
+// SEARCH LOGIC
+// ===============================
+
 function searchGuides(query) {
-    query = query.toLowerCase().trim();
+    const q = query.toLowerCase().trim();
     return guidesIndex.filter(item =>
-        item.title.toLowerCase().includes(query) ||
-        item.keywords.toLowerCase().includes(query)
+        item.title.toLowerCase().includes(q) ||
+        item.keywords.toLowerCase().includes(q)
     );
 }
 
-// RENDER: показ результатів на сторінці search.html
+// ===============================
+// RENDER SEARCH RESULTS
+// ===============================
+
 function renderSearchResults() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
@@ -44,7 +53,7 @@ function renderSearchResults() {
         return;
     }
 
-    // Заповнюємо інпут значенням запиту
+    // Заповнюємо поле введення текстом запиту
     if (input) input.value = query;
 
     const results = searchGuides(query);
@@ -54,6 +63,7 @@ function renderSearchResults() {
         return;
     }
 
+    // Generate HTML results
     container.innerHTML = results
         .map(item => `
             <a class="search-item" href="${item.url}">

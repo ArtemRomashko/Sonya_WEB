@@ -34,7 +34,7 @@
             <div class="search">
                 <span class="search__icon">🔎</span>
                 <input id="search-input" class="search__input" type="search" placeholder="Пошук по гайдах…"
-                    onkeydown="if (event.key === 'Enter') { window.location.href='search.html?q=' + encodeURIComponent(this.value); }" />
+                    onkeydown="if (event.key === 'Enter') { window.location.href='/pages/search.html?q=' + encodeURIComponent(this.value); }" />
             </div>
         </div>
     </header>
@@ -42,7 +42,6 @@
     <!-- MAIN -->
     <main class="container">
 
-        <!-- PAGE HEAD -->
         <section class="pagehead">
             <div class="breadcrumbs">
                 <a href="../index.html">Головна</a> /
@@ -77,10 +76,12 @@
     <script>
         document.getElementById("y").textContent = new Date().getFullYear();
 
-        // Автоматичний рендер результатів
-        if (typeof renderSearchResults === "function") {
-            renderSearchResults();
-        }
+        // Запуск пошуку
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof renderSearchResults === "function") {
+                renderSearchResults();
+            }
+        });
     </script>
 
 </body>
