@@ -7,179 +7,179 @@ const searchIndex = [
     // ---------- КАТЕГОРІЇ ----------
     {
         type: "category",
+        folder: "category",
         title: "Житло",
         url: "housing.html",
-        folder: "category",
         keywords: "оренда переїзд комуналка житло квартира договір застави"
     },
     {
         type: "category",
+        folder: "category",
         title: "Документи",
         url: "documents.html",
-        folder: "category",
-        keywords: "паспорт ipn діа довіреності документи id"
+        keywords: "паспорт ipn дія довіреності документи id"
     },
     {
         type: "category",
+        folder: "category",
         title: "Медицина",
         url: "medicine.html",
-        folder: "category",
         keywords: "сімейний лікар медкнижка 103 медична допомога"
     },
     {
         type: "category",
+        folder: "category",
         title: "Фінанси",
         url: "finance.html",
-        folder: "category",
         keywords: "картки бюджет податки накопичення гроші банк"
     },
     {
         type: "category",
+        folder: "category",
         title: "Робота",
         url: "work.html",
-        folder: "category",
         keywords: "резюме співбесіди червоні прапорці працевлаштування"
     },
     {
         type: "category",
+        folder: "category",
         title: "Транспорт",
         url: "transport.html",
-        folder: "category",
         keywords: "права авто страховка транспорт посвідчення"
     },
     {
         type: "category",
+        folder: "category",
         title: "Побут",
         url: "home.html",
-        folder: "category",
         keywords: "прання прибирання базова кухня побут порядок"
     },
     {
         type: "category",
+        folder: "category",
         title: "Психологія",
         url: "psychology.html",
-        folder: "category",
         keywords: "межі тривожність вигорання емоції психологія"
     },
     {
         type: "category",
+        folder: "category",
         title: "Кухня",
         url: "kitchen.html",
-        folder: "category",
         keywords: "сніданки обіди рецепти прості страви кухня"
     },
     {
         type: "category",
+        folder: "category",
         title: "Безпека",
         url: "safety.html",
-        folder: "category",
         keywords: "тривога пожежі екстрені дії безпека"
     },
     {
         type: "category",
+        folder: "category",
         title: "Подорожі",
         url: "travel.html",
-        folder: "category",
         keywords: "аеропорт квитки документи подорожі"
     },
 
     // ---------- ГАЙДИ ----------
     {
         type: "guide",
+        folder: "guide",
         title: "Зйом квартири",
         url: "housing-rent.html",
-        folder: "guide",
         keywords: "житло перевірки договори застава оренда зйом квартира"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Комунальні платежі",
         url: "utilities.html",
-        folder: "guide",
         keywords: "лічильники рахунки хто платить комуналка електрика газ вода"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Сімейний лікар",
         url: "family-doctor.html",
-        folder: "guide",
         keywords: "декларація лікар запис аналізи нсзу медична допомога"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Екстрена допомога 103",
         url: "emergency.html",
-        folder: "guide",
-        keywords: "103 коли дзвонити невідкладна кровотеча опіки шок"
+        keywords: "103 коли дзвонити невідкладна допомога кровотеча опіки шок"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Основні документи",
         url: "basic-documents.html",
-        folder: "guide",
         keywords: "паспорт id ipn список документи отримати"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Дія: як користуватись",
         url: "dia.html",
-        folder: "guide",
         keywords: "дія цифрові документи налаштування підтвердження підпис"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Бюджет без болю",
         url: "budget.html",
-        folder: "guide",
         keywords: "бюджет фінанси витрати накопичення планування"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Співбесіда: як підготуватись",
         url: "interview.html",
-        folder: "guide",
         keywords: "робота співбесіда питання відповіді червоні прапорці"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Водійське посвідчення",
         url: "driving-license.html",
-        folder: "guide",
         keywords: "права авто посвідчення отримати відновити"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Прибирання без хаосу",
         url: "cleaning.html",
-        folder: "guide",
         keywords: "прибирання план порядок хаос побут чистота"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Вигорання",
         url: "burnout.html",
-        folder: "guide",
         keywords: "вигорання ознаки причини тривожність психологія"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Швидкі сніданки",
         url: "quick-breakfasts.html",
-        folder: "guide",
         keywords: "сніданки рецепти кухня швидко просто"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Повітряна тривога",
         url: "air-alert.html",
-        folder: "guide",
         keywords: "тривога укриття безпека сигнал дії"
     },
     {
         type: "guide",
+        folder: "guide",
         title: "Аеропорт: вперше",
         url: "airport.html",
-        folder: "guide",
         keywords: "аеропорт багаж контроль посадка реєстрація"
     }
 ];
@@ -195,7 +195,6 @@ function initLiveSearch() {
     if (!input || !container) return;
 
     input.addEventListener("input", () => {
-
         const query = input.value.toLowerCase().trim();
         container.innerHTML = "";
 
@@ -216,7 +215,7 @@ function initLiveSearch() {
 
         container.innerHTML = results
             .map(item => `
-                <a class="search-item" href="/pages/${item.folder}/${item.url}">
+                <a class="search-item" href="${item.folder}/${item.url}">
                     <div class="search-type">${item.type === "guide" ? "Гайд" : "Категорія"}</div>
                     <h3>${item.title}</h3>
                     <p>${item.keywords}</p>
