@@ -1,25 +1,23 @@
 // CONFIG: список всіх гайдів
-// Додай сюди всі сторінки, які повинні потрапити в пошук
-
 const guidesIndex = [
     {
         title: "Зйом квартири",
-        url: "/pages/guide/housing-rent.html",
+        url: "guide/housing-rent.html",
         keywords: "оренда зйом житло договір перевірка"
     },
     {
         title: "Комунальні послуги",
-        url: "/pages/guide/utilities.html",
+        url: "guide/utilities.html",
         keywords: "лічильники вода світло тариф платіжка"
     },
     {
         title: "Сімейний лікар",
-        url: "/pages/guide/family-doctor.html",
-        keywords: "декларація лікар медпослуги нсзУ"
+        url: "guide/family-doctor.html",
+        keywords: "декларація лікар медпослуги нсзу"
     },
     {
         title: "Невідкладні стани",
-        url: "/pages/guide/emergency.html",
+        url: "guide/emergency.html",
         keywords: "опіки кровотеча алергія непритомність"
     }
 ];
@@ -27,11 +25,10 @@ const guidesIndex = [
 // LOGIC: пошук
 function searchGuides(query) {
     query = query.toLowerCase().trim();
-    const results = guidesIndex.filter(item =>
+    return guidesIndex.filter(item =>
         item.title.toLowerCase().includes(query) ||
         item.keywords.toLowerCase().includes(query)
     );
-    return results;
 }
 
 // RENDER: показ результатів на сторінці search.html
@@ -42,12 +39,13 @@ function renderSearchResults() {
     const container = document.getElementById("search-results");
     const input = document.getElementById("search-input");
 
-    if (!query) {
+    if (!query || query.trim() === "") {
         container.innerHTML = "<p>Введіть запит для пошуку.</p>";
         return;
     }
 
-    input.value = query;
+    // Заповнюємо інпут значенням запиту
+    if (input) input.value = query;
 
     const results = searchGuides(query);
 

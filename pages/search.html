@@ -33,11 +33,9 @@
 
             <div class="search">
                 <span class="search__icon">🔎</span>
-                <input class="search__input" type="search" placeholder="Пошук по гайдах…"
+                <input id="search-input" class="search__input" type="search" placeholder="Пошук по гайдах…"
                     onkeydown="if (event.key === 'Enter') { window.location.href='search.html?q=' + encodeURIComponent(this.value); }" />
             </div>
-
-
         </div>
     </header>
 
@@ -78,7 +76,8 @@
 
     <script>
         document.getElementById("y").textContent = new Date().getFullYear();
-        // Автоматично рендеримо результати при завантаженні
+
+        // Автоматичний рендер результатів
         if (typeof renderSearchResults === "function") {
             renderSearchResults();
         }
