@@ -1,3 +1,6 @@
+// SelfMade search
+console.log("[SelfMade] search.js loaded");
+
 // ===============================
 // INDEX — Категорії та Гайди
 // ===============================
@@ -192,10 +195,15 @@ function initLiveSearch() {
     const input = document.getElementById("search-input");
     const container = document.getElementById("search-results");
 
-    if (!input || !container) return;
+    if (!input || !container) {
+        console.log("[SelfMade] search: input or results container not found");
+        return;
+    }
 
     input.addEventListener("input", () => {
         const query = input.value.toLowerCase().trim();
+        console.log("[SelfMade] query:", query);
+
         container.innerHTML = "";
 
         if (query.length < 1) {
@@ -207,6 +215,8 @@ function initLiveSearch() {
             item.title.toLowerCase().includes(query) ||
             item.keywords.toLowerCase().includes(query)
         );
+
+        console.log("[SelfMade] results:", results.length);
 
         if (results.length === 0) {
             container.innerHTML = `<p>Нічого не знайдено за: <strong>${query}</strong></p>`;
