@@ -9,6 +9,7 @@
     <link rel="icon" href="../assets/img/favicon.png" />
     <link rel="stylesheet" href="../assets/css/style.css" />
 
+    <!-- search script -->
     <script defer src="../assets/js/search.js"></script>
 </head>
 
@@ -40,16 +41,16 @@
 
     <section class="pagehead">
         <div class="breadcrumbs">
-            <a href="../index.html">Головна</a> /
-            Пошук
+            <a href="../index.html">Головна</a> / Пошук
         </div>
 
         <h1 class="h1">Пошук</h1>
         <p class="lead">Результати зʼявлятимуться автоматично.</p>
     </section>
 
+    <!-- Саме цей блок ВАЖЛИВИЙ -->
     <section class="section">
-        <div id="search-results"></div>
+        <div id="search-results" class="search-results-block"></div>
     </section>
 
 </main>
@@ -67,7 +68,6 @@
 
 <script>
     document.getElementById("y").textContent = new Date().getFullYear();
-    document.addEventListener("DOMContentLoaded", initLiveSearch);
 </script>
 
 </body>
