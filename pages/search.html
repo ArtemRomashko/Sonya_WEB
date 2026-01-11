@@ -31,13 +31,13 @@
 
         <div class="search">
             <span class="search__icon">🔎</span>
-            <input id="search-input" class="search__input" type="search" placeholder="Пошук по гайдах…"
-                onkeydown="if (event.key === 'Enter') { window.location.href='search.html?q=' + encodeURIComponent(this.value); }" />
+            <input id="search-input" class="search__input" type="search" placeholder="Пошук по гайдах…" />
         </div>
     </div>
 </header>
 
 <main class="container">
+
     <section class="pagehead">
         <div class="breadcrumbs">
             <a href="../index.html">Головна</a> /
@@ -45,14 +45,13 @@
         </div>
 
         <h1 class="h1">Пошук</h1>
-        <p class="lead">
-            Введи запит у поле зверху — і тут зʼявляться результати.
-        </p>
+        <p class="lead">Результати зʼявлятимуться автоматично.</p>
     </section>
 
     <section class="section">
         <div id="search-results"></div>
     </section>
+
 </main>
 
 <footer class="footer">
@@ -68,7 +67,7 @@
 
 <script>
     document.getElementById("y").textContent = new Date().getFullYear();
-    document.addEventListener("DOMContentLoaded", renderSearchResults);
+    document.addEventListener("DOMContentLoaded", initLiveSearch);
 </script>
 
 </body>

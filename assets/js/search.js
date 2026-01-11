@@ -1,3 +1,7 @@
+// ===============================
+// INDEX of guides
+// ===============================
+
 const guidesIndex = [
     {
         title: "Зйом квартири",
@@ -21,43 +25,52 @@ const guidesIndex = [
     }
 ];
 
+// ===============================
+// LOGIC
+// ===============================
+
 function searchGuides(query) {
     const q = query.toLowerCase().trim();
+    if (q.length < 1) return [];
+
     return guidesIndex.filter(item =>
         item.title.toLowerCase().includes(q) ||
         item.keywords.toLowerCase().includes(q)
     );
 }
 
-function renderSearchResults() {
-    const params = new URLSearchParams(window.location.search);
-    const query = params.get("q");
+// ===============================
+// LIVE SEARCH
+// ===============================
 
-    const container = document.getElementById("search-results");
-    if (!container) return;
-
+function initLiveSearch() {
     const input = document.getElementById("search-input");
+    const container = document.getElementById("search-results");
 
-    if (!query || query.trim() === "") {
-        container.innerHTML = "<p>Введіть запит для пошуку.</p>";
-        return;
-    }
+    if (!input || !container) return;
 
-    if (input) input.value = query;
+    input.addEventListener("input", () => {
+        const query = input.value.trim();
 
-    const results = searchGuides(query);
+        if (query === "") {
+            container.innerHTML = "<p>Введіть слово для пошуку.</p>";
+            return;
+        }
 
-    if (results.length === 0) {
-        container.innerHTML = `<p>Нічого не знайдено за запитом: <strong>${query}</strong></p>`;
-        return;
-    }
+        const results = searchGuides(query);
 
-    container.innerHTML = results
-        .map(item => `
-            <a class="search-item" href="${item.url}">
-                <h3>${item.title}</h3>
-                <p>${item.keywords}</p>
-            </a>
-        `)
-        .join("");
+        if (results.length === 0) {
+            container.innerHTML = `<p>Нічого не знайдено за: <strong>${query}</strong></p>`;
+            return;
+        }
+
+        container.innerHTML = results
+            .map(item => `
+                <a class="search-item" href="${item.url}">
+                    <h3>${item.title}</h3>
+                    <p>${item.keywords}</p>
+                </a>
+            `)
+            .join("");
+    });
 }
