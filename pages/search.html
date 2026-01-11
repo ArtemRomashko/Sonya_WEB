@@ -31,11 +31,12 @@
                 <a class="nav__link" href="contacts.html">Контакти</a>
             </nav>
 
-            <a class="search" href="search.html">
+            <div class="search">
                 <span class="search__icon">🔎</span>
-                <input class="search__input" type="search" placeholder="Пошук по гайдах…" 
-                       onkeypress="if(event.key === 'Enter'){ window.location.href='search.html?q=' + this.value; }" />
-            </a>
+                <input class="search__input" type="search" placeholder="Пошук по гайдах…"
+                    onkeydown="if (event.key === 'Enter') { window.location.href='search.html?q=' + encodeURIComponent(this.value); }" />
+            </div>
+
 
         </div>
     </header>
