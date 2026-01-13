@@ -13,7 +13,7 @@ const searchIndex = [
         folder: "category",
         title: "Житло",
         url: "housing.html",
-        keywords: "оренда переїзд комуналка житло квартира договір застави"
+        keywords: "оренда переїзд комуналка житло квартира договір застава"
     },
     {
         type: "category",
@@ -92,7 +92,7 @@ const searchIndex = [
         folder: "guide",
         title: "Зйом квартири",
         url: "housing-rent.html",
-        keywords: "житло перевірки договори застава оренда зйом квартира"
+        keywords: "житло перевірки договори застава оренда зйом квартира переїзд комуналка"
     },
     {
         type: "guide",
@@ -134,7 +134,7 @@ const searchIndex = [
         folder: "guide",
         title: "Бюджет без болю",
         url: "budget.html",
-        keywords: "бюджет фінанси витрати накопичення планування"
+        keywords: "бюджет фінанси витрати накопичення планування гроші карта"
     },
     {
         type: "guide",
@@ -191,44 +191,53 @@ const searchIndex = [
 // LIVE SEARCH
 // ===============================
 
-function renderSearchResults() {
+function initLiveSearch() {
     const input = document.getElementById("search-input");
     const container = document.getElementById("search-results");
 
-    if (!input || !container) return;
+    if (!input || !container) {
+        console.log("[SelfMade] search: input or results container not found");
+        return;
+    }
 
     input.addEventListener("input", () => {
         const query = input.value.toLowerCase().trim();
+        container.innerHTML = "";
 
         if (query.length < 1) {
-            container.innerHTML = "";
+            container.innerHTML = "<p>Почніть вводити запит...</p>";
             return;
         }
 
-        const results = searchGuides(query);
+        const results = searchIndex.filter(item =>
+            item.title.toLowerCase().includes(query) ||
+            item.keywords.toLowerCase().includes(query)
+        );
+
+        console.log("[SelfMade] query:", query, "results:", results.length);
 
         if (results.length === 0) {
-            container.innerHTML = `<p>Нічого не знайдено за запитом: <strong>${query}</strong></p>`;
+            container.innerHTML = `<p>Нічого не знайдено за: <strong>${query}</strong></p>`;
             return;
         }
 
+        // 🔹 ТУТ МЫ ИСПОЛЬЗУЕМ КЛАССЫ ДЛЯ CSS
         container.innerHTML = results
             .map(item => `
-                <div class="search-card">
-                    <div class="search-card-type">Категорія</div>
-                    <div class="search-card-title">${item.category}</div>
-
-                    <div class="search-card-type">Гайд</div>
-                    <a href="${item.url}" class="search-card-title">${item.title}</a>
-
+                <a class="search-card" href="${item.folder}/${item.url}">
+                    <div class="search-card-type">
+                        ${item.type === "guide" ? "Гайд" : "Категорія"}
+                    </div>
+                    <div class="search-card-title">
+                        ${item.title}
+                    </div>
                     <div class="search-card-keywords">
                         ${item.keywords}
                     </div>
-                </div>
+                </a>
             `)
             .join("");
     });
 }
-
 
 document.addEventListener("DOMContentLoaded", initLiveSearch);
