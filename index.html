@@ -28,7 +28,7 @@
 
             <a class="search" href="pages/search.html">
                 <span class="search__icon">🔎</span>
-                <input class="search__input" type="search" placeholder="Пошук по гайдах…" />
+                <input class="search__input" type="search" placeholder="Пошук" />
             </a>
 
         </div>
@@ -152,8 +152,12 @@
     <!-- 4) ЛАЙФХАК ДНЯ + 5) ТОП-5 -->
     <section class="section">
         <div class="container">
-            <div class="grid">
-                <div class="card feature">
+
+            <!-- ОБНОВЛЕННАЯ СТРУКТУРА ДЛЯ ВЫРАВНИВАНИЯ -->
+            <div class="home-two-columns">
+
+                <!-- ЛЕВАЯ КОЛОНКА -->
+                <div class="home-col home-left card feature">
                     <span class="feature__badge feature__badge--accent">💡 Лайфхак дня</span>
                     <h3 class="feature__title">Якщо тебе просять щось усно — попроси написати</h3>
                     <p class="feature__text">
@@ -164,26 +168,39 @@
                     </div>
                 </div>
 
-                <div class="card feature" id="top-guides" style="grid-column: span 7;">
+                <!-- ПРАВАЯ КОЛОНКА -->
+                <div class="home-col home-right card feature">
                     <span class="feature__badge feature__badge--green">⭐ Топ-5 гайдів тижня</span>
-                    <ul class="list">
-                        <li><a href="pages/guide/housing-rent.html"><span>Оренда квартири: питання, які не задають, але
-                                    дарма</span><small>→</small></a></li>
-                        <li><a href="pages/guide/medicine-family-doctor.html"><span>Сімейний лікар: як підписати
-                                    декларацію</span><small>→</small></a></li>
-                        <li><a href="pages/guide/finance-budget.html"><span>Бюджет 50/30/20: як почати без
-                                    стресу</span><small>→</small></a></li>
-                        <li><a href="pages/guide/work-interview.html"><span>Співбесіда: як поводитись і не
-                                    згоріти</span><small>→</small></a></li>
-                        <li><a href="pages/guide/safety-air-alert.html"><span>Повітряна тривога: що зробити за 2
-                                    хвилини</span><small>→</small></a></li>
-                    </ul>
-                    <div class="pills">
+
+                    <a href="pages/guide/housing-rent.html" class="guide-item">
+                        Оренда квартири: питання, які не задають, але дарма →
+                    </a>
+
+                    <a href="pages/guide/medicine-family-doctor.html" class="guide-item">
+                        Сімейний лікар: як підписати декларацію →
+                    </a>
+
+                    <a href="pages/guide/finance-budget.html" class="guide-item">
+                        Бюджет 50/30/20: як почати без стресу →
+                    </a>
+
+                    <a href="pages/guide/work-interview.html" class="guide-item">
+                        Співбесіда: як поводитись і не згоріти →
+                    </a>
+
+                    <a href="pages/guide/safety-air-alert.html" class="guide-item">
+                        Повітряна тривога: що зробити за 2 хвилини →
+                    </a>
+
+                    <div class="btn-row">
                         <a class="pill" href="pages/top-week.html">Весь топ тижня</a>
                         <a class="pill" href="pages/guides.html">Усі гайди</a>
                     </div>
                 </div>
+
             </div>
+            <!-- КОНЕЦ НОВОЙ СТРУКТУРЫ -->
+
         </div>
     </section>
 

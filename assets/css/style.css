@@ -599,3 +599,72 @@ main {
 .search-card a:hover {
     text-decoration: underline;
 }
+
+.home-two-columns {
+    display: flex;
+    gap: 32px; /* расстояние между колонками */
+    align-items: flex-start; /* чтобы оба блока выровнялись по верхней линии */
+}
+
+.home-col {
+    flex: 1; /* равномерное распределение */
+}
+
+.home-left,
+.home-right {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 24px;
+    backdrop-filter: blur(10px);
+}
+
+.tag, .tag-star {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.12);
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.tag-star {
+    background: rgba(255, 215, 0, 0.15);
+}
+
+.guide-item {
+    display: block;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.guide-item:hover {
+    background: rgba(255,255,255,0.14);
+}
+
+.btn-row {
+    margin-top: 14px;
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.15);
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.home-right .feature__badge {
+    margin-bottom: 16px;
+}
