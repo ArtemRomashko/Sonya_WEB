@@ -668,3 +668,34 @@ main {
 .home-right .feature__badge {
     margin-bottom: 16px;
 }
+
+/* === FIX MOBILE NAV WRAP === */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+
+.nav__link {
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+/* Адаптив під телефони */
+@media (max-width: 600px) {
+    .nav {
+        gap: 14px;                /* менші відступи */
+    }
+
+    .nav__link {
+        font-size: 14px;          /* трошки менший шрифт */
+    }
+
+    .header__inner {
+        flex-direction: column;   /* бренд + меню + пошук у колонку */
+        gap: 12px;
+    }
+}
