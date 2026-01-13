@@ -547,3 +547,55 @@ main {
     height: 220px;            /* аккуратно уменьшается */
   }
 }
+
+/* Search results styling */
+.search-results-block {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.search-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(12px);
+    padding: 24px;
+    border-radius: 16px;
+    transition: 0.25s ease;
+}
+
+.search-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.search-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.search-card-type {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 12px;
+}
+
+.search-card-keywords {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.search-card a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-card a:hover {
+    text-decoration: underline;
+}

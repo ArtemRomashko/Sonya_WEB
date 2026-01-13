@@ -191,48 +191,44 @@ const searchIndex = [
 // LIVE SEARCH
 // ===============================
 
-function initLiveSearch() {
+function renderSearchResults() {
     const input = document.getElementById("search-input");
     const container = document.getElementById("search-results");
 
-    if (!input || !container) {
-        console.log("[SelfMade] search: input or results container not found");
-        return;
-    }
+    if (!input || !container) return;
 
     input.addEventListener("input", () => {
         const query = input.value.toLowerCase().trim();
-        console.log("[SelfMade] query:", query);
-
-        container.innerHTML = "";
 
         if (query.length < 1) {
-            container.innerHTML = "<p>Почніть вводити запит...</p>";
+            container.innerHTML = "";
             return;
         }
 
-        const results = searchIndex.filter(item =>
-            item.title.toLowerCase().includes(query) ||
-            item.keywords.toLowerCase().includes(query)
-        );
-
-        console.log("[SelfMade] results:", results.length);
+        const results = searchGuides(query);
 
         if (results.length === 0) {
-            container.innerHTML = `<p>Нічого не знайдено за: <strong>${query}</strong></p>`;
+            container.innerHTML = `<p>Нічого не знайдено за запитом: <strong>${query}</strong></p>`;
             return;
         }
 
         container.innerHTML = results
             .map(item => `
-                <a class="search-item" href="${item.folder}/${item.url}">
-                    <div class="search-type">${item.type === "guide" ? "Гайд" : "Категорія"}</div>
-                    <h3>${item.title}</h3>
-                    <p>${item.keywords}</p>
-                </a>
+                <div class="search-card">
+                    <div class="search-card-type">Категорія</div>
+                    <div class="search-card-title">${item.category}</div>
+
+                    <div class="search-card-type">Гайд</div>
+                    <a href="${item.url}" class="search-card-title">${item.title}</a>
+
+                    <div class="search-card-keywords">
+                        ${item.keywords}
+                    </div>
+                </div>
             `)
             .join("");
     });
 }
+
 
 document.addEventListener("DOMContentLoaded", initLiveSearch);
