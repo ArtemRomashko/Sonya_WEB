@@ -669,33 +669,42 @@ main {
     margin-bottom: 16px;
 }
 
-/* === FIX MOBILE NAV WRAP === */
-
+/* === NAVIGATION BASE === */
 .nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
     flex-wrap: nowrap;
 }
 
 .nav__link {
     white-space: nowrap;
-    font-size: 16px;
 }
 
-/* Адаптив під телефони */
+/* === MOBILE FIX: щоб усе влазило в один ряд === */
 @media (max-width: 600px) {
+
     .nav {
-        gap: 14px;                /* менші відступи */
+        gap: 14px;                  /* менші відступи */
+        justify-content: space-between;
+        padding: 0 10px;            /* щоб було більше місця */
     }
 
     .nav__link {
-        font-size: 14px;          /* трошки менший шрифт */
+        font-size: 13px;            /* трохи менший шрифт */
+    }
+
+    .brand__name {
+        font-size: 22px;
+    }
+
+    .brand__tagline {
+        font-size: 12px;
     }
 
     .header__inner {
-        flex-direction: column;   /* бренд + меню + пошук у колонку */
-        gap: 12px;
+        gap: 6px;
     }
 }
+
