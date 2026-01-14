@@ -174,6 +174,13 @@ const searchIndex = [
     {
         type: "guide",
         folder: "guide",
+        title: "Банківські картки",
+        url: "finance-card",
+        keywords: "дебетові кредитні ліміти комісії"
+    },
+    {
+        type: "guide",
+        folder: "guide",
         title: "Повітряна тривога",
         url: "air-alert.html",
         keywords: "тривога укриття безпека сигнал дії"
