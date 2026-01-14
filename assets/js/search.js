@@ -104,6 +104,20 @@ const searchIndex = [
     {
         type: "guide",
         folder: "guide",
+        title: "Співбесіда: як підготуватись",
+        url: "work-interview.html",
+        keywords: "Співбесіда це не екзамен а діалог"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Резюме",
+        url: "work-resum.html",
+        keywords: "Як скласти сильне резюме яке привертає увагу роботодавців і допомагає отримати більше запрошень на співбесіду."
+    },
+    {
+        type: "guide",
+        folder: "guide",
         title: "Сімейний лікар",
         url: "family-doctor.html",
         keywords: "декларація лікар запис аналізи нсзу медична допомога"
@@ -132,16 +146,9 @@ const searchIndex = [
     {
         type: "guide",
         folder: "guide",
-        title: "Бюджет без болю",
-        url: "budget.html",
+        title: "Особистий бюджет",
+        url: "finance-budget.html",
         keywords: "бюджет фінанси витрати накопичення планування гроші карта"
-    },
-    {
-        type: "guide",
-        folder: "guide",
-        title: "Співбесіда: як підготуватись",
-        url: "interview.html",
-        keywords: "робота співбесіда питання відповіді червоні прапорці"
     },
     {
         type: "guide",
