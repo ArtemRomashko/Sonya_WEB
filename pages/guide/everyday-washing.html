@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Прання — SelfMade</title>
+
+    <link rel="icon" href="../../assets/icons/Guides.ico" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container header__inner">
+        <div class="brand">
+            <div class="brand__name">SelfMade</div>
+            <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
+        </div>
+
+        <nav class="nav">
+            <a class="nav__link" href="../../index.html">Головна</a>
+            <a class="nav__link" href="../categories.html">Категорії</a>
+            <a class="nav__link" href="../guides.html">Гайди</a>
+            <a class="nav__link" href="../about.html">Про нас</a>
+            <a class="nav__link" href="../contacts.html">Контакти</a>
+        </nav>
+
+        <a class="search" href="../search.html">
+            <span class="search__icon">🔎</span>
+            <input class="search__input" type="search" placeholder="Пошук…" />
+        </a>
+    </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+    <!-- PAGE HEAD -->
+    <section class="pagehead">
+        <div class="breadcrumbs">
+            <a href="../../index.html">Головна</a> /
+            <a href="../categories.html">Категорії</a> /
+            <a href="../category/everyday.html">Побут</a> /
+            Прання
+        </div>
+
+        <h1 class="h1">Прання</h1>
+        <p class="lead">
+            Як прати правильно: сортування, режими, температура і прості правила, що економлять час.
+        </p>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="section">
+
+        <!-- Блок 1 -->
+        <div class="card media-block vertical">
+
+            <div class="media-block__media">
+                <img src="../../assets/img/category_img/everyday_washing_1.png" alt="Сортування речей">
+            </div>
+
+            <div class="media-block__text">
+                <h3>Сортування речей</h3>
+                <p>Основне правило прання — сортувати одяг за кольором і типом тканини.</p>
+
+                <ul>
+                    <li>Біле — окремо.</li>
+                    <li>Світле — окремо.</li>
+                    <li>Темне — окремо.</li>
+                    <li>Делікатні тканини — тільки на делікатному режимі.</li>
+                </ul>
+
+                <p>Не змішуйте рушники, білизну, шкарпетки та футболки в одному завантаженні — це погіршує якість прання.</p>
+            </div>
+        </div>
+
+        <!-- Блок 2 -->
+        <div class="card media-block vertical">
+
+            <div class="media-block__media">
+                <img src="../../assets/img/category_img/everyday_washing_2.png" alt="Температурні режими">
+            </div>
+
+            <div class="media-block__text">
+                <h3>Температура прання</h3>
+                <p>Температура залежить від матеріалу та кольору.</p>
+
+                <ul>
+                    <li>30°C — універсальний режим для кольорових речей.</li>
+                    <li>40°C — спортивний одяг, бавовна.</li>
+                    <li>60°C — рушники, постіль.</li>
+                    <li>90°C — тільки для дезінфекції або сильно забруднених білих тканин.</li>
+                </ul>
+
+                <p>Завжди перевіряйте ярличок на одязі — там вказано точний режим.</p>
+            </div>
+        </div>
+
+        <!-- Блок 3 -->
+        <div class="card media-block vertical">
+
+            <div class="media-block__media">
+                <img src="../../assets/img/category_img/everyday_washing_3.png" alt="Засоби для прання">
+            </div>
+
+            <div class="media-block__text">
+                <h3>Засоби для прання</h3>
+                <p>Занадто велика кількість порошку не робить прання кращим — лише забиває машину.</p>
+
+                <ul>
+                    <li>Порошок — для білих і сильно забруднених речей.</li>
+                    <li>Гель — для кольорових тканин.</li>
+                    <li>Кондиціонер — додає м'якість, але не обов'язковий.</li>
+                </ul>
+
+                <p>Ніколи не змішуйте різні засоби одночасно.</p>
+            </div>
+        </div>
+
+        <!-- Блок 4 -->
+        <div class="card media-block vertical">
+
+            <div class="media-block__media">
+                <img src="../../assets/img/category_img/everyday_washing_4.png" alt="Сушка та догляд">
+            </div>
+
+            <div class="media-block__text">
+                <h3>Сушка і догляд</h3>
+                <p>Після прання важливо правильно висушити речі, щоб вони не зіпсувалися.</p>
+
+                <ul>
+                    <li>Не залишайте речі в машинці — вони почнуть пахнути.</li>
+                    <li>Делікатні тканини сушіть горизонтально.</li>
+                    <li>Не пересушуйте бавовну — вона сідає.</li>
+                    <li>Періодично мийте фільтр у пральній машині.</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <div>© <span id="y"></span> SelfMade</div>
+        <div>
+            <a class="nav__link" href="../privacy.html">Privacy</a>
+            <a class="nav__link" href="../terms.html">Terms</a>
+            <a class="nav__link" href="../contacts.html">Contacts</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

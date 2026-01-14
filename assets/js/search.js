@@ -111,9 +111,23 @@ const searchIndex = [
     {
         type: "guide",
         folder: "guide",
+        title: "Прання",
+        url: "everyday-washing.html",
+        keywords: "Як прати правильно сортування режими температура і прості правила що економлять час"
+    },
+    {
+        type: "guide",
+        folder: "guide",
         title: "Резюме",
         url: "work-resum.html",
-        keywords: "Як скласти сильне резюме яке привертає увагу роботодавців і допомагає отримати більше запрошень на співбесіду."
+        keywords: "Як скласти сильне резюме яке привертає увагу роботодавців і допомагає отримати більше запрошень на співбесіду"
+    },
+     {
+        type: "guide",
+        folder: "guide",
+        title: "Страхування авто",
+        url: "transport-insurance.html",
+        keywords: "Які види автострахування існують що обов’язкове а що ні та як обрати надійну компанію"
     },
     {
         type: "guide",
@@ -154,14 +168,14 @@ const searchIndex = [
         type: "guide",
         folder: "guide",
         title: "Водійське посвідчення",
-        url: "driving-license.html",
+        url: "transport-license.html",
         keywords: "права авто посвідчення отримати відновити"
     },
     {
         type: "guide",
         folder: "guide",
         title: "Прибирання без хаосу",
-        url: "cleaning.html",
+        url: "everyday-cleaning.html",
         keywords: "прибирання план порядок хаос побут чистота"
     },
     {
