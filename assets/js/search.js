@@ -181,9 +181,16 @@ const searchIndex = [
     {
         type: "guide",
         folder: "guide",
-        title: "Вигорання",
-        url: "burnout.html",
+        title: "Професійне вигорання",
+        url: "psychology-burnout.html",
         keywords: "вигорання ознаки причини тривожність психологія"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Тривожність",
+        url: "psychology-anxiety.html",
+        keywords: "як знизити напругу та не накручувати себе"
     },
     {
         type: "guide",
