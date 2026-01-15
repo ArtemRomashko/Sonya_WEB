@@ -718,4 +718,11 @@ main {
 .extlink:hover {
     color: #c7dcff;               /* світліше при наведенні */
 }
+/* Фикс выравнивания списка под заголовком “Питай себе” */
+  .card.feature .note {
+      margin-bottom: 12px !important;
+  }
 
+  .card.feature .list {
+      margin-top: 0 !important;
+  }
