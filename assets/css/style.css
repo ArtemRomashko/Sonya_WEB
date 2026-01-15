@@ -708,3 +708,14 @@ main {
     }
 }
 
+.extlink {
+    color: #8ab4ff;                /* ніжний синій */
+    text-decoration: none;        /* без підкреслення */
+    font-weight: 500;
+    transition: 0.25s ease;
+}
+
+.extlink:hover {
+    color: #c7dcff;               /* світліше при наведенні */
+}
+
