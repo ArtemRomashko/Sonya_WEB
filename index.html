@@ -1,224 +1,257 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="uk">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SelfMade — твій гайд у доросле життя</title>
     <link rel="icon" href="assets/icons/Home.ico" />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- 1) HEADER -->
     <header class="header">
-        <div class="container header__inner">
-            <div class="brand">
-                <div class="brand__name">SelfMade</div>
-                <div class="brand__tagline">практичний онлайн-довідник для молоді</div>
-            </div>
-
-            <nav class="nav">
-                <a class="nav__link" href="index.html">Головна</a>
-                <a class="nav__link" href="pages/categories.html">Категорії</a>
-                <a class="nav__link" href="pages/guides.html">Гайди</a>
-                <a class="nav__link" href="pages/about.html">Про нас</a>
-                <a class="nav__link" href="pages/contacts.html">Контакти</a>
-            </nav>
-
-            <a class="search" href="pages/search.html">
-                <span class="search__icon">🔎</span>
-                <input class="search__input" type="search" placeholder="Пошук" />
-            </a>
-
+      <div class="container header__inner">
+        <div class="brand">
+          <div class="brand__name">SelfMade</div>
+          <div class="brand__tagline">
+            практичний онлайн-довідник для молоді
+          </div>
         </div>
+
+        <nav class="nav">
+          <a class="nav__link" href="index.html">Головна</a>
+          <a class="nav__link" href="pages/categories.html">Категорії</a>
+          <a class="nav__link" href="pages/guides.html">Гайди</a>
+          <a class="nav__link" href="pages/about.html">Про нас</a>
+          <a class="nav__link" href="pages/contacts.html">Контакти</a>
+        </nav>
+
+        <a class="search" href="pages/search.html">
+          <span class="search__icon">🔎</span>
+          <input class="search__input" type="search" placeholder="Пошук" />
+        </a>
+      </div>
     </header>
 
     <!-- HERO -->
     <section class="hero">
-        <div class="container hero__grid">
-            <div class="hero__card">
-                <h1 class="hero__title">Новий етап - нові питання</h1>
-                <p class="hero__text">
-                    Житло, документи, медицина, гроші, робота і побут. Практичні відповіді для повсякденних рішень.
-                </p>
+      <div class="container hero__grid">
+        <div class="hero__card">
+          <h1 class="hero__title">Новий етап - нові питання</h1>
+          <p class="hero__text">
+            Житло, документи, медицина, гроші, робота і побут. Практичні
+            відповіді для повсякденних рішень.
+          </p>
 
-                <div class="pills">
-                    <a class="pill" href="pages/guide/housing-rent.html">🏠 Як зняти квартиру</a>
-                    <a class="pill" href="pages/top-week.html">🔥 Топ-гайди тижня</a>
-                    <a class="pill" href="pages/about.html">✨ Що це за проєкт</a>
-                </div>
-            </div>
-
-            <!-- 2) З чого почати -->
-            <aside class="hero__side">
-                <h3>З чого почати?</h3>
-                <div class="quicklist">
-                    <a class="quickitem" href="pages/guide/housing-rent.html">
-                        <div>
-                            <span>Як зняти квартиру</span><br />
-                            <small>перевірки, договори, застава</small>
-                        </div>
-                        <small>→</small>
-                    </a>
-
-                    <a class="quickitem" href="pages/guide/medicine-family-doctor.html">
-                        <div>
-                            <span>Як записатись до лікаря</span><br />
-                            <small>коротко про декларацію</small>
-                        </div>
-                        <small>→</small>
-                    </a>
-
-                    <a class="quickitem" href="pages/guide/everyday-cleaning.html">
-                        <div>
-                            <span>Базовий побут</span><br />
-                            <small>мінімум, щоб жити комфортно</small>
-                        </div>
-                        <small>→</small>
-                    </a>
-                </div>
-            </aside>
+          <div class="pills">
+            <a class="pill" href="pages/guide/housing-rent.html"
+              >🏠 Як зняти квартиру</a
+            >
+            <a class="pill" href="pages/top-week.html">🔥 Топ-гайди тижня</a>
+            <a class="pill" href="pages/about.html">✨ Що це за проєкт</a>
+          </div>
         </div>
+
+        <!-- 2) З чого почати -->
+        <aside class="hero__side">
+          <h3>З чого почати?</h3>
+          <div class="quicklist">
+            <a class="quickitem" href="pages/guide/housing-rent.html">
+              <div>
+                <span>Як зняти квартиру</span><br />
+                <small>перевірки, договори, застава</small>
+              </div>
+              <small>→</small>
+            </a>
+
+            <a class="quickitem" href="pages/guide/medicine-family-doctor.html">
+              <div>
+                <span>Як записатись до лікаря</span><br />
+                <small>коротко про декларацію</small>
+              </div>
+              <small>→</small>
+            </a>
+
+            <a class="quickitem" href="pages/guide/everyday-cleaning.html">
+              <div>
+                <span>Базовий побут</span><br />
+                <small>мінімум, щоб жити комфортно</small>
+              </div>
+              <small>→</small>
+            </a>
+          </div>
+        </aside>
+      </div>
     </section>
 
     <!-- 3) КАТЕГОРІЇ -->
     <section class="section">
-        <div class="container">
-            <div class="section__head">
-                <h2 class="section__title">Категорії</h2>
-                <p class="section__hint">Обери тему і конкретні кроки</p>
-            </div>
-
-            <div class="grid">
-                <a class="card category" href="pages/category/housing.html">
-                    <div class="category__name">Житло</div>
-                    <div class="category__desc">Оренда, переїзд, комуналка без паніки.</div>
-                </a>
-
-                <a class="card category" href="pages/category/documents.html">
-                    <div class="category__name">Документи</div>
-                    <div class="category__desc">Паспорт, ІПН, Дія, довіреності.</div>
-                </a>
-
-                <a class="card category" href="pages/category/medicine.html">
-                    <div class="category__name">Медицина</div>
-                    <div class="category__desc">Сімейний лікар, медкнижка, 103, алгоритми.</div>
-                </a>
-
-                <a class="card category" href="pages/category/finance.html">
-                    <div class="category__name">Фінанси</div>
-                    <div class="category__desc">Картки, бюджет, податки, накопичення.</div>
-                </a>
-
-                <a class="card category" href="pages/category/work.html">
-                    <div class="category__name">Робота</div>
-                    <div class="category__desc">Резюме, співбесіда, червоні прапорці.</div>
-                </a>
-
-                <a class="card category" href="pages/category/transport.html">
-                    <div class="category__name">Транспорт</div>
-                    <div class="category__desc">Права, авто, страховка простими словами.</div>
-                </a>
-
-                <a class="card category" href="pages/category/everyday.html">
-                    <div class="category__name">Побут</div>
-                    <div class="category__desc">Прання, прибирання, базова кухня.</div>
-                </a>
-
-                <a class="card category" href="pages/category/psychology.html">
-                    <div class="category__name">Психологія</div>
-                    <div class="category__desc">Межі, тривожність, вигоряння, планування.</div>
-                </a>
-
-                <a class="card category" href="pages/category/kitchen.html">
-                    <div class="category__name">Кухня</div>
-                    <div class="category__desc">Прості сніданки, обіди, порції на 2–3 дні.</div>
-                </a>
-
-                <a class="card category" href="pages/category/safety.html">
-                    <div class="category__name">Безпека</div>
-                    <div class="category__desc">Пожежна безпека, тривожна сумка, контакти.</div>
-                </a>
-
-                <a class="card category" href="pages/category/travel.html">
-                    <div class="category__name">Подорожі</div>
-                    <div class="category__desc">Квитки, аеропорт, залізниця, документи.</div>
-                </a>
-            </div>
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Категорії</h2>
+          <p class="section__hint">Обери тему і конкретні кроки</p>
         </div>
+
+        <div class="grid">
+          <a class="card category" href="pages/category/housing.html">
+            <div class="category__name">Житло</div>
+            <div class="category__desc">
+              Оренда, переїзд, комуналка без паніки.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/documents.html">
+            <div class="category__name">Документи</div>
+            <div class="category__desc">Паспорт, ІПН, Дія, довіреності.</div>
+          </a>
+
+          <a class="card category" href="pages/category/medicine.html">
+            <div class="category__name">Медицина</div>
+            <div class="category__desc">
+              Сімейний лікар, медкнижка, 103, алгоритми.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/finance.html">
+            <div class="category__name">Фінанси</div>
+            <div class="category__desc">
+              Картки, бюджет, податки, накопичення.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/work.html">
+            <div class="category__name">Робота</div>
+            <div class="category__desc">
+              Резюме, співбесіда, червоні прапорці.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/transport.html">
+            <div class="category__name">Транспорт</div>
+            <div class="category__desc">
+              Права, авто, страховка простими словами.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/everyday.html">
+            <div class="category__name">Побут</div>
+            <div class="category__desc">Прання, прибирання, базова кухня.</div>
+          </a>
+
+          <a class="card category" href="pages/category/psychology.html">
+            <div class="category__name">Психологія</div>
+            <div class="category__desc">
+              Межі, тривожність, вигоряння, планування.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/kitchen.html">
+            <div class="category__name">Кухня</div>
+            <div class="category__desc">
+              Прості сніданки, обіди, порції на 2–3 дні.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/safety.html">
+            <div class="category__name">Безпека</div>
+            <div class="category__desc">
+              Пожежна безпека, тривожна сумка, контакти.
+            </div>
+          </a>
+
+          <a class="card category" href="pages/category/travel.html">
+            <div class="category__name">Подорожі</div>
+            <div class="category__desc">
+              Квитки, аеропорт, залізниця, документи.
+            </div>
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- 4) ЛАЙФХАК ДНЯ + 5) ТОП-5 -->
     <section class="section">
-        <div class="container">
+      <div class="container">
+        <!-- ОБНОВЛЕННАЯ СТРУКТУРА ДЛЯ ВЫРАВНИВАНИЯ -->
+        <div class="home-two-columns">
+          <!-- ЛЕВАЯ КОЛОНКА -->
+          <div class="home-col home-left card feature">
+            <span class="feature__badge feature__badge--accent"
+              >💡 Лайфхак дня</span
+            >
+            <h3 class="feature__title">Тест 24 годин на будь-яке рішення</h3>
 
-            <!-- ОБНОВЛЕННАЯ СТРУКТУРА ДЛЯ ВЫРАВНИВАНИЯ -->
-            <div class="home-two-columns">
+            <p class="feature__text">
+              Якщо не знаєш — писати людині, купувати річ, погоджуватися на
+              пропозицію чи входити в драму — просто відклади рішення рівно на
+              24 години. Але фокус не у паузі, а у запитанні:
+              <br /><br />
+              👉
+              <strong>«Чи я захочу цього завтра без емоцій сьогодні?»</strong>
+              <br /><br />
+              80% імпульсивних рішень зникають самі. Залишається тільки те, що
+              справді твоє — без чужих емоцій і очікувань.
+            </p>
 
-                <!-- ЛЕВАЯ КОЛОНКА -->
-                <div class="home-col home-left card feature">
-                    <span class="feature__badge feature__badge--accent">💡 Лайфхак дня</span>
-                    <h3 class="feature__title">Якщо тебе просять щось усно — попроси написати</h3>
-                    <p class="feature__text">
-                        Фраза: «Можеш, будь ласка, скинути це повідомленням?» — і дивні вимоги часто зникають самі.
-                    </p>
-                    <div class="pills">
-                        <a class="pill" href="pages/lifehack.html">Перейти до лайфхака</a>
-                    </div>
-                </div>
-
-                <!-- ПРАВАЯ КОЛОНКА -->
-                <div class="home-col home-right card feature">
-                    <span class="feature__badge feature__badge--green">⭐ Топ-5 гайдів тижня</span>
-
-                    <a href="pages/guide/housing-rent.html" class="guide-item">
-                        Оренда квартири: питання, які не задають, але дарма →
-                    </a>
-
-                    <a href="pages/guide/medicine-family-doctor.html" class="guide-item">
-                        Сімейний лікар: як підписати декларацію →
-                    </a>
-
-                    <a href="pages/guide/finance-budget.html" class="guide-item">
-                        Бюджет 50/30/20: як почати без стресу →
-                    </a>
-
-                    <a href="pages/guide/work-interview.html" class="guide-item">
-                        Співбесіда: як поводитись і не згоріти →
-                    </a>
-
-                    <a href="pages/guide/safety-air-alert.html" class="guide-item">
-                        Повітряна тривога: що зробити за 2 хвилини →
-                    </a>
-
-                    <div class="btn-row">
-                        <a class="pill" href="pages/top-week.html">Весь топ тижня</a>
-                        <a class="pill" href="pages/guides.html">Усі гайди</a>
-                    </div>
-                </div>
-
+            <div class="pills">
+              <a class="pill" href="pages/lifehack.html">Перейти до лайфхака</a>
             </div>
-            <!-- КОНЕЦ НОВОЙ СТРУКТУРЫ -->
+          </div>
 
+          <!-- ПРАВАЯ КОЛОНКА -->
+          <div class="home-col home-right card feature">
+            <span class="feature__badge feature__badge--green"
+              >⭐ Топ-5 гайдів тижня</span
+            >
+
+            <a href="pages/guide/housing-rent.html" class="guide-item">
+              Оренда квартири: питання, які не задають, але дарма →
+            </a>
+
+            <a
+              href="pages/guide/medicine-family-doctor.html"
+              class="guide-item"
+            >
+              Сімейний лікар: як підписати декларацію →
+            </a>
+
+            <a href="pages/guide/finance-budget.html" class="guide-item">
+              Бюджет 50/30/20: як почати без стресу →
+            </a>
+
+            <a href="pages/guide/work-interview.html" class="guide-item">
+              Співбесіда: як поводитись і не згоріти →
+            </a>
+
+            <a href="pages/guide/safety-air-alert.html" class="guide-item">
+              Повітряна тривога: що зробити за 2 хвилини →
+            </a>
+
+            <div class="btn-row">
+              <a class="pill" href="pages/top-week.html">Весь топ тижня</a>
+              <a class="pill" href="pages/guides.html">Усі гайди</a>
+            </div>
+          </div>
         </div>
+        <!-- КОНЕЦ НОВОЙ СТРУКТУРЫ -->
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="container footer__inner">
-            <div>© <span id="y"></span> SelfMade</div>
-            <div>
-                <a class="nav__link" href="pages/privacy.html">Privacy</a>
-                <a class="nav__link" href="pages/terms.html">Terms</a>
-                <a class="nav__link" href="pages/contacts.html">Contacts</a>
-            </div>
+      <div class="container footer__inner">
+        <div>© <span id="y"></span> SelfMade</div>
+        <div>
+          <a class="nav__link" href="pages/privacy.html">Privacy</a>
+          <a class="nav__link" href="pages/terms.html">Terms</a>
+          <a class="nav__link" href="pages/contacts.html">Contacts</a>
         </div>
+      </div>
     </footer>
 
     <script>
-        document.getElementById("y").textContent = new Date().getFullYear();
+      document.getElementById("y").textContent = new Date().getFullYear();
     </script>
-</body>
-
+  </body>
 </html>
