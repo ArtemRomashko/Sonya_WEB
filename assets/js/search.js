@@ -20,205 +20,386 @@ const searchIndex = [
         folder: "category",
         title: "Документи",
         url: "documents.html",
-        keywords: "паспорт ipn дія довіреності документи id"
+        keywords: "паспорт ipn дія довіреності документи id нотаріус"
     },
     {
         type: "category",
         folder: "category",
         title: "Медицина",
         url: "medicine.html",
-        keywords: "сімейний лікар медкнижка 103 медична допомога"
+        keywords: "сімейний лікар медкнижка 103 медична допомога аналізи довідка"
     },
     {
         type: "category",
         folder: "category",
         title: "Фінанси",
         url: "finance.html",
-        keywords: "картки бюджет податки накопичення гроші банк"
+        keywords: "картки бюджет податки накопичення гроші банк заощадження"
     },
     {
         type: "category",
         folder: "category",
         title: "Робота",
         url: "work.html",
-        keywords: "резюме співбесіди червоні прапорці працевлаштування"
+        keywords: "резюме співбесіди червоні прапорці працевлаштування перший тиждень"
     },
     {
         type: "category",
         folder: "category",
         title: "Транспорт",
         url: "transport.html",
-        keywords: "права авто страховка транспорт посвідчення"
+        keywords: "права авто страховка транспорт посвідчення громадський купівля"
     },
     {
         type: "category",
         folder: "category",
         title: "Побут",
-        url: "home.html",
-        keywords: "прання прибирання базова кухня побут порядок"
+        url: "everyday.html",
+        keywords: "прання прибирання побут порядок організація простір набір для дому"
     },
     {
         type: "category",
         folder: "category",
         title: "Психологія",
         url: "psychology.html",
-        keywords: "межі тривожність вигорання емоції психологія"
+        keywords: "межі тривожність вигорання емоції психологія планування"
     },
     {
         type: "category",
         folder: "category",
         title: "Кухня",
         url: "kitchen.html",
-        keywords: "сніданки обіди рецепти прості страви кухня"
+        keywords: "сніданки обіди рецепти прості страви кухня готувати посуд"
     },
     {
         type: "category",
         folder: "category",
         title: "Безпека",
         url: "safety.html",
-        keywords: "тривога пожежі екстрені дії безпека"
+        keywords: "тривога пожежа екстрені дії безпека тривожна сумка контакти"
     },
     {
         type: "category",
         folder: "category",
         title: "Подорожі",
         url: "travel.html",
-        keywords: "аеропорт квитки документи подорожі"
+        keywords: "аеропорт квитки документи подорожі підготовка виїзд"
     },
 
-    // ---------- ГАЙДИ ----------
+    // ---------- ГАЙДИ — ЖИТЛО ----------
     {
         type: "guide",
         folder: "guide",
         title: "Зйом квартири",
         url: "housing-rent.html",
-        keywords: "житло перевірки договори застава оренда зйом квартира переїзд комуналка"
+        keywords: "житло перевірки договори застава оренда зйом квартира переїзд"
     },
     {
         type: "guide",
         folder: "guide",
-        title: "Комунальні платежі",
-        url: "utilities.html",
-        keywords: "лічильники рахунки хто платить комуналка електрика газ вода"
+        title: "Комунальні послуги",
+        url: "housing-utilities.html",
+        keywords: "лічильники рахунки комуналка електрика газ вода платити"
     },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Переїзд",
+        url: "housing-moving.html",
+        keywords: "переїзд пакування коробки чеклист нове житло заселення"
+    },
+
+    // ---------- ГАЙДИ — ДОКУМЕНТИ ----------
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Основні документи",
+        url: "documents-basic.html",
+        keywords: "паспорт id ipn список документи отримати закордонний"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Дія: як користуватись",
+        url: "documents-diia.html",
+        keywords: "дія цифрові документи налаштування підтвердження підпис додаток"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Нотаріальні документи",
+        url: "documents-notarial.html",
+        keywords: "нотаріус довіреність заява дублікат засвідчення підпис копія"
+    },
+
+    // ---------- ГАЙДИ — МЕДИЦИНА ----------
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Сімейний лікар",
+        url: "medicine-family-doctor.html",
+        keywords: "декларація лікар запис аналізи нсзу медична допомога helsi"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Невідкладні стани",
+        url: "medicine-emergency.html",
+        keywords: "103 коли дзвонити невідкладна допомога кровотеча опіки шок екстрена"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Медична книжка",
+        url: "medicine-book.html",
+        keywords: "медкнижка медогляд флюорографія де зробити терміни лікарі"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Медицина: FAQ для молоді",
+        url: "medicine-faq.html",
+        keywords: "аналізи довідка запис лікарняний права пацієнта helsi безкоштовно"
+    },
+
+    // ---------- ГАЙДИ — ФІНАНСИ ----------
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Особистий бюджет",
+        url: "finance-budget.html",
+        keywords: "бюджет фінанси витрати накопичення планування гроші 50 30 20"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Банківські картки",
+        url: "finance-card.html",
+        keywords: "дебетові кредитні ліміти комісії картка банк"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Податки",
+        url: "finance-taxes.html",
+        keywords: "пдфо фоп єдиний податок декларація підприємець фріланс"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Накопичення",
+        url: "finance-savings.html",
+        keywords: "заощадження подушка безпеки депозит цілі накопичення інвестиції"
+    },
+
+    // ---------- ГАЙДИ — РОБОТА ----------
     {
         type: "guide",
         folder: "guide",
         title: "Співбесіда: як підготуватись",
         url: "work-interview.html",
-        keywords: "Співбесіда це не екзамен а діалог"
-    },
-    {
-        type: "guide",
-        folder: "guide",
-        title: "Прання",
-        url: "everyday-washing.html",
-        keywords: "Як прати правильно сортування режими температура і прості правила що економлять час"
+        keywords: "співбесіда питання відповіді підготовка нервувати умови"
     },
     {
         type: "guide",
         folder: "guide",
         title: "Резюме",
         url: "work-resum.html",
-        keywords: "Як скласти сильне резюме яке привертає увагу роботодавців і допомагає отримати більше запрошень на співбесіду"
-    },
-     {
-        type: "guide",
-        folder: "guide",
-        title: "Страхування авто",
-        url: "transport-insurance.html",
-        keywords: "Які види автострахування існують що обов’язкове а що ні та як обрати надійну компанію"
+        keywords: "резюме cv написати приклад роботодавець запрошення"
     },
     {
         type: "guide",
         folder: "guide",
-        title: "Сімейний лікар",
-        url: "family-doctor.html",
-        keywords: "декларація лікар запис аналізи нсзу медична допомога"
+        title: "Червоні прапорці на роботі",
+        url: "work-red-flags.html",
+        keywords: "шахрайство вакансія підозрілий договір неофіційна робота конверт прапорці"
     },
     {
         type: "guide",
         folder: "guide",
-        title: "Екстрена допомога 103",
-        url: "emergency.html",
-        keywords: "103 коли дзвонити невідкладна допомога кровотеча опіки шок"
+        title: "Перший тиждень на роботі",
+        url: "work-first-week.html",
+        keywords: "адаптація колектив перший день нова робота вигорання питати керівник"
     },
-    {
-        type: "guide",
-        folder: "guide",
-        title: "Основні документи",
-        url: "basic-documents.html",
-        keywords: "паспорт id ipn список документи отримати"
-    },
-    {
-        type: "guide",
-        folder: "guide",
-        title: "Дія: як користуватись",
-        url: "dia.html",
-        keywords: "дія цифрові документи налаштування підтвердження підпис"
-    },
-    {
-        type: "guide",
-        folder: "guide",
-        title: "Особистий бюджет",
-        url: "finance-budget.html",
-        keywords: "бюджет фінанси витрати накопичення планування гроші карта"
-    },
+
+    // ---------- ГАЙДИ — ТРАНСПОРТ ----------
     {
         type: "guide",
         folder: "guide",
         title: "Водійське посвідчення",
         url: "transport-license.html",
-        keywords: "права авто посвідчення отримати відновити"
+        keywords: "права авто посвідчення отримати відновити автошкола іспит"
     },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Страхування авто",
+        url: "transport-insurance.html",
+        keywords: "осцпв зелена карта страховка авто обов’язкове страхування"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Громадський транспорт",
+        url: "transport-public.html",
+        keywords: "метро автобус маршрут картка абонемент пересадка місто"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Купівля авто",
+        url: "transport-car-buy.html",
+        keywords: "вживане авто перевірка vin договір купівля шахрайство ризики"
+    },
+
+    // ---------- ГАЙДИ — ПОБУТ ----------
     {
         type: "guide",
         folder: "guide",
         title: "Прибирання без хаосу",
         url: "everyday-cleaning.html",
-        keywords: "прибирання план порядок хаос побут чистота"
+        keywords: "прибирання план порядок хаос побут чистота тиждень"
     },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Прання",
+        url: "everyday-washing.html",
+        keywords: "прати сортування режими температура одяг машинка"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Організація простору",
+        url: "everyday-space.html",
+        keywords: "зберігання шафа кухня організація порядок речі мінімалізм"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Базовий набір для дому",
+        url: "everyday-home-kit.html",
+        keywords: "переїзд купити дім посуд прибирання постіль рушники інструменти"
+    },
+
+    // ---------- ГАЙДИ — ПСИХОЛОГІЯ ----------
     {
         type: "guide",
         folder: "guide",
         title: "Професійне вигорання",
         url: "psychology-burnout.html",
-        keywords: "вигорання ознаки причини тривожність психологія"
+        keywords: "вигорання ознаки причини мотивація психологія робота стрес"
     },
     {
         type: "guide",
         folder: "guide",
         title: "Тривожність",
         url: "psychology-anxiety.html",
-        keywords: "як знизити напругу та не накручувати себе"
+        keywords: "тривога напруга стрес як заспокоїтись технік дихання"
     },
     {
         type: "guide",
         folder: "guide",
-        title: "Швидкі сніданки",
-        url: "quick-breakfasts.html",
-        keywords: "сніданки рецепти кухня швидко просто"
+        title: "Особисті межі",
+        url: "psychology-boundaries.html",
+        keywords: "межі ні відмовити провина маніпуляція стосунки робота"
     },
     {
         type: "guide",
         folder: "guide",
-        title: "Банківські картки",
-        url: "finance-card",
-        keywords: "дебетові кредитні ліміти комісії"
+        title: "Планування життя",
+        url: "psychology-planning.html",
+        keywords: "цілі планування фокус прокрастинація pomodoro тиждень ритм"
     },
+
+    // ---------- ГАЙДИ — КУХНЯ ----------
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Сніданки вдома",
+        url: "kitchen-breakfasts.html",
+        keywords: "сніданок швидко яйця вівсянка бутерброд смузі кухня"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Прості обіди",
+        url: "kitchen-lunches.html",
+        keywords: "обід meal prep гречка рис курка страви тиждень готувати"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Базова кухня",
+        url: "kitchen-basics.html",
+        keywords: "варити смажити тушкувати запікати спеції техніки готування"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Кухонний мінімум",
+        url: "kitchen-tools.html",
+        keywords: "посуд сковорідка каструля ніж техніка чайник блендер кухня"
+    },
+
+    // ---------- ГАЙДИ — БЕЗПЕКА ----------
     {
         type: "guide",
         folder: "guide",
         title: "Повітряна тривога",
-        url: "air-alert.html",
-        keywords: "тривога укриття безпека сигнал дії"
+        url: "safety-air-alert.html",
+        keywords: "тривога укриття безпека сигнал дії підвал вулиця вдома"
     },
     {
         type: "guide",
         folder: "guide",
+        title: "Тривожна сумка",
+        url: "safety-bag.html",
+        keywords: "тривожна сумка евакуація документи вода їжа аптечка 72 години"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Пожежна безпека",
+        url: "safety-fire.html",
+        keywords: "пожежа евакуація вогонь 101 дим датчик вогнегасник"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Екстрені контакти",
+        url: "safety-contacts.html",
+        keywords: "112 101 102 103 104 екстрений виклик поліція швидка пожежна"
+    },
+
+    // ---------- ГАЙДИ — ПОДОРОЖІ ----------
+    {
+        type: "guide",
+        folder: "guide",
         title: "Аеропорт: вперше",
-        url: "airport.html",
-        keywords: "аеропорт багаж контроль посадка реєстрація"
+        url: "travel-airport.html",
+        keywords: "аеропорт багаж контроль посадка реєстрація гейт рейс"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Квитки: як обрати і не переплатити",
+        url: "travel-tickets.html",
+        keywords: "авіаквитки дешево skyscanner google flights лоукост ryanair"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Документи для подорожей",
+        url: "travel-documents.html",
+        keywords: "паспорт віза шенген страховка закордонний подорож"
+    },
+    {
+        type: "guide",
+        folder: "guide",
+        title: "Підготовка до поїздки",
+        url: "travel-preparation.html",
+        keywords: "чеклист пакування валіза виїзд підготовка поїздка за кордон"
     }
 ];
 
