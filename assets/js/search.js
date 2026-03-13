@@ -225,7 +225,7 @@ const searchIndex = [
 // ===============================
 // LIVE SEARCH
 // ===============================
-
+    
 function initLiveSearch() {
     const input = document.getElementById("search-input");
     const container = document.getElementById("search-results");
