@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" data-base="../">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,30 +21,8 @@
   </head>
 
   <body>
-    <!-- HEADER -->
-    <header class="header">
-      <div class="container header__inner">
-        <div class="brand">
-          <div class="brand__name">SelfMade</div>
-          <div class="brand__tagline">
-            практичний онлайн-довідник для молоді
-          </div>
-        </div>
 
-        <nav class="nav">
-          <a class="nav__link" href="../index.html">Головна</a>
-          <a class="nav__link" href="categories.html">Категорії</a>
-          <a class="nav__link" href="guides.html">Гайди</a>
-          <a class="nav__link" href="about.html">Про нас</a>
-          <a class="nav__link" href="contacts.html">Контакти</a>
-        </nav>
-
-        <a class="search" href="search.html">
-          <span class="search__icon">🔎</span>
-          <input class="search__input" type="search" placeholder="Пошук" />
-        </a>
-      </div>
-    </header>
+    <div id="site-header"></div>
 
     <!-- MAIN -->
     <main class="container">
@@ -106,20 +84,7 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container footer__inner">
-        <div>© <span id="y"></span> SelfMade</div>
-        <div>
-          <a class="nav__link" href="privacy.html">Privacy</a>
-          <a class="nav__link" href="terms.html">Terms</a>
-          <a class="nav__link" href="contacts.html">Contacts</a>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
-    </script>
-  </body>
+    <div id="site-footer"></div>
+      <script src="../assets/js/components.js"></script>
+</body>
 </html>

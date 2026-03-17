@@ -2,7 +2,16 @@
   "permissions": {
     "allow": [
       "Bash(xargs ls:*)",
-      "Bash(sort -k2)"
+      "Bash(sort -k2)",
+      "Bash(grep -h \"assets/img/category_img/\" pages/guide/*.html | sed 's/.*category_img\\\\///g' | sed 's/\".*//g' | sort -u | wc -l)",
+      "Bash(ls -1 /Users/bigmag/Desktop/Sonya_WEB/pages/guide/*.html | xargs -I {} basename {})",
+      "Bash(git log:*)",
+      "Bash(ls -1 /Users/bigmag/Desktop/Sonya_WEB/assets/img/category_img/*.png | sed 's/.*\\\\///' | sort)",
+      "Bash(grep -r \"meta name\" /Users/bigmag/Desktop/Sonya_WEB/*.html | head -20)",
+      "Bash(grep -h \"<title>\" /Users/bigmag/Desktop/Sonya_WEB/pages/guide/*.html | head -15)",
+      "Bash(grep -h \"lang=\" /Users/bigmag/Desktop/Sonya_WEB/pages/guide/*.html | head -5)",
+      "Bash(node scripts/migrate-components.js)",
+      "Bash(node scripts/generate-search.js)"
     ]
   }
 }

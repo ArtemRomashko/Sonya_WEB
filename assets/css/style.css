@@ -109,10 +109,11 @@
   }
   
   .nav{
-    display:flex;
-    align-items:center;
-    gap: 14px;
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: nowrap;
   }
   .nav__link{
     font-size: 14px;
@@ -120,6 +121,7 @@
     padding: 8px 10px;
     border-radius: 12px;
     transition: .15s;
+    white-space: nowrap;
   }
   .nav__link:hover{
     color: var(--text);
@@ -498,10 +500,6 @@
 
 /* ===== Sticky footer (same footer position on all pages) ===== */
 
-html, body {
-  height: 100%;
-}
-
 body {
   min-height: 100vh;
   display: flex;
@@ -667,19 +665,6 @@ main {
 
 .home-right .feature__badge {
     margin-bottom: 16px;
-}
-
-/* === NAVIGATION BASE === */
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    flex-wrap: nowrap;
-}
-
-.nav__link {
-    white-space: nowrap;
 }
 
 /* === MOBILE FIX: щоб усе влазило в один ряд === */
