@@ -1,4 +1,23 @@
 /* ================================
+   ПЕРЕХОДИ МІЖ СТОРІНКАМИ
+================================ */
+@keyframes pageFadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+body {
+    animation: pageFadeIn 0.3s ease;
+}
+
+body.page-exit {
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity 0.22s ease, transform 0.22s ease;
+    pointer-events: none;
+}
+
+/* ================================
    1) БАЗА / ПЕРЕМЕННЫЕ
 ================================ */
 :root{
