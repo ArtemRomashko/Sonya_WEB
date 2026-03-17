@@ -19,10 +19,7 @@
                 <a class="nav__link" href="${base}pages/contacts.html">Контакти</a>
             </nav>
 
-            <a class="search" href="${base}pages/search.html">
-                <span class="search__icon">🔎</span>
-                <input class="search__input" type="search" placeholder="Пошук" />
-            </a>
+            <a class="search-btn" href="${base}pages/search.html" aria-label="Пошук">🔎</a>
         </div>
     </header>`;
     }

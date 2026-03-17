@@ -128,26 +128,22 @@
     background: rgba(255,255,255,.06);
   }
   
-  .search{
-    display:flex;
-    align-items:center;
-    gap: 10px;
-    padding: 10px 12px;
+  .search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
     border: 1px solid var(--stroke);
     background: rgba(255,255,255,.05);
-    border-radius: 14px;
-    min-width: 280px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background .2s;
   }
-  .search__icon{ opacity: .7; }
-  .search__input{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: transparent;
-    color: var(--text);
-    font-size: 14px;
+  .search-btn:hover{
+    background: rgba(255,255,255,.10);
   }
-  .search__input::placeholder{ color: rgba(255,255,255,.45); }
   
   /* ================================
      3) HERO
@@ -443,14 +439,12 @@
   ================================ */
   @media (max-width: 920px){
     .hero__grid{ grid-template-columns: 1fr; }
-    .search{ min-width: 220px; }
     .category{ grid-column: span 6; }
     .feature{ grid-column: span 12; }
   }
   @media (max-width: 520px){
     .header__inner{ flex-direction: column; align-items: stretch; }
     .nav{ justify-content: center; }
-    .search{ width: 100%; }
     .category{ grid-column: span 12; }
   }
   
@@ -544,6 +538,29 @@ main {
   .media-block__media {
     height: 220px;            /* аккуратно уменьшается */
   }
+}
+
+/* Search page input */
+.search-page-input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    color: #fff;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-page-input:focus {
+    border-color: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.09);
+}
+
+.search-page-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
 }
 
 /* Search results styling */

@@ -423,4 +423,15 @@ function initLiveSearch() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", initLiveSearch);
+document.addEventListener("DOMContentLoaded", () => {
+    initLiveSearch();
+
+    // Pre-fill from URL param ?q=
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q");
+    const input = document.getElementById("search-input");
+    if (input && q) {
+        input.value = q;
+        input.dispatchEvent(new Event("input"));
+    }
+});
