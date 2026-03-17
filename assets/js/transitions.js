@@ -1,4 +1,9 @@
 (function () {
+    // Фікс bfcache: при натисканні "назад" знімаємо page-exit
+    window.addEventListener('pageshow', function (e) {
+        document.body.classList.remove('page-exit');
+    });
+
     document.addEventListener('click', function (e) {
         var link = e.target.closest('a[href]');
         if (!link) return;
