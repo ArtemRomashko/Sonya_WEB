@@ -36,6 +36,7 @@ body.page-exit {
   }
   
   *{ box-sizing: border-box; }
+  html{ overflow-x: hidden; }
   html, body{ height: 100%; }
   body{
     margin: 0;
@@ -462,8 +463,6 @@ body.page-exit {
     .feature{ grid-column: span 12; }
   }
   @media (max-width: 520px){
-    .header__inner{ flex-direction: column; align-items: stretch; }
-    .nav{ justify-content: center; }
     .category{ grid-column: span 12; }
   }
   
@@ -703,29 +702,136 @@ main {
     margin-bottom: 16px;
 }
 
-/* === MOBILE FIX: щоб усе влазило в один ряд === */
-@media (max-width: 600px) {
+/* ================================
+   HAMBURGER / МОБІЛЬНА НАВІГАЦІЯ
+================================ */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
 
-    .nav {
-        gap: 14px;                  /* менші відступи */
-        justify-content: space-between;
-        padding: 0 10px;            /* щоб було більше місця */
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--stroke);
+    background: rgba(255,255,255,.05);
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.burger__line {
+    display: block;
+    height: 2px;
+    background: var(--text);
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burger.is-open .burger__line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.burger.is-open .burger__line:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.burger.is-open .burger__line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 9;
+    background: rgba(11,18,32,0.97);
+    backdrop-filter: blur(20px);
+    padding: 90px 24px 40px;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.mobile-nav.is-open {
+    display: flex;
+    animation: mobileNavIn 0.25s ease;
+}
+
+@keyframes mobileNavIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.mobile-nav__link {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+    padding: 16px 20px;
+    border-radius: 14px;
+    border: 1px solid var(--stroke);
+    background: rgba(255,255,255,.04);
+    display: block;
+    transition: background 0.2s;
+}
+
+.mobile-nav__link:hover {
+    background: rgba(255,255,255,.09);
+}
+
+/* iOS Safari fix — position:fixed needed alongside overflow:hidden */
+body.nav-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .burger { display: flex; }
+    .nav { display: none; }
+
+    .home-two-columns {
+        flex-direction: column;
+        gap: 16px;
     }
 
-    .nav__link {
-        font-size: 13px;            /* трохи менший шрифт */
+    .h1 { font-size: 24px; }
+
+    .hero { padding: 20px 0 12px; }
+
+    .category { grid-column: span 12 !important; }
+
+    /* Pills у pagehead — складаються в колонку */
+    .pagehead .pills {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .pagehead .pill {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* Footer на малих екранах */
+@media (max-width: 520px) {
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
     }
 
-    .brand__name {
-        font-size: 22px;
+    /* Quicklist items — стакаються вертикально */
+    .quickitem {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
     }
+}
 
-    .brand__tagline {
-        font-size: 12px;
-    }
-
-    .header__inner {
-        gap: 6px;
+/* Зображення у гайдах — менша висота на маленьких екранах */
+@media (max-width: 480px) {
+    .media-block__media {
+        height: 160px;
     }
 }
 
