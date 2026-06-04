@@ -19,7 +19,8 @@
       "Read(//Users/bigmag/Desktop/Sonya_WEB/**)",
       "Bash(chmod +x /tmp/analyze_missing.sh)",
       "Bash(/tmp/analyze_missing.sh)",
-      "Bash(xargs sed:*)"
+      "Bash(xargs sed:*)",
+      "Bash(python3:*)"
     ]
   }
 }
