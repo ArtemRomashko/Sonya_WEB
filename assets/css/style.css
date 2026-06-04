@@ -44,7 +44,7 @@ body.page-exit {
     color: var(--text);
   
     background:
-      /* основные пятна — чуть спокойнее */
+      /* основные пятна – чуть спокойнее */
       radial-gradient(
         1200px 900px at 15% 10%,
         rgba(124,92,255,.18) 0%,
@@ -64,7 +64,7 @@ body.page-exit {
         rgba(255,77,109,0) 90%
       ),
   
-      /* мостики — еле заметные */
+      /* мостики – еле заметные */
       radial-gradient(
         1400px 1000px at 35% 55%,
         rgba(124,92,255,.07) 0%,
@@ -778,7 +778,7 @@ main {
     background: rgba(255,255,255,.09);
 }
 
-/* iOS Safari fix — position:fixed needed alongside overflow:hidden */
+/* iOS Safari fix – position:fixed needed alongside overflow:hidden */
 body.nav-open {
     overflow: hidden;
     position: fixed;
@@ -800,7 +800,7 @@ body.nav-open {
 
     .category { grid-column: span 12 !important; }
 
-    /* Pills у pagehead — складаються в колонку */
+    /* Pills у pagehead – складаються в колонку */
     .pagehead .pills {
         flex-direction: column;
         align-items: stretch;
@@ -820,7 +820,7 @@ body.nav-open {
         gap: 10px;
     }
 
-    /* Quicklist items — стакаються вертикально */
+    /* Quicklist items – стакаються вертикально */
     .quickitem {
         flex-direction: column;
         align-items: flex-start;
@@ -828,7 +828,7 @@ body.nav-open {
     }
 }
 
-/* Зображення у гайдах — менша висота на маленьких екранах */
+/* Зображення у гайдах – менша висота на маленьких екранах */
 @media (max-width: 480px) {
     .media-block__media {
         height: 160px;

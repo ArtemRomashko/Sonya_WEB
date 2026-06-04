@@ -1,4 +1,4 @@
-// SelfMade search
+// SelfMode search
 // ⚠ Этот файл генерируется автоматически. Не редактируй вручную.
 // Чтобы обновить: node scripts/generate-search.js
 

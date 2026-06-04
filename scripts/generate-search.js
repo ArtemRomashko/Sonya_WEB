@@ -21,11 +21,11 @@ const PAGES_DIR     = path.join(ROOT, 'pages');
 
 const keywords = JSON.parse(fs.readFileSync(KEYWORDS_FILE, 'utf8'));
 
-// Извлекаем заголовок из <title>Заголовок — SelfMade</title>
+// Извлекаем заголовок из <title>Заголовок – SelfMode</title>
 function extractTitle(html) {
     const m = html.match(/<title>([^<]+)<\/title>/i);
     if (!m) return null;
-    return m[1].replace(/\s*[—–-]\s*SelfMade\s*/i, '').trim();
+    return m[1].replace(/\s*[––-]\s*SelfMode\s*/i, '').trim();
 }
 
 // Сканируем папки guide и category
@@ -47,7 +47,7 @@ function scanFolder(folderName) {
                 return null;
             }
             if (!kw) {
-                console.warn(`  ⚠ No keywords for: ${key} — add to search-keywords.json`);
+                console.warn(`  ⚠ No keywords for: ${key} – add to search-keywords.json`);
             }
 
             return {
@@ -77,7 +77,7 @@ const items = index.map(item => {
     }`;
 }).join(',\n');
 
-const newIndex = `// SelfMade search
+const newIndex = `// SelfMode search
 // ⚠ Этот файл генерируется автоматически. Не редактируй вручную.
 // Чтобы обновить: node scripts/generate-search.js
 

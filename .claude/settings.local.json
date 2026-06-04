@@ -11,7 +11,15 @@
       "Bash(grep -h \"<title>\" /Users/bigmag/Desktop/Sonya_WEB/pages/guide/*.html | head -15)",
       "Bash(grep -h \"lang=\" /Users/bigmag/Desktop/Sonya_WEB/pages/guide/*.html | head -5)",
       "Bash(node scripts/migrate-components.js)",
-      "Bash(node scripts/generate-search.js)"
+      "Bash(node scripts/generate-search.js)",
+      "Bash(grep -E \"\\\\.\\(html|css\\)$\")",
+      "Bash(ls -la /Users/bigmag/Desktop/Sonya_WEB/assets/img/category_img/*.png)",
+      "Bash(ls -1 /Users/bigmag/Desktop/Sonya_WEB/assets/img/category_img/*.png)",
+      "Bash(sed 's/_[0-9]*\\\\.png$//')",
+      "Read(//Users/bigmag/Desktop/Sonya_WEB/**)",
+      "Bash(chmod +x /tmp/analyze_missing.sh)",
+      "Bash(/tmp/analyze_missing.sh)",
+      "Bash(xargs sed:*)"
     ]
   }
 }

@@ -72,7 +72,7 @@ function migrateFile(filePath) {
         fs.writeFileSync(filePath, html, 'utf8');
         console.log(`✓  ${path.relative(ROOT, filePath)}`);
     } else {
-        console.log(`—  ${path.relative(ROOT, filePath)} (no changes)`);
+        console.log(`–  ${path.relative(ROOT, filePath)} (no changes)`);
     }
 }
 
