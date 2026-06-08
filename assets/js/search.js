@@ -335,9 +335,9 @@ const searchIndex = [
     {
         type:     "guide",
         folder:   "guide",
-        title:    "Документи для подорожей",
-        url:      "travel-documents.html",
-        keywords: "паспорт віза шенген страховка закордонний подорож"
+        title:    "Перед поїздкою за кордон",
+        url:      "travel-abroad.html",
+        keywords: "подорож кордон документи паспорт гроші картка роумінг esim чеклист"
     },
     {
         type:     "guide",
@@ -345,13 +345,6 @@ const searchIndex = [
         title:    "Як підготувати телефон до подорожі",
         url:      "travel-phone.html",
         keywords: "телефон подорож esim роумінг офлайн карти резервна копія зарядка"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
-        title:    "Підготовка до поїздки",
-        url:      "travel-preparation.html",
-        keywords: "чеклист пакування валіза виїзд підготовка поїздка за кордон"
     },
     {
         type:     "guide",
