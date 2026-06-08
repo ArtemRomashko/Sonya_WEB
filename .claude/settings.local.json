@@ -22,7 +22,9 @@
       "Bash(xargs sed:*)",
       "Bash(python3:*)",
       "Bash(read file *)",
-      "Bash([ ! -f \"/Users/bigmag/Desktop/Sonya_WEB/pages/guide/$file\" ])"
+      "Bash([ ! -f \"/Users/bigmag/Desktop/Sonya_WEB/pages/guide/$file\" ])",
+      "Bash(read url *)",
+      "Bash([ ! -f \"/Users/bigmag/Desktop/Sonya_WEB/pages/category/$url\" ])"
     ]
   }
 }

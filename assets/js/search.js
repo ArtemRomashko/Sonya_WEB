@@ -330,7 +330,7 @@ const searchIndex = [
         folder:   "guide",
         title:    "Перший раз в аеропорту",
         url:      "travel-airport.html",
-        keywords: "аеропорт багаж контроль посадка реєстрація гейт рейс"
+        keywords: "аеропорт багаж ручна поклажа лоукост затримка рейс посадка загублений багаж"
     },
     {
         type:     "guide",
@@ -351,7 +351,7 @@ const searchIndex = [
         folder:   "guide",
         title:    "Квитки: як обрати і не переплатити",
         url:      "travel-tickets.html",
-        keywords: "авіаквитки дешево skyscanner google flights лоукост ryanair"
+        keywords: "авіаквитки квитки skyscanner google flights momondo kayak лоукост повернення"
     },
     {
         type:     "guide",
