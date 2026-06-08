@@ -118,13 +118,6 @@ const searchIndex = [
     {
         type:     "guide",
         folder:   "guide",
-        title:    "Організація простору",
-        url:      "everyday-space.html",
-        keywords: "зберігання шафа кухня організація порядок речі мінімалізм"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
         title:    "Прання",
         url:      "everyday-washing.html",
         keywords: "прати сортування режими температура одяг машинка"
@@ -181,9 +174,9 @@ const searchIndex = [
     {
         type:     "guide",
         folder:   "guide",
-        title:    "Базова кухня",
+        title:    "Зберігання продуктів",
         url:      "kitchen-basics.html",
-        keywords: "варити смажити тушкувати запікати спеції техніки готування"
+        keywords: "зберігання холодильник морозилка їжа продукти контейнер псується менше викидати"
     },
     {
         type:     "guide",
@@ -198,13 +191,6 @@ const searchIndex = [
         title:    "Прості обіди",
         url:      "kitchen-lunches.html",
         keywords: "обід meal prep гречка рис курка страви тиждень готувати"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
-        title:    "Кухонний мінімум",
-        url:      "kitchen-tools.html",
-        keywords: "посуд сковорідка каструля ніж техніка чайник блендер кухня"
     },
     {
         type:     "guide",
@@ -265,16 +251,23 @@ const searchIndex = [
     {
         type:     "guide",
         folder:   "guide",
-        title:    "Повітряна тривога",
-        url:      "safety-air-alert.html",
-        keywords: "тривога укриття безпека сигнал дії підвал вулиця вдома"
+        title:    "Що робити, якщо зламали Telegram або Instagram",
+        url:      "account-hack.html",
+        keywords: "зламали акаунт telegram instagram відновити доступ пароль двофакторна безпека"
     },
     {
         type:     "guide",
         folder:   "guide",
-        title:    "Тривожна сумка",
-        url:      "safety-bag.html",
-        keywords: "тривожна сумка евакуація документи вода їжа аптечка 72 години"
+        title:    "Безпечні знайомства та дейтинг онлайн",
+        url:      "dating-safe.html",
+        keywords: "дейтинг знайомства онлайн безпека фейк шахрайство перша зустріч"
+    },
+    {
+        type:     "guide",
+        folder:   "guide",
+        title:    "Повітряна тривога",
+        url:      "safety-air-alert.html",
+        keywords: "тривога укриття безпека сигнал дії підвал вулиця вдома"
     },
     {
         type:     "guide",
@@ -289,6 +282,20 @@ const searchIndex = [
         title:    "Пожежна безпека",
         url:      "safety-fire.html",
         keywords: "пожежа евакуація вогонь 101 дим датчик вогнегасник"
+    },
+    {
+        type:     "guide",
+        folder:   "guide",
+        title:    "Б/у техніка: що перевірити перед купівлею",
+        url:      "gadgets-check-buy.html",
+        keywords: "вживана техніка телефон ноутбук перевірити купівля б/у акаунт блокування батарея"
+    },
+    {
+        type:     "guide",
+        folder:   "guide",
+        title:    "Що робити після ДТП",
+        url:      "transport-accident.html",
+        keywords: "дтп аварія що робити поліція страхова євпротокол водій кроки"
     },
     {
         type:     "guide",
@@ -331,6 +338,13 @@ const searchIndex = [
         title:    "Документи для подорожей",
         url:      "travel-documents.html",
         keywords: "паспорт віза шенген страховка закордонний подорож"
+    },
+    {
+        type:     "guide",
+        folder:   "guide",
+        title:    "Як підготувати телефон до подорожі",
+        url:      "travel-phone.html",
+        keywords: "телефон подорож esim роумінг офлайн карти резервна копія зарядка"
     },
     {
         type:     "guide",
