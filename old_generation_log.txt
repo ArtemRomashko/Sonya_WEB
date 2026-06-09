@@ -1,0 +1,268 @@
+
+🎨 Generating 65 images → /Users/bigmag/Desktop/Sonya_WEB/assets/img/category_img
+
+[1/65] GEN   doc_basic_1.png
+       Topic: Паспорт/ID-картка
+       ⏳ Waiting (id=12snj9m9y9rmy0cynsetsffdr0)...
+       ✅ Saved (1123 KB)
+[2/65] GEN   doc_basic_2.png
+       Topic: Ідентифікаційний код
+       ⏳ Waiting (id=a38h2my5jdrmr0cynserevtsew)...
+       ✅ Saved (935 KB)
+[3/65] GEN   doc_basic_3.png
+       Topic: Закордонний паспорт
+       ⏳ Waiting (id=m634sgzz7srmy0cynset0wste8)...
+       ✅ Saved (870 KB)
+[4/65] GEN   doc_basic_4.png
+       Topic: Військовий облік
+       ⏳ Waiting (id=qx6tm0ssy9rmw0cynsf8njkv80)...
+       ✅ Saved (851 KB)
+[5/65] GEN   doc_dia_1.png
+       Topic: Як створити Дія ID
+       ⏳ Waiting (id=h0tjd6kknnrmt0cynsfb2xgrrc)...
+       ✅ Saved (882 KB)
+[6/65] GEN   doc_dia_2.png
+       Topic: Як підписувати документи
+       ⏳ Waiting (id=973rcsncm9rmy0cynsfbs3nkxc)...
+       ✅ Saved (816 KB)
+[7/65] GEN   doc_dia_3.png
+       Topic: Цифрові документи
+       ⏳ Waiting (id=y9qvk7q70xrmt0cynsfb2ykn9c)...
+       ✅ Saved (1103 KB)
+[8/65] GEN   everyday_cleaning_1.png
+       Topic: Базові правила прибирання
+       ⏳ Waiting (id=cacwzs13qsrmt0cynsfrwrty4w)...
+       ✅ Saved (977 KB)
+[9/65] GEN   everyday_cleaning_2.png
+       Topic: Що прибирати і як часто
+       ⏳ Waiting (id=1mwn85jvn1rmw0cynsfv10m6mc)...
+       ✅ Saved (927 KB)
+[10/65] GEN   everyday_cleaning_3.png
+       Topic: Мінімальний набір та правила з сусідами
+       ⏳ Waiting (id=mb5e3hxaasrmr0cynsftjrbzpc)...
+       ✅ Saved (871 KB)
+[11/65] GEN   everyday_washing_1.png
+       Topic: Сортування речей
+       ⏳ Waiting (id=v4krtbf7hnrmy0cynsfsfgms7m)...
+       ✅ Saved (1071 KB)
+[12/65] GEN   everyday_washing_2.png
+       Topic: Температура прання
+       ⏳ Waiting (id=5g3t0511f9rmw0cynsg87ydjnm)...
+       ✅ Saved (1091 KB)
+[13/65] GEN   everyday_washing_3.png
+       Topic: Засоби для прання
+       ⏳ Waiting (id=t3zgd0avy9rmw0cynsg80jzfdm)...
+       ✅ Saved (1103 KB)
+[14/65] GEN   everyday_washing_4.png
+       Topic: Після прання
+       ⏳ Waiting (id=3qg25vcpn9rmw0cynsg8xrpgt4)...
+       ✅ Saved (882 KB)
+[15/65] GEN   finance_budget_1.png
+       Topic: Що таке бюджет 50/30/20
+       ⏳ Waiting (id=t3s9r5pf29rmt0cynsgav7me60)...
+       ✅ Saved (980 KB)
+[16/65] GEN   finance_budget_2.png
+       Topic: Як почати планувати бюджет
+       ⏳ Waiting (id=4bhjk2raddrmr0cynsgs8q5bqc)...
+       ✅ Saved (969 KB)
+[17/65] GEN   finance_budget_3.png
+       Topic: Подушка безпеки
+       ⏳ Waiting (id=qpv7fca551rmr0cynsgv5zhzc8)...
+       ✅ Saved (805 KB)
+[18/65] GEN   finance_budget_4.png
+       Topic: Типові фінансові помилки
+       ⏳ Waiting (id=t2jwxc40s1rmr0cynsgt125etg)...
+       ✅ Saved (977 KB)
+[19/65] GEN   finance_card_1.png
+       Topic: Основні типи банківських карток
+       ⏳ Waiting (id=81jvph5vqxrmw0cynsgtacfrs4)...
+       ✅ Saved (1270 KB)
+[20/65] GEN   finance_card_2.png
+       Topic: Дебетова картка
+       ⏳ Waiting (id=1qzne4qrbxrmr0cynsgt6rpv6g)...
+       ✅ Saved (1019 KB)
+[21/65] GEN   finance_card_3.png
+       Topic: Кредитна картка
+       ⏳ Waiting (id=qqbp0psg1drmw0cynsh9yqp638)...
+       ✅ Saved (965 KB)
+[22/65] GEN   finance_card_4.png
+       Topic: Безпека та захист грошей
+       ⏳ Waiting (id=0mpn5xvacnrmt0cynshbamp85g)...
+       ✅ Saved (901 KB)
+[23/65] GEN   home_rent_1.png
+       Topic: Як знайти квартиру
+       ⏳ Waiting (id=epvbza55g5rmr0cynsh9yrkagm)...
+       ✅ Saved (997 KB)
+[24/65] GEN   home_rent_2.png
+       Topic: На що дивитись на перегляді
+       ⏳ Waiting (id=m8basdz12nrmw0cynshbr032m4)...
+       ✅ Saved (873 KB)
+[25/65] GEN   home_rent_3.png
+       Topic: Види договорів
+       ⏳ Waiting (id=bm8bgsrv3xrmy0cynshvxxwdgg)...
+       ✅ Saved (918 KB)
+[26/65] GEN   home_rent_4.png
+       Topic: Як не потрапити на шахраїв
+       ⏳ Waiting (id=9xbbgxtmk9rmy0cynshsjpbjjc)...
+       ✅ Saved (996 KB)
+[27/65] GEN   home_rent_5.png
+       Topic: Застава: як працює
+       ⏳ Waiting (id=cyxm364d7hrmw0cynshsdy1yv4)...
+       ✅ Saved (930 KB)
+[28/65] GEN   home_utilities_1.png
+       Topic: Лічильники — що дивитися
+       ⏳ Waiting (id=3q87mq65hhrmt0cynshr97v528)...
+       ✅ Saved (939 KB)
+[29/65] GEN   home_utilities_2.png
+       Topic: Де передавати показники
+       ⏳ Waiting (id=9x1k8300d9rmt0cynsjab0pkmg)...
+       ✅ Saved (1028 KB)
+[30/65] GEN   home_utilities_3.png
+       Topic: Як перевірити чи правильно нарахували
+       ⏳ Waiting (id=7wytf51r5hrmt0cynsj9w60mqc)...
+       ✅ Saved (913 KB)
+[31/65] GEN   home_utilities_4.png
+       Topic: Як оплатити
+       ⏳ Waiting (id=p5k8knkh7nrmw0cynsjbedw4ng)...
+       ✅ Saved (1042 KB)
+[32/65] GEN   home_utilities_5.png
+       Topic: Як обслуговувати лічильники
+       ⏳ Waiting (id=masa1ndb5srmw0cynsjbjf50ec)...
+       ✅ Saved (1243 KB)
+[33/65] GEN   home_utilities_6.png
+       Topic: Корисні поради — комуналка
+       ⏳ Waiting (id=8bcs20f5k1rmw0cynsjbgaejnc)...
+       ✅ Saved (780 KB)
+[34/65] GEN   med_emerg_1.png
+       Topic: Опіки: перша допомога
+       ⏳ Waiting (id=m9m3t4911drmr0cynsjrfg1bfg)...
+       ✅ Saved (830 KB)
+[35/65] GEN   med_emerg_2.png
+       Topic: Кровотеча: перша допомога
+       ⏳ Waiting (id=djbw34jtvhrmy0cynsjvqpzyh8)...
+       ✅ Saved (921 KB)
+[36/65] GEN   med_emerg_3.png
+       Topic: Втрата свідомості: що робити
+       ⏳ Waiting (id=pc8qfhckfsrmy0cynsjtqrf9z4)...
+       ✅ Saved (859 KB)
+[37/65] GEN   med_emerg_4.png
+       Topic: Ураження електричним струмом
+       ⏳ Waiting (id=9kq5znybbdrmr0cynsjs0sht6g)...
+       ✅ Saved (917 KB)
+[38/65] GEN   med_emerg_5.png
+       Topic: Алергічна реакція: що робити
+       ⏳ Waiting (id=dg1w6e85cxrmt0cynskb9t35ww)...
+       ✅ Saved (638 KB)
+[39/65] GEN   med_emerg_6.png
+       Topic: Алгоритм виклику швидкої допомоги
+       ⏳ Waiting (id=6d98qhj001rmw0cynsk9g3cg10)...
+       ✅ Saved (844 KB)
+[40/65] GEN   med_fam_1.png
+       Topic: Як підписати декларацію
+       ⏳ Waiting (id=59nkt3vtfdrmy0cynskbe41k2w)...
+       ✅ Saved (906 KB)
+[41/65] GEN   med_fam_2.png
+       Topic: Що входить у безкоштовний пакет
+       ⏳ Waiting (id=hhkwyxdn4drmw0cynska01x0jm)...
+       ✅ Saved (930 KB)
+[42/65] GEN   med_fam_3.png
+       Topic: Як записатися онлайн
+       ⏳ Waiting (id=eaz5yw7g7drmr0cynskb63z38c)...
+       ✅ Saved (746 KB)
+[43/65] GEN   psychology_anxiety_1.png
+       Topic: Як проявляється тривожність
+       ⏳ Waiting (id=prhe95h9f1rmr0cynskv7v7e00)...
+       ✅ Saved (1057 KB)
+[44/65] GEN   psychology_anxiety_2.png
+       Topic: Що може посилювати тривогу
+       ⏳ Waiting (id=65zzjav1f5rmw0cynskvbj0700)...
+       ✅ Saved (1236 KB)
+[45/65] GEN   psychology_anxiety_3.png
+       Topic: Що можна зробити самостійно
+       ⏳ Waiting (id=t2r1df4va5rmy0cynsktg0hnh4)...
+       ✅ Saved (880 KB)
+[46/65] GEN   psychology_anxiety_4.png
+       Topic: Коли варто звернутися по допомогу
+       ⏳ Waiting (id=1m4wtfenaxrmr0cynsktgkcsrm)...
+       ✅ Saved (907 KB)
+[47/65] GEN   psychology_burnout_1.png
+       Topic: Ознаки професійного вигорання
+       ⏳ Waiting (id=9hayse8g31rmw0cynsm9w8qq7c)...
+       ✅ Saved (766 KB)
+[48/65] GEN   psychology_burnout_2.png
+       Topic: Основні причини вигорання
+       ⏳ Waiting (id=bgy1d72adhrmw0cynsmby0ytsm)...
+       ✅ Saved (944 KB)
+[49/65] GEN   psychology_burnout_3.png
+       Topic: Як відновитися
+       ⏳ Waiting (id=99x8mmm4fnrmw0cynsm9jxz7vw)...
+       ✅ Saved (730 KB)
+[50/65] GEN   psychology_burnout_4.png
+       Topic: Профілактика вигорання
+       ⏳ Waiting (id=km8ypve12nrmw0cynsmb8msnfw)...
+       ✅ Saved (972 KB)
+[51/65] GEN   transport_insurance_1.png
+       Topic: ОСЦПВ – обов'язкова автоцивілка
+       ⏳ Waiting (id=4gk35s7rzhrmr0cynsm9y7asvc)...
+       ✅ Saved (892 KB)
+[52/65] GEN   transport_insurance_2.png
+       Topic: КАСКО – добровільне страхування
+       ⏳ Waiting (id=q633xh1kzxrmw0cynsmsprm9c0)...
+       ✅ Saved (1030 KB)
+[53/65] GEN   transport_insurance_3.png
+       Topic: Міні-КАСКО
+       ⏳ Waiting (id=3tcec73desrmt0cynsmrmr1dyc)...
+       ✅ Saved (1182 KB)
+[54/65] GEN   transport_insurance_4.png
+       Topic: Як обрати страхову компанію
+       ⏳ Waiting (id=kgkpffn8b1rmw0cynsmtbd76gc)...
+       ✅ Saved (855 KB)
+[55/65] GEN   transport_license_1.png
+       Topic: Як отримати водійське посвідчення
+       ⏳ Waiting (id=2hzcpaz451rmt0cynsmrkxgvwr)...
+       ✅ Saved (1001 KB)
+[56/65] GEN   transport_license_2.png
+       Topic: Підготовка до теорії та іспити
+       ⏳ Waiting (id=radx4h1jk5rmr0cynsnad4b4d8)...
+       ✅ Saved (734 KB)
+[57/65] GEN   transport_license_3.png
+       Topic: Інструктор та вартість
+       ⏳ Waiting (id=m67mf33byxrmy0cynsn89e0z30)...
+       ✅ Saved (1044 KB)
+[58/65] GEN   transport_license_4.png
+       Topic: Отримання посвідчення
+       ⏳ Waiting (id=z7kqgtn5hdrmt0cynsnaahhh20)...
+       ✅ Saved (883 KB)
+[59/65] GEN   work-interview_1.png
+       Topic: Як поводитись на співбесіді
+       ⏳ Waiting (id=avt8b9z051rmr0cynsn9pt0rcw)...
+       ✅ Saved (713 KB)
+[60/65] GEN   work-interview_2.png
+       Topic: Як менше хвилюватися
+       ⏳ Waiting (id=1d0xr2grvdrmr0cynsnv4a9ptw)...
+       ✅ Saved (767 KB)
+[61/65] GEN   work-interview_3.png
+       Topic: Що варто питати роботодавця
+       ⏳ Waiting (id=qb8bv3ak6srmy0cynsnvgp79c0)...
+       ✅ Saved (741 KB)
+[62/65] GEN   work_resume_1.png
+       Topic: Основна структура резюме
+       ⏳ Waiting (id=d6hx8nce25rmy0cynsntabczvc)...
+       ✅ Saved (1121 KB)
+[63/65] GEN   work_resume_2.png
+       Topic: Короткий опис про себе
+       ⏳ Waiting (id=ypb4tq68nsrmw0cynsns6rfgpg)...
+       ✅ Saved (916 KB)
+[64/65] GEN   work_resume_3.png
+       Topic: Досвід роботи
+       ⏳ Waiting (id=83dhxtrq15rmt0cynspawmdj0c)...
+       ✅ Saved (945 KB)
+[65/65] GEN   work_resume_4.png
+       Topic: Типові помилки в резюме
+       ⏳ Waiting (id=8qmgr336fdrmr0cynspbjenwac)...
+       ✅ Saved (1112 KB)
+
+──────────────────────────────────────────────────
+✅ Done: 65  |  ⏭ Skipped: 0  |  ❌ Failed: 0
+──────────────────────────────────────────────────
+

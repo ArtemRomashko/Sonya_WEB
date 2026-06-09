@@ -1,0 +1,400 @@
+{
+  "style_base": "NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS, NO LABELS anywhere in the image. Flat 2D anime-style educational illustration, very light periwinkle lavender BRICK WALL TEXTURE background, soft muted lavender-blue overall color palette, muted purple-blue shadows, anime-style characters in light blue-grey clothing. NOT photorealistic, NOT 3D render, 2D flat digital illustration, Freepik flat illustration style.",
+
+  "prompt_template": "NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS, NO LABELS anywhere in the image. Flat 2D anime-style educational illustration. [CONTENT]. Style: very light periwinkle lavender BRICK WALL TEXTURE background, soft muted lavender-blue overall color palette tinting everything, muted purple-blue shadows, anime-style characters in light blue-grey clothing. NOT photorealistic, NOT 3D render, 2D flat digital illustration. Freepik flat illustration style. ZERO text or numbers anywhere.",
+
+  "total": 65,
+
+  "images": [
+    {
+      "filename": "doc_basic_1.png",
+      "alt": "Паспорт/ID-картка",
+      "section": "Паспорт/ID-картка",
+      "prompt": "An ID card and a passport lie side by side on a table. Around them float small icons representing the places they are used: a bank card, a briefcase, a contract document, and an airplane. A person holds the ID card confidently. The scene conveys that an ID card is the primary document needed for everyday Ukrainian life."
+    },
+    {
+      "filename": "doc_basic_2.png",
+      "alt": "Ідентифікаційний код",
+      "section": "Ідентифікаційний код",
+      "prompt": "A small official tax certificate document sits on a desk next to a laptop showing a government portal. A person looks at the certificate. Surrounding icons: a bank, a government building, a workplace briefcase — all connected by arrows to the certificate. The scene conveys that the tax identification code is required for many official purposes."
+    },
+    {
+      "filename": "doc_basic_3.png",
+      "alt": "Закордонний паспорт",
+      "section": "Закордонний паспорт",
+      "prompt": "A biometric international passport sits open on a table next to a globe and a passport stamp. An airplane flies above in the background. A fingerprint chip icon glows on the passport cover. The scene conveys obtaining a biometric passport to travel internationally with visa-free access."
+    },
+    {
+      "filename": "doc_basic_4.png",
+      "alt": "Військовий облік",
+      "section": "Військовий облік",
+      "prompt": "A young man stands in front of a military registration office building, holding a military registration document. Beside him float two icons: a briefcase representing employment and a passport representing travel — both connected to the document. The scene conveys mandatory military registration as a requirement for work and official processes."
+    },
+    {
+      "filename": "doc_dia_1.png",
+      "alt": "Як створити Дія ID",
+      "section": "Як створити Дія ID",
+      "prompt": "A smartphone displays a government app. A step-by-step flow shows: installing the app, then verifying identity by touching an ID card with NFC, then setting a security code. A digital signature seal icon appears as the result. The scene conveys the simple steps to create a government digital signature identity."
+    },
+    {
+      "filename": "doc_dia_2.png",
+      "alt": "Як підписувати документи",
+      "section": "Як підписувати документи",
+      "prompt": "A person uploads a PDF document to a laptop, then a phone displays a signature confirmation screen, and a green checkmark seals the document. An official stamp icon appears floating above the signed document. The scene conveys signing documents digitally using a government app code, making the signature legally equivalent to a handwritten one."
+    },
+    {
+      "filename": "doc_dia_3.png",
+      "alt": "Цифрові документи",
+      "section": "Цифрові документи",
+      "prompt": "A phone screen displays a grid of digital document icons: an ID card, an international passport, a tax code card, a driver's license, and a student card — all glowing in the app. An official recognition badge floats beside the phone. The scene conveys that digital document copies stored in a government app are officially accepted everywhere."
+    },
+    {
+      "filename": "everyday_cleaning_1.png",
+      "alt": "Базові правила прибирання",
+      "section": "Базові правила прибирання",
+      "prompt": "A tidy apartment interior shows four quick daily habits in one scene: a person washing dishes right after eating, another returning an item to its shelf, a third tying up a trash bag, and a fourth wiping a fresh spill immediately. The scene conveys that small immediate actions prevent mess from building up."
+    },
+    {
+      "filename": "everyday_cleaning_2.png",
+      "alt": "Що прибирати і як часто",
+      "section": "Що прибирати і як часто",
+      "prompt": "A cleaning schedule displayed as three zones: a daily zone with a dish and a broom, a weekly zone with a vacuum cleaner and bathroom brush, and a monthly zone with a fridge and a wardrobe. Each zone has a soft frequency icon above it. The scene conveys a realistic home cleaning frequency plan divided by time interval."
+    },
+    {
+      "filename": "everyday_cleaning_3.png",
+      "alt": "Мінімальний набір та правила з сусідами",
+      "section": "Мінімальний набір та правила з сусідами",
+      "prompt": "Left: a small shelf holds essential cleaning supplies — spray bottle, sponges, a mop, trash bags, and rubber gloves. Right: two roommates shake hands with a shared chore agreement paper between them. The scene conveys having minimal cleaning tools and agreeing on shared responsibilities when living with others."
+    },
+    {
+      "filename": "everyday_washing_1.png",
+      "alt": "Сортування речей",
+      "section": "Сортування речей",
+      "prompt": "Three laundry piles sit on a bed: white clothes on the left, dark clothes on the right, and delicate items in the center. A care label tag is visible. Hands check pockets and zip up a zipper on jeans. The scene conveys how to properly sort laundry by color and fabric type before washing."
+    },
+    {
+      "filename": "everyday_washing_2.png",
+      "alt": "Температура прання",
+      "section": "Температура прання",
+      "prompt": "A care label tag is magnified showing wash temperature symbols. Below it, four clothing item groups are matched to rising thermometer icons: a colorful sweater at low heat, a cotton shirt at medium, a towel at high. The scene conveys choosing the right wash temperature based on the care label to protect fabrics."
+    },
+    {
+      "filename": "everyday_washing_3.png",
+      "alt": "Засоби для прання",
+      "section": "Засоби для прання",
+      "prompt": "A shelf holds two main laundry product types: a bottle of everyday gel and a small bottle of delicate fabric detergent. An accurate measuring cup shows the correct amount being poured in. A soft fabric conditioner bottle sits nearby as optional. The scene conveys using only the right amount of the right detergent."
+    },
+    {
+      "filename": "everyday_washing_4.png",
+      "alt": "Після прання",
+      "section": "Після прання",
+      "prompt": "A person immediately removes freshly washed clothes from the washing machine and shakes each item before hanging it on a drying rack. A care label is visible, and a crossed-out radiator icon shows what to avoid. The scene conveys proper post-washing drying habits to prevent bad smells and fabric damage."
+    },
+    {
+      "filename": "finance_budget_1.png",
+      "alt": "Бюджет 50/30/20",
+      "section": "Що таке бюджет 50/30/20",
+      "prompt": "A salary coin stack divides into three separate groups via arrows: the largest pile goes toward a home, food, and transport icons representing needs; a medium pile flows toward a cafe and entertainment icons representing wants; the smallest pile drops into a piggy bank representing savings. The scene conveys splitting income into three proportional budget categories."
+    },
+    {
+      "filename": "finance_budget_2.png",
+      "alt": "Як почати планувати бюджет",
+      "section": "Як почати планувати бюджет",
+      "prompt": "A person sits at a table writing down last month's expenses in a notebook. They draw a line separating the page into essential and optional spending columns. A magnifying glass hovers over the largest expense item. The scene conveys the first simple steps toward tracking and understanding personal spending habits."
+    },
+    {
+      "filename": "finance_budget_3.png",
+      "alt": "Подушка безпеки",
+      "section": "Подушка безпеки",
+      "prompt": "A protective shield rests on a separate savings account card. Around it float three unexpected life event icons: a medicine bottle, a broken laptop, and a suitcase representing job loss. A second separate card sits apart from the main wallet. The scene conveys building a dedicated emergency financial reserve."
+    },
+    {
+      "filename": "finance_budget_4.png",
+      "alt": "Типові фінансові помилки",
+      "section": "Типові фінансові помилки",
+      "prompt": "Five common money mistake scenes in a grid: a person ignoring a small daily coffee expense, an impulsive shopping cart overflowing, a too-strict budget list being torn, an empty savings jar, and a person living paycheck-to-paycheck with an empty wallet. The scene conveys the most common everyday financial traps to avoid."
+    },
+    {
+      "filename": "finance_card_1.png",
+      "alt": "Типи банківських карток",
+      "section": "Основні типи банківських карток",
+      "prompt": "Two bank cards sit side by side: on the left a debit card with an arrow showing own money flowing in and out; on the right a credit card with a bank building icon above showing borrowed money and a clock for repayment. Small feature icons float beside each: cashback star, mobile app, annual fee. The scene conveys the core difference between debit and credit cards."
+    },
+    {
+      "filename": "finance_card_2.png",
+      "alt": "Дебетова картка",
+      "section": "Дебетова картка",
+      "prompt": "A debit card connects to three use cases with arrows: a salary deposit from an employer, a contactless phone payment at a store checkout, and a bank transfer icon. A green checkmark floats above a zero-debt balance indicator. The scene conveys how a debit card works for everyday personal finance using only one's own money."
+    },
+    {
+      "filename": "finance_card_3.png",
+      "alt": "Кредитна картка",
+      "section": "Кредитна картка",
+      "prompt": "A credit card displays a clock showing the grace period window. An arrow flows to a bank building if repaid on time (green) and to an interest rate warning sign if not repaid (red). A cash machine with a warning icon shows that cash withdrawal comes with a fee. The scene conveys the key rules and risks of responsible credit card use."
+    },
+    {
+      "filename": "finance_card_4.png",
+      "alt": "Безпека карток",
+      "section": "Безпека та захист грошей",
+      "prompt": "A bank card sits at the center of a protective shield. Around it float crossed-out danger icons: sharing a PIN with another person, handing the card to a stranger, a fake website URL bar. A phone shows a push notification for a real-time payment alert. The scene conveys essential rules for protecting your bank card and money."
+    },
+    {
+      "filename": "home_rent_1.png",
+      "alt": "Як знайти квартиру",
+      "section": "Як знайти квартиру",
+      "prompt": "A person sits at a laptop browsing apartment listings with photos and a map pin showing real locations. A phone beside them shows a local social group chat. Two friends in the background point to a building they recommend. A map app displays apartment markers across a neighborhood. The scene conveys multiple practical ways to search for an apartment to rent."
+    },
+    {
+      "filename": "home_rent_2.png",
+      "alt": "На що дивитись на перегляді",
+      "section": "На що дивитись на перегляді",
+      "prompt": "A person walks through an apartment during a viewing inspection. They check a water faucet, examine an electrical outlet, test a window seal, and look at a radiator. A neighbor in the hallway talks with them. Each check gets a small icon reaction. The scene conveys what to physically inspect when visiting a potential apartment to rent."
+    },
+    {
+      "filename": "home_rent_3.png",
+      "alt": "Договір оренди",
+      "section": "Види договорів",
+      "prompt": "A tenant and landlord sit across a table reviewing a rental agreement document. Highlighted areas on the paper show: a deposit amount, a utility responsibility clause, and a repair terms section. Both parties hold pens ready to sign. The scene conveys reviewing and understanding the key terms in a rental contract before signing."
+    },
+    {
+      "filename": "home_rent_4.png",
+      "alt": "Як не потрапити на шахраїв",
+      "section": "Як не потрапити на шахраїв",
+      "prompt": "A suspicious landlord hides behind a too-good price sign with a red warning triangle. A person firmly says no to paying before viewing the apartment. Another scene shows verifying an ID document before signing anything. A very low price listing glows with a red alert warning. The scene conveys recognizing and avoiding common rental scams."
+    },
+    {
+      "filename": "home_rent_5.png",
+      "alt": "Застава: як працює",
+      "section": "Застава: як працює",
+      "prompt": "A person photographs every room corner, scratch, and existing damage on move-in day with a smartphone. The photos appear as evidence icons beside the rental agreement. A deposit envelope is handed over after signing — not before. The scene conveys documenting apartment condition at move-in to ensure the full security deposit is returned later."
+    },
+    {
+      "filename": "home_utilities_1.png",
+      "alt": "Лічильники",
+      "section": "Лічильники — що дивитися",
+      "prompt": "Four utility meters mounted on a wall: water, electricity, gas, and heat. A person photographs each meter with their phone, the photo showing the current reading displayed on screen. A calendar icon marks the monthly reading date. The scene conveys reading and photographing all home utility meters every month as proof."
+    },
+    {
+      "filename": "home_utilities_2.png",
+      "alt": "Де передавати показники",
+      "section": "Де передавати показники",
+      "prompt": "A person submits meter readings through three channels shown side by side: a government app on a phone, a utility provider website on a laptop, and a text message to the landlord with a screenshot receipt. The scene conveys the different ways to officially submit monthly utility meter readings."
+    },
+    {
+      "filename": "home_utilities_3.png",
+      "alt": "Розрахунок комунальних",
+      "section": "Як перевірити чи правильно нарахували",
+      "prompt": "A simple diagram: a current electricity meter reading minus a previous reading equals a consumption amount. An arrow multiplies it by a rate coin icon to show the resulting payment amount. A person checks their bill against the calculation and finds they match. The scene conveys how to manually verify a utility bill is correctly calculated."
+    },
+    {
+      "filename": "home_utilities_4.png",
+      "alt": "Як оплатити",
+      "section": "Як оплатити",
+      "prompt": "Three utility payment methods shown as parallel paths: a banking phone app showing a utilities payment menu, a provider website tab on a laptop, and a landlord receiving a money transfer and sending back a digital receipt. The scene conveys the three main ways to pay utility bills and always getting a payment confirmation."
+    },
+    {
+      "filename": "home_utilities_5.png",
+      "alt": "Обслуговування лічильників",
+      "section": "Як обслуговувати лічильники",
+      "prompt": "A utility technician visits an apartment to perform a meter inspection. A circular calendar arrow shows a periodic renewal cycle. A heat meter has a battery icon being replaced. An official verification document is handed to the tenant. The scene conveys that utility meters require periodic professional servicing and certification."
+    },
+    {
+      "filename": "home_utilities_6.png",
+      "alt": "Корисні поради",
+      "section": "Корисні поради — комуналка",
+      "prompt": "Five energy-saving tips shown as small icons in a grid: a light switch being turned off when leaving a room, an appliance being unplugged from a socket, a dripping faucet with a red X, a window being properly sealed, and a folder of saved payment receipts. The scene conveys practical habits that reduce utility bills."
+    },
+    {
+      "filename": "med_emerg_1.png",
+      "alt": "Опіки: перша допомога",
+      "section": "Опіки: перша допомога",
+      "prompt": "A hand holds a burn under cool running tap water. A clean sterile bandage is placed over the burn. A red X appears over four wrong remedies: an ice cube, a butter pat, a cream tube, and a needle (for popping blisters). The scene conveys the correct and incorrect first aid actions for treating a burn."
+    },
+    {
+      "filename": "med_emerg_2.png",
+      "alt": "Кровотеча: перша допомога",
+      "section": "Кровотеча: перша допомога",
+      "prompt": "Two first aid scenarios side by side: on the left, a minor wound being washed then pressed with a sterile pad; on the right, a severe bleeding arm being elevated above heart level while another person calls emergency services. A tourniquet is applied above the wound. The scene conveys correct steps for treating both minor and serious bleeding."
+    },
+    {
+      "filename": "med_emerg_3.png",
+      "alt": "Втрата свідомості",
+      "section": "Втрата свідомості: що робити",
+      "prompt": "A two-part scene: on the left, a person checks for breathing in an unconscious person on the floor; on the right, if breathing, the person is placed in the stable side recovery position with airway cleared. A phone calls emergency services nearby. The scene conveys the correct immediate response to finding someone unconscious."
+    },
+    {
+      "filename": "med_emerg_4.png",
+      "alt": "Ураження електрикою",
+      "section": "Ураження електричним струмом",
+      "prompt": "A person uses a wooden stick (non-conductive) to push away a live electric cable from an unconscious figure — not touching the victim with bare hands. A fuse box is switched off in the background. Another person calls emergency services on the phone. The scene conveys the critical rule of disconnecting the power source safely before touching an electrocution victim."
+    },
+    {
+      "filename": "med_emerg_5.png",
+      "alt": "Алергічна реакція",
+      "section": "Алергічна реакція: що робити",
+      "prompt": "Two allergy scenarios: on the left, a mild reaction — a person removes the allergen source and takes an antihistamine pill. On the right, a severe reaction — a person shows throat swelling and difficulty breathing with a danger warning, while someone calls emergency services. The scene conveys how to respond to mild vs dangerous allergic reactions."
+    },
+    {
+      "filename": "med_emerg_6.png",
+      "alt": "Виклик швидкої",
+      "section": "Алгоритм виклику швидкої допомоги",
+      "prompt": "A calm person on the phone to emergency services gestures with one hand: a map pin for location, a simple scene for what happened, a person silhouette for the victim's details, and a heartbeat for their condition. The dispatcher's speech bubble shows they are listening. The scene conveys the key information to give clearly when calling an ambulance."
+    },
+    {
+      "filename": "med_fam_1.png",
+      "alt": "Як підписати декларацію",
+      "section": "Як підписати декларацію",
+      "prompt": "A step-by-step flow: a laptop shows a family doctor portal, a person selects a nearby clinic from a map, an ID card and tax code card are placed on the desk, and a phone confirms the digital signature. A green confirmation icon marks the final step. The scene conveys registering with a family doctor through a government portal."
+    },
+    {
+      "filename": "med_fam_2.png",
+      "alt": "Безкоштовний пакет послуг",
+      "section": "Що входить у безкоштовний пакет",
+      "prompt": "A family doctor's office displays a visual list of free services: a blood test tube, a chest X-ray, an ECG heartbeat line, a specialist referral form, and a sick leave certificate. All float with a green free-of-charge badge. The scene conveys what is included in the basic free healthcare package through a family doctor."
+    },
+    {
+      "filename": "med_fam_3.png",
+      "alt": "Запис онлайн до лікаря",
+      "section": "Як записатися онлайн",
+      "prompt": "Three ways to book a doctor appointment shown side by side: a medical portal on a laptop with a doctor selection and time slot calendar, a phone call to a clinic receptionist, and a clinic chatbot on a messaging app. A confirmed calendar notification appears at the end. The scene conveys the convenient ways to schedule an appointment with a family doctor."
+    },
+    {
+      "filename": "psychology_anxiety_1.png",
+      "alt": "Як проявляється тривожність",
+      "section": "Як проявляється тривожність",
+      "prompt": "A person sits with visible anxiety signs shown as floating icons around them: a racing heart, foggy concentration clouds, a sleepless moon, tense clenched hands, and an inner storm cloud. Their face shows fatigue and tension. The scene conveys the common physical and emotional signs of anxiety that signal elevated stress."
+    },
+    {
+      "filename": "psychology_anxiety_2.png",
+      "alt": "Що посилює тривогу",
+      "section": "Що може посилювати тривогу",
+      "prompt": "A person surrounded by stressors that feed anxiety: a pile of unfinished tasks, a phone flooding with news notifications, a clock showing no sleep, blurry question marks for uncertainty, and a physically tired body. Each stressor connects by an arrow to a growing cloud above the person's head. The scene conveys the main factors that increase anxiety levels."
+    },
+    {
+      "filename": "psychology_anxiety_3.png",
+      "alt": "Що робити самостійно",
+      "section": "Що можна зробити самостійно",
+      "prompt": "A person takes four calming self-care steps shown as icons: sleeping in bed at a consistent time, eating a nourishing meal, taking a stretching break from a desk, and closing news apps on a phone. A small pause icon floats above a deep breath symbol. The scene conveys simple self-care actions that reduce anxiety without professional help."
+    },
+    {
+      "filename": "psychology_anxiety_4.png",
+      "alt": "Коли звернутися по допомогу",
+      "section": "Коли варто звернутися по допомогу",
+      "prompt": "A person walks toward a warm, welcoming therapist's office door. Inside, a supportive therapist waits at a calm desk. Around the person float icons showing the signs that prompted the visit: affecting work, avoiding social activities, and persistent panic. A gentle green arrow points them forward. The scene conveys that seeking professional help for anxiety is a normal healthy choice."
+    },
+    {
+      "filename": "psychology_burnout_1.png",
+      "alt": "Ознаки вигорання",
+      "section": "Ознаки професійного вигорання",
+      "prompt": "A person sits slumped at a desk surrounded by work tasks, visibly exhausted. Floating icons show burnout symptoms: a battery at zero, a broken focus icon, a frown of irritability, and a sleepless moon. Even a holiday umbrella sits untouched. The scene conveys the classic signs of professional burnout — exhaustion even after rest, loss of motivation and productivity."
+    },
+    {
+      "filename": "psychology_burnout_2.png",
+      "alt": "Причини вигорання",
+      "section": "Основні причини вигорання",
+      "prompt": "A scale tips heavily under an overloaded work pile: a mountain of tasks, a boss with a magnifying glass of micromanagement, a clock showing irregular hours, and a confused unclear job description symbol. On the empty side sits a tiny support icon. The scene conveys the main workplace conditions that gradually lead to professional burnout."
+    },
+    {
+      "filename": "psychology_burnout_3.png",
+      "alt": "Як відновитися від вигорання",
+      "section": "Як відновитися",
+      "prompt": "A tired person takes four recovery steps shown in sequence: sleeping a full night restfully, handing over tasks to a colleague to reduce load, taking a proper break away from a desk, and going for a walk outdoors. A battery icon gradually refills across the steps. The scene conveys a systematic approach to recovering from professional burnout."
+    },
+    {
+      "filename": "psychology_burnout_4.png",
+      "alt": "Профілактика вигорання",
+      "section": "Профілактика вигорання",
+      "prompt": "A person plans a realistic weekly schedule with buffer time and a clearly blocked rest day. They relax on a sofa without guilt while a task icon fades. A small group of friends share a meal. A manager and employee talk openly at a desk. The scene conveys daily habits that prevent professional burnout from developing."
+    },
+    {
+      "filename": "transport_insurance_1.png",
+      "alt": "ОСЦПВ — автоцивілка",
+      "section": "ОСЦПВ – обов'язкова автоцивілка",
+      "prompt": "A car at the center of a road scene. An arrow from the car points to a shield covering another vehicle and a pedestrian — not the owner's car itself. A crossed-out car represents driving without this policy. A phone shows the policy being purchased digitally. The scene conveys that mandatory car liability insurance protects OTHER people you may injure — not your own vehicle."
+    },
+    {
+      "filename": "transport_insurance_2.png",
+      "alt": "КАСКО",
+      "section": "КАСКО – добровільне страхування",
+      "prompt": "A car is shown in three accident scenarios: a fender collision, a car theft with broken window, and a fallen tree on the hood. A protective shield covers the owner's car in each scenario. A tow truck and a repair shop appear in the background. The scene conveys that full voluntary car insurance covers damage to your own vehicle in various situations."
+    },
+    {
+      "filename": "transport_insurance_3.png",
+      "alt": "Міні-КАСКО",
+      "section": "Міні-КАСКО",
+      "prompt": "Two insurance shields side by side: a large full shield on the left covering many risk icons, and a smaller simplified shield on the right covering only the main risks — theft and total destruction. The smaller shield has a significantly lower price tag. An older used car is shown with the smaller shield. The scene conveys mini-comprehensive insurance as a budget alternative for used vehicles."
+    },
+    {
+      "filename": "transport_insurance_4.png",
+      "alt": "Як обрати страхову компанію",
+      "section": "Як обрати страхову компанію",
+      "prompt": "A person researches insurance companies on a laptop: a license badge icon is verified, customer star reviews are read, a speed-of-payment clock is noted. A suspicious too-cheap price tag glows with a warning. A company checklist shows: online registration, app support, round-the-clock help, claims portal. The scene conveys how to evaluate and choose a reliable car insurance company."
+    },
+    {
+      "filename": "transport_license_1.png",
+      "alt": "Медична довідка та автошкола",
+      "section": "Як отримати водійське посвідчення",
+      "prompt": "A two-step driving license journey: on the left, a person at a medical clinic receives a health certificate after an examination. On the right, a driving school classroom shows a theory lesson, then a student behind a steering wheel with an instructor. A duration arc icon shows the training period. The scene conveys the first two steps toward getting a driver's license."
+    },
+    {
+      "filename": "transport_license_2.png",
+      "alt": "Підготовка до теорії та іспити",
+      "section": "Підготовка до теорії та іспити",
+      "prompt": "A person studies traffic rules using a phone quiz app, reviewing and correcting mistakes. Then an examination room scene: a computer with a multiple-choice question test on screen, followed by a driving practical exam with a car on a road course and an examiner with a clipboard. The scene conveys the two-stage exam process for a driver's license."
+    },
+    {
+      "filename": "transport_license_3.png",
+      "alt": "Інструктор та вартість",
+      "section": "Інструктор та вартість",
+      "prompt": "A driving instructor sits in a teaching car beside a student driver, calmly guiding with gestures. A second scene shows a person browsing private instructor listings on a laptop. A budget planning sheet with several cost category icons sits beside the scenes. The scene conveys finding a driving instructor and planning the realistic total cost of getting a driver's license."
+    },
+    {
+      "filename": "transport_license_4.png",
+      "alt": "Отримання посвідчення",
+      "section": "Отримання посвідчення",
+      "prompt": "A person stands at a government transport service desk and submits a document folder. The staff member hands over a freshly issued driver's license card. The folder on the desk contains: an ID card, a tax code card, a medical certificate, and a payment receipt. The scene conveys the final step of receiving an official driver's license after passing all exams."
+    },
+    {
+      "filename": "work-interview_1.png",
+      "alt": "Як поводитись на співбесіді",
+      "section": "Як поводитись на співбесіді",
+      "prompt": "A job candidate sits calmly across from an interviewer, speaking in a structured and confident manner. In a speech bubble floats a simple story arc: a challenge icon, a solution icon, a team collaboration icon. The candidate holds their own printed resume. The scene conveys how to answer interview questions clearly and professionally with real experience examples."
+    },
+    {
+      "filename": "work-interview_2.png",
+      "alt": "Як менше хвилюватися",
+      "section": "Як менше хвилюватися",
+      "prompt": "A candidate at an interview imagines the scene as a friendly conversation between two equal people — a dialogue bubble replaces the formal exam setting in their mind. They sit with relaxed posture, silently reminding themselves they are also evaluating the employer. A small note with prepared answers sits in their bag. The scene conveys techniques for reducing interview anxiety."
+    },
+    {
+      "filename": "work-interview_3.png",
+      "alt": "Що питати роботодавця",
+      "section": "Що варто питати роботодавця",
+      "prompt": "A candidate leans forward with a notepad and asks the interviewer questions shown as floating icons: a clock (schedule), a laptop (remote/office format), a task board (duties), and a contract (official employment). A separate warning icon shows red flags: a suspiciously large unpaid test task and vague 'do everything' job description. The scene conveys smart questions to ask and warning signs to watch for in an interview."
+    },
+    {
+      "filename": "work_resume_1.png",
+      "alt": "Структура резюме",
+      "section": "Основна структура резюме",
+      "prompt": "A clean single-page resume document is displayed with clearly separated sections visible as labeled blocks: a name/contact block at top, a short summary block, a work experience block, an education block, and a skills block. Everything uses one consistent font and simple layout. The scene conveys the ideal structure of a clear and easy-to-read resume."
+    },
+    {
+      "filename": "work_resume_2.png",
+      "alt": "Короткий опис про себе",
+      "section": "Короткий опис про себе",
+      "prompt": "A person writes a focused two-to-three sentence professional summary on a laptop. Three guiding icons float above the text: a person icon (who you are), a briefcase (your experience), and a star (your strength). An employer on the other side of the screen reads it with attention. The scene conveys writing a specific and tailored professional profile block for a resume."
+    },
+    {
+      "filename": "work_resume_3.png",
+      "alt": "Досвід роботи",
+      "section": "Досвід роботи",
+      "prompt": "A reverse-chronological work history shown on a resume: most recent job at top, earlier jobs below, each with a company icon, a role title, a calendar period, and a result-focused achievement icon beside it. An arrow shows the action-to-result pattern. The scene conveys how to correctly structure and present work experience on a resume."
+    },
+    {
+      "filename": "work_resume_4.png",
+      "alt": "Типові помилки в резюме",
+      "section": "Типові помилки в резюме",
+      "prompt": "A cluttered resume page with red warning marks over six common mistakes: overflowing text blocks, multiple mismatched fonts and colors, a low-quality blurry photo, an unprofessional email icon, missing skills section, and a generic identical copy for every job. The scene conveys the typical resume errors that make it harder for employers to notice a candidate."
+    }
+  ]
+}

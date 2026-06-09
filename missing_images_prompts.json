@@ -1,0 +1,670 @@
+{
+  "style_base": "NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS, NO LABELS anywhere in the image. Flat 2D anime-style educational illustration, very light periwinkle lavender BRICK WALL TEXTURE background, soft muted lavender-blue overall color palette, muted purple-blue shadows, anime-style characters in light blue-grey clothing. NOT photorealistic, NOT 3D render, 2D flat digital illustration, Freepik flat illustration style.",
+
+  "prompt_template": "NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS, NO LABELS anywhere in the image. Flat 2D anime-style educational illustration. [CONTENT]. Style: very light periwinkle lavender BRICK WALL TEXTURE background, soft muted lavender-blue overall color palette tinting everything, muted purple-blue shadows, anime-style characters in light blue-grey clothing. NOT photorealistic, NOT 3D render, 2D flat digital illustration. Freepik flat illustration style. ZERO text or numbers anywhere.",
+
+  "total_missing": 110,
+
+  "images": [
+    {
+      "filename": "documents_notarial_1.png",
+      "alt": "Коли потрібен нотаріус",
+      "section": "Коли потрібен нотаріус",
+      "prompt": "A professional notary sitting at a desk with an official stamp, sealed envelopes, and important papers. A client signs a document across the desk. Shelves with thick legal books behind them. The scene conveys official certification and legal trust."
+    },
+    {
+      "filename": "documents_notarial_2.png",
+      "alt": "Довіреність",
+      "section": "Довіреність: що це і як оформити",
+      "prompt": "One person hands a sealed official document to another person with a handshake of trust. An ID card and a notary stamp sit on the desk between them. The scene conveys delegating authority to act on someone's behalf."
+    },
+    {
+      "filename": "documents_notarial_3.png",
+      "alt": "Засвідчення копій",
+      "section": "Засвідчення копій документів",
+      "prompt": "An original document and its certified copy lie side by side on a desk. A notary presses an official stamp onto the copy. A smartphone nearby shows a government app screen. The scene conveys official document verification."
+    },
+    {
+      "filename": "documents_notarial_4.png",
+      "alt": "Як знайти нотаріуса",
+      "section": "Як знайти нотаріуса і скільки це коштує",
+      "prompt": "A person searches for a nearby notary office on a phone map. A small notary office building appears in the background. Gold coins float beside a receipt to represent service fees. The scene conveys finding and budgeting for notary services."
+    },
+    {
+      "filename": "everyday_home_kit_1.png",
+      "alt": "Кухня",
+      "section": "Кухня — базовий набір для дому",
+      "prompt": "A tidy kitchen counter displays essential first-home cookware: pots, a pan, a chef's knife, cutting board, plates, mugs, an electric kettle, and sealed food containers — all neatly arranged. The scene conveys setting up a kitchen for the very first time."
+    },
+    {
+      "filename": "everyday_home_kit_2.png",
+      "alt": "Прибирання та гігієна",
+      "section": "Прибирання та гігієна",
+      "prompt": "A shelf holds all the essential home cleaning supplies: sponges, cloths, dish soap, all-purpose spray, trash bags, a mop, shampoo, bar soap, and a roll of toilet paper — everything neatly grouped. The scene conveys a complete beginner cleaning kit."
+    },
+    {
+      "filename": "everyday_home_kit_3.png",
+      "alt": "Спальня та ванна кімната",
+      "section": "Спальня та ванна кімната",
+      "prompt": "Left side: a cozy bed with a pillow, blanket, and neatly folded bed linen set. Right side: a bathroom shelf with two body towels, a hand towel, and a laundry basket below. The scene conveys the essential bedroom and bathroom starter items."
+    },
+    {
+      "filename": "everyday_home_kit_4.png",
+      "alt": "Інструменти та корисні дрібниці",
+      "section": "Інструменти та корисні дрібниці",
+      "prompt": "A small open toolbox on a table reveals screwdrivers, a tape measure, a roll of tape, a flashlight, and two spare light bulbs. A person reaches for a screwdriver. The scene conveys the basic home tool set every new resident needs."
+    },
+    {
+      "filename": "everyday_home_kit_5.png",
+      "alt": "Аптечка",
+      "section": "Аптечка",
+      "prompt": "An open first-aid box on a table shows antiseptic spray, bandages, sterile gauze pads, a thermometer, and medicine blister packs. The scene conveys a complete home first-aid kit for everyday emergencies."
+    },
+    {
+      "filename": "everyday_home_kit_6.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — базовий набір для дому",
+      "prompt": "A clipboard shows a checklist with soft checkmark icons next to illustrated items: cookware, a mop, folded linen, a flashlight, a screwdriver, and a first-aid box — all checked off. The scene conveys a complete home setup checklist."
+    },
+    {
+      "filename": "everyday_washing_5.png",
+      "alt": "Догляд за пральною машиною",
+      "section": "Догляд за пральною машиною",
+      "prompt": "A person maintains a washing machine: the drum door stands open to ventilate, hands clean the lint filter below, and a cloth wipes the detergent drawer. The scene conveys simple regular washing machine care to extend its life."
+    },
+    {
+      "filename": "everyday_washing_6.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — прання",
+      "prompt": "A clipboard checklist with checkmark icons beside small illustrations: sorted piles of clothes by color, a closed zipper, a care label tag, a detergent bottle, a laundry basket, and a clean washing machine with its door ajar. The scene conveys the complete laundry routine."
+    },
+    {
+      "filename": "finance_savings_1.png",
+      "alt": "З чого почати накопичувати",
+      "section": "З чого почати накопичувати",
+      "prompt": "A person drops a gold coin into a piggy bank. Next to them a phone shows an auto-transfer app screen with a recurring schedule arrow. A small pile of coins grows steadily beside the piggy bank. The scene conveys building a saving habit through small regular contributions."
+    },
+    {
+      "filename": "finance_savings_2.png",
+      "alt": "Фінансова подушка безпеки",
+      "section": "Фінансова подушка безпеки",
+      "prompt": "A protective shield hovers above a soft cushion made of stacked coins. A separate savings card lies beside it. Around the scene: a medicine bottle, a broken gadget, and a briefcase — representing unexpected life expenses. The scene conveys building a financial safety reserve."
+    },
+    {
+      "filename": "finance_savings_3.png",
+      "alt": "Накопичення на конкретні цілі",
+      "section": "Накопичення на конкретні цілі",
+      "prompt": "Four labeled glass jars sit in a row, each with a different goal icon on top: a graduation cap, a laptop, an airplane, and a house. Coins fill each jar to different levels. The scene conveys saving money toward specific personal goals."
+    },
+    {
+      "filename": "finance_savings_4.png",
+      "alt": "Де зберігати заощадження",
+      "section": "Де зберігати заощадження",
+      "prompt": "Three saving options displayed side by side: a savings account bank card, a sealed bank deposit envelope, and two currency coins of different kinds. A person stands thoughtfully in the center, weighing the options. The scene conveys choosing the right place to keep savings."
+    },
+    {
+      "filename": "finance_taxes_1.png",
+      "alt": "Основні податки",
+      "section": "Які податки платить звичайна людина",
+      "prompt": "A salary coin stack on the left splits into three separate smaller coin piles via arrows — representing automatic tax deductions flowing away before the money reaches a person's wallet on the right. The scene conveys how income taxes are automatically taken from official employment earnings."
+    },
+    {
+      "filename": "finance_taxes_2.png",
+      "alt": "ФОП",
+      "section": "ФОП: коли і навіщо реєструватися",
+      "prompt": "A freelancer sits at a laptop completing an online business registration on a government portal. A certificate icon appears on screen. A phone shows a government app confirming the registration. The scene conveys self-employed people registering legally to work independently."
+    },
+    {
+      "filename": "finance_taxes_3.png",
+      "alt": "Податкова декларація",
+      "section": "Коли подавати декларацію",
+      "prompt": "A person submits a tax declaration through a government website on a laptop. A calendar with a marked deadline hangs on the wall. An income document and a tax office building icon appear beside them. The scene conveys filing an annual income tax declaration on time."
+    },
+    {
+      "filename": "finance_taxes_4.png",
+      "alt": "Податкова знижка",
+      "section": "Податкова знижка: частину коштів можна повернути",
+      "prompt": "An arrow arcs from a government tax office icon back toward a person's open wallet with coins returning. Around the scene: icons for tuition, a house mortgage, and a charity heart. The scene conveys getting money back from the state through tax deduction eligibility."
+    },
+    {
+      "filename": "housing_moving_1.png",
+      "alt": "Що беремо з собою",
+      "section": "Що беремо з собою — переїзд",
+      "prompt": "An open travel bag sits on the floor, packed with moving essentials laid out beside it: a passport, a phone charger, a power bank, a small first-aid kit, a folded bedsheet, a cup, and a snack bag. The scene conveys the priority items to take when moving to a new home."
+    },
+    {
+      "filename": "housing_moving_2.png",
+      "alt": "Корисно взяти",
+      "section": "Корисно взяти — переїзд",
+      "prompt": "Cardboard boxes labeled with room icons sit stacked: one with a fork and knife (kitchen), one with a shower (bathroom), one with a moon (bedroom). Beside them: folded seasonal clothing, a small hygiene bag, and a tiny cleaning kit. The scene conveys smart packing strategy for moving."
+    },
+    {
+      "filename": "housing_moving_3.png",
+      "alt": "Лайфхаки для переїзду",
+      "section": "Лайфхаки для переїзду",
+      "prompt": "A person photographs stacked labeled boxes with a smartphone to document what was packed. Another scene shows a person using a cart to move heavy boxes carefully. The scene conveys useful moving day tips to stay organized and avoid injury."
+    },
+    {
+      "filename": "kitchen_basics_1.png",
+      "alt": "Організація холодильника",
+      "section": "Організація холодильника",
+      "prompt": "An open well-organized refrigerator: older items sit at the front, fresh items behind, food stored in sealed containers, shelves uncluttered with space for airflow. A person places a container in the correct spot. The scene conveys smart fridge organization to keep food fresh longer."
+    },
+    {
+      "filename": "kitchen_basics_2.png",
+      "alt": "Готова їжа",
+      "section": "Готова їжа — зберігання",
+      "prompt": "Freshly cooked meals cool on a counter before being placed into sealed airtight containers. A refrigerator shelf holds containers arranged in order of preparation date. The scene conveys safe and organized storage of home-cooked food."
+    },
+    {
+      "filename": "kitchen_basics_3.png",
+      "alt": "Заморожування",
+      "section": "Заморожування продуктів",
+      "prompt": "An open freezer compartment shows neatly portioned food in separate sealed bags: raw meat, fish fillets, frozen vegetables, sliced bread, and a container of ready-made soup. The scene conveys portioning food for the freezer to extend shelf life."
+    },
+    {
+      "filename": "kitchen_basics_4.png",
+      "alt": "Як менше викидати їжу",
+      "section": "Як менше викидати їжу",
+      "prompt": "A person checks the fridge before going to the store, then writes a shopping list based only on what is missing. A calendar shows a simple weekly meal plan. A plate shows food being used before it expires. The scene conveys reducing food waste through planning."
+    },
+    {
+      "filename": "kitchen_basics_5.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — зберігання продуктів",
+      "prompt": "A clipboard checklist with checkmarks beside icons: a fridge, a sealed container, an arrow showing older items first, a snowflake freezer symbol, and a shopping cart. The scene conveys a complete food storage and shopping routine."
+    },
+    {
+      "filename": "kitchen_breakfasts_1.png",
+      "alt": "Склади власний набір продуктів",
+      "section": "Склади власний набір продуктів — сніданок",
+      "prompt": "A kitchen counter displays a personal breakfast pantry: a carton of eggs, a bread loaf, a block of cheese, a yogurt cup, a jar of oats, seasonal fruits in a bowl, and a small nut bag. The scene conveys building a simple home breakfast staples set."
+    },
+    {
+      "filename": "kitchen_breakfasts_2.png",
+      "alt": "Варіанти на кожен день",
+      "section": "Варіанти на кожен день — сніданок",
+      "prompt": "Two breakfast scenes side by side: on the left, a very quick breakfast tray with toast, yogurt, and a banana; on the right, a slightly more prepared plate with a soft omelette, warm oatmeal bowl, and a hot sandwich. The scene conveys flexible everyday breakfast options for any schedule."
+    },
+    {
+      "filename": "kitchen_breakfasts_3.png",
+      "alt": "Як заощадити час і гроші",
+      "section": "Як заощадити час і гроші — сніданок",
+      "prompt": "A person writes a shopping list at home before going to the store, referencing the fridge contents. A wall shelf shows long-lasting staple products stocked up. A clock beside them shows time saved. The scene conveys planning breakfast purchases in advance to save time and money."
+    },
+    {
+      "filename": "kitchen_breakfasts_4.png",
+      "alt": "Якщо зовсім немає часу",
+      "section": "Якщо зовсім немає часу — сніданок",
+      "prompt": "A person rushing in the morning quickly grabs a yogurt cup, a banana, and a wrapped sandwich from the fridge. A clock on the wall shows early morning. The scene conveys eating something simple rather than skipping breakfast entirely when short on time."
+    },
+    {
+      "filename": "kitchen_breakfasts_5.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — сніданок",
+      "prompt": "A clipboard checklist with checkmarks beside icons: a grocery bag, a calendar plan, a simple plate, a fridge, and a recurring breakfast plate repeated across a week. The scene conveys a simple routine for easy morning meals."
+    },
+    {
+      "filename": "kitchen_lunches_1.png",
+      "alt": "Формула простого обіду",
+      "section": "Формула простого обіду",
+      "prompt": "A plate divided into three zones: one with a protein source (eggs and a chicken piece), one with a grain side dish (rice and pasta), and one with mixed vegetables. Arrows connect the zones showing endless meal combinations. The scene conveys the simple three-component formula for easy home lunches."
+    },
+    {
+      "filename": "kitchen_lunches_2.png",
+      "alt": "Що варто тримати вдома",
+      "section": "Що варто тримати вдома — обіди",
+      "prompt": "A pantry shelf is stocked with lunch staples: rice, buckwheat, pasta, a carton of eggs, bags of frozen vegetables, cans of beans and tuna, bulbs of garlic, onions, a spice rack, and a bottle of oil. The scene conveys keeping the right pantry basics to always cook a meal without delivery."
+    },
+    {
+      "filename": "kitchen_lunches_3.png",
+      "alt": "Як витрачати менше часу",
+      "section": "Як витрачати менше часу — обіди",
+      "prompt": "A person cooks a large pot of food that fills multiple identical containers at once. A bag of frozen vegetables goes directly from freezer to pan. Finished containers line up in the fridge. The scene conveys batch cooking and using frozen vegetables to save cooking time during the week."
+    },
+    {
+      "filename": "kitchen_lunches_4.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — обіди",
+      "prompt": "A clipboard checklist with checkmark icons beside illustrations: a grain bag, a protein source, a stack of meal prep containers in a fridge, a snowflake freezer reserve, and a shopping cart with a list. The scene conveys a simple home lunch planning routine."
+    },
+    {
+      "filename": "medicine_book_1.png",
+      "alt": "Що таке медична книжка",
+      "section": "Що таке медична книжка і кому вона потрібна",
+      "prompt": "A medical health booklet document lies on a desk. Around it are small profession icons: a chef's toque hat, a teacher's graduation cap, a nurse's cross badge, and a salesperson's apron. An official health stamp sits on top of the booklet. The scene conveys who needs a medical health record for their job."
+    },
+    {
+      "filename": "medicine_book_2.png",
+      "alt": "Де оформити медичну книжку",
+      "section": "Де оформити медичну книжку",
+      "prompt": "A person at a medical clinic reception desk presents their personal ID document. A clinic building with a red health cross on its facade is visible in the background. A doctor waits at a consultation desk. The scene conveys going to a licensed medical center to obtain a health record booklet."
+    },
+    {
+      "filename": "medicine_book_3.png",
+      "alt": "Що входить у медогляд",
+      "section": "Що входить у медогляд",
+      "prompt": "A flow of medical examination steps shown as connected icons: a stethoscope (general doctor), a chest X-ray frame, blood test tubes, a urine sample cup, and a dermatologist examining skin. Arrows connect each step. The scene conveys the typical sequence of a professional medical checkup."
+    },
+    {
+      "filename": "medicine_book_4.png",
+      "alt": "Терміни дії медкнижки",
+      "section": "Терміни дії та переоформлення",
+      "prompt": "A medical booklet sits beside a yearly circular renewal calendar with a loop arrow. A doctor adds a new stamp to it. A person carries the same booklet while walking between two office buildings. The scene conveys that a medical booklet requires regular renewal and stays with the employee."
+    },
+    {
+      "filename": "medicine_faq_1.png",
+      "alt": "Запис до лікаря",
+      "section": "Як записатись до лікаря",
+      "prompt": "Three ways to book a doctor shown side by side: a smartphone with a medical booking app, a classic telephone handset, and a person walking into a clinic reception. A calendar icon marks a confirmed appointment date. The scene conveys the different ways to schedule a medical visit."
+    },
+    {
+      "filename": "medicine_faq_2.png",
+      "alt": "Аналізи та обстеження",
+      "section": "Як здати аналізи безкоштовно",
+      "prompt": "A family doctor issues an electronic referral on a tablet. A patient arrives at a state clinic where a nurse draws blood and a technician prepares an ECG machine — all at no cost. The scene conveys getting free medical tests through a referral from a family doctor."
+    },
+    {
+      "filename": "medicine_faq_3.png",
+      "alt": "Довідки",
+      "section": "Як отримати довідку",
+      "prompt": "A doctor hands out three different sealed medical certificate envelopes to three different people: a student, a person with a car key, and an athlete in sportswear. The scene conveys that different medical certificates are issued to different people for different life purposes."
+    },
+    {
+      "filename": "medicine_faq_4.png",
+      "alt": "Лікарняний",
+      "section": "Лікарняний: що потрібно знати",
+      "prompt": "A sick person wrapped in a scarf sits across from a doctor who types on a computer to issue an electronic sick leave. A transfer arrow flows from the computer to a briefcase representing the employer — all automatic. The scene conveys how electronic sick leave is created and sent to the employer without paper."
+    },
+    {
+      "filename": "medicine_faq_5.png",
+      "alt": "Права пацієнта",
+      "section": "Базові права пацієнта",
+      "prompt": "A patient and doctor sit in a consultation room. Around the patient float soft icons: a speech bubble (right to explanation), a question mark (right to ask), a padlock (confidentiality), and two doctors (right to a second opinion). The scene conveys a patient's fundamental rights during a medical visit."
+    },
+    {
+      "filename": "psychology_anxiety_5.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — тривожність",
+      "prompt": "A clipboard checklist with checkmarks beside calm icons: a sleeping moon (rest), a crossed-out news phone (limit news), running shoes (physical activity), a pause button (take breaks), a magnifying eye (self-awareness), and a gentle therapist figure. The scene conveys a personal anxiety management routine."
+    },
+    {
+      "filename": "psychology_boundaries_1.png",
+      "alt": "Якими бувають особисті межі",
+      "section": "Якими бувають особисті межі",
+      "prompt": "A person stands calmly at the center of a soft glowing circle representing personal space. Around the outside of the circle float icons: a hand for physical space, a lock for personal info, a clock for time, a heart for emotions, a phone for digital life, and coins for finances. The scene conveys the different domains of personal boundaries."
+    },
+    {
+      "filename": "psychology_boundaries_2.png",
+      "alt": "Як сказати ні",
+      "section": "Як сказати «ні»",
+      "prompt": "A person calmly raises an open palm toward another person who reaches forward with a request. Both look relaxed and respectful — no conflict. The scene conveys politely and confidently declining a request while maintaining a friendly relationship."
+    },
+    {
+      "filename": "psychology_boundaries_3.png",
+      "alt": "Якщо твої межі порушують",
+      "section": "Якщо твої межі порушують",
+      "prompt": "Two people face each other in a calm conversation. A soft transparent line between them shows a personal boundary. One person gestures clearly and gently while the other listens. The scene conveys calmly explaining your boundaries when they have been crossed."
+    },
+    {
+      "filename": "psychology_boundaries_4.png",
+      "alt": "Межі на роботі",
+      "section": "Межі на роботі",
+      "prompt": "A person at a desk holds up a calm stopping-hand gesture toward a stack of extra tasks being handed over by a colleague. A wall clock divides into work time and personal time. The scene conveys setting realistic workload limits and protecting personal time at work."
+    },
+    {
+      "filename": "psychology_boundaries_5.png",
+      "alt": "Межі в родині та близьких стосунках",
+      "section": "Межі в родині та близьких стосунках",
+      "prompt": "A young adult sits across from older family members in a warm living room, speaking calmly and directly while the others listen with respect. A soft heart icon with a gentle boundary line hovers between them. The scene conveys honest and caring communication of personal needs within a family."
+    },
+    {
+      "filename": "psychology_boundaries_6.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — особисті межі",
+      "prompt": "A clipboard checklist with checkmarks beside icons: a mirror for self-awareness, a direct speech arrow, a crossed-out apologetic figure, two hands shaking for mutual respect, a consistent repeating arrow, and a pair of figures with a question mark reviewing the relationship. The scene conveys a personal boundaries maintenance checklist."
+    },
+    {
+      "filename": "psychology_planning_1.png",
+      "alt": "Постановка цілей",
+      "section": "Постановка цілей",
+      "prompt": "A person writes specific goals on a notepad. Next to each written point floats a clear icon: an open book, running shoes, a coin, and a laptop with a checkmark. Each goal is concrete and visual rather than vague. The scene conveys turning abstract intentions into specific actionable goals."
+    },
+    {
+      "filename": "psychology_planning_2.png",
+      "alt": "Планування тижня",
+      "section": "Планування тижня",
+      "prompt": "A weekly planner grid shows just two or three highlighted priority items per day, with open free time slots and a clearly marked rest day. The planner is not overcrowded. The scene conveys focused weekly planning with realistic priorities and built-in rest."
+    },
+    {
+      "filename": "psychology_planning_3.png",
+      "alt": "Як боротися з відкладанням справ",
+      "section": "Як боротися з відкладанням справ",
+      "prompt": "A large boulder labeled with an overwhelming task icon sits at the top of a staircase. A person confidently takes the very first small step upward. A phone lies face-down on a desk to avoid distraction. A small sand timer sits nearby. The scene conveys breaking a big task into small steps to overcome procrastination."
+    },
+    {
+      "filename": "psychology_planning_4.png",
+      "alt": "Баланс між справами та відпочинком",
+      "section": "Баланс між справами та відпочинком",
+      "prompt": "A balanced scale: on one side a stack of work and task icons, on the other a cup of tea, a book, and a friend chat bubble representing rest and hobbies. Both sides sit perfectly level. The scene conveys that rest and leisure are equally important as productivity."
+    },
+    {
+      "filename": "psychology_planning_5.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — планування",
+      "prompt": "A clipboard checklist with checkmarks beside icons: a target for a specific goal, a star for top priorities, a staircase for task breakdown, a sofa for rest, a calendar that is not overcrowded, and a circular review arrow. The scene conveys a healthy life planning habit."
+    },
+    {
+      "filename": "safety_air_alert_1.png",
+      "alt": "Якщо ти вдома",
+      "section": "Якщо ти вдома — повітряна тривога",
+      "prompt": "A person quickly moves away from a large window toward an interior room with two walls between them and the outside. They carry a phone and a small document bag. An elevator with a crossed-out symbol reminds them to use the stairs. The scene conveys safe in-home behavior during an air alert."
+    },
+    {
+      "filename": "safety_air_alert_2.png",
+      "alt": "Якщо ти на вулиці",
+      "section": "Якщо ти на вулиці — повітряна тривога",
+      "prompt": "A person on the street runs toward an underground shelter entrance. Around them: a crossed-out glass building facade, a crossed-out bus stop shelter, and a crossed-out raised phone (no filming). The scene conveys the correct outdoor behavior when an air alert sounds."
+    },
+    {
+      "filename": "safety_air_alert_3.png",
+      "alt": "Якщо ти на роботі або навчанні",
+      "section": "Якщо ти на роботі або навчанні — повітряна тривога",
+      "prompt": "A group of employees and students follow an appointed safety person down a stairwell toward a basement shelter. Everyone moves calmly and orderly. The scene conveys organized workplace and school evacuation to a designated shelter during an air alert."
+    },
+    {
+      "filename": "safety_air_alert_4.png",
+      "alt": "Тривожна валіза",
+      "section": "Тривожна валіза",
+      "prompt": "An open emergency backpack with its contents spread around it: a passport, cash, a phone charger, a power bank, a water bottle, an energy bar, a small first-aid kit, a flashlight, and a folded warm sweater. The scene conveys a fully prepared emergency go-bag."
+    },
+    {
+      "filename": "safety_air_alert_5.png",
+      "alt": "Після відбою",
+      "section": "Після відбою — повітряна тривога",
+      "prompt": "A person receives a green all-clear notification on their phone while still inside the shelter. They carefully step outside, scanning for any unusual objects on the ground before proceeding. The scene conveys safely exiting shelter only after an official all-clear signal."
+    },
+    {
+      "filename": "safety_air_alert_6.png",
+      "alt": "Короткий чеклист",
+      "section": "Короткий чеклист — повітряна тривога",
+      "prompt": "A clipboard checklist with checkmarks beside icons: an alert bell (do not ignore), an arrow toward an underground shelter, a two-wall diagram, a ready backpack, and a green confirmed signal on a phone. The scene conveys the key actions to take during an air alert."
+    },
+    {
+      "filename": "safety_contacts_1.png",
+      "alt": "Основні номери екстрених служб",
+      "section": "Основні номери екстрених служб",
+      "prompt": "A smartphone screen displays five emergency service icons arranged in a column: a universal emergency phone icon, a fire truck, a police badge, an ambulance cross, and a gas flame with a wrench — each with a different color indicator dot. The scene conveys knowing which emergency service handles which type of crisis."
+    },
+    {
+      "filename": "safety_contacts_2.png",
+      "alt": "Як викликати допомогу",
+      "section": "Як викликати допомогу",
+      "prompt": "A calm person holds a phone to their ear and gestures with one hand to indicate a location. A speech bubble shows a map pin, a stick figure person, and a phone icon — conveying the key information to give. The scene conveys staying calm and giving clear information when calling emergency services."
+    },
+    {
+      "filename": "safety_contacts_3.png",
+      "alt": "Контакти, які варто зберегти заздалегідь",
+      "section": "Контакти, які варто зберегти заздалегідь",
+      "prompt": "A phone contacts list displays four saved contact cards each with an icon: a family member silhouette, a house for the landlord, an apartment building for the building manager, and a city emergency icon. The scene conveys keeping important non-emergency contacts ready before a crisis happens."
+    },
+    {
+      "filename": "safety_contacts_4.png",
+      "alt": "Підготуйся заздалегідь",
+      "section": "Підготуйся заздалегідь — екстрені контакти",
+      "prompt": "A person sets up their phone: saving an emergency contact, enabling the SOS shortcut in settings. Beside them, a notepad with important phone numbers written down in pen. Two family members on small screens connect with each other. The scene conveys preparing for emergencies before they happen."
+    },
+    {
+      "filename": "safety_fire_1.png",
+      "alt": "Перші дії при пожежі",
+      "section": "Перші дії при пожежі",
+      "prompt": "A person spots smoke in a kitchen and immediately reaches for a wall phone to call emergency services. Another figure alerts a neighbor in the hallway. A small fire extinguisher is used on a contained stovetop flame. The scene conveys the first calm and decisive actions when spotting a fire."
+    },
+    {
+      "filename": "safety_fire_2.png",
+      "alt": "Як евакуюватися",
+      "section": "Як евакуюватися — пожежа",
+      "prompt": "A person crouches low beneath a thick smoke line and moves down a staircase — a crossed-out elevator beside them. They pull a door shut behind them as they exit. An emergency exit sign glows green above the stairwell. The scene conveys the correct way to evacuate a building during a fire."
+    },
+    {
+      "filename": "safety_fire_3.png",
+      "alt": "Якщо вихід заблокований",
+      "section": "Якщо вихід заблокований — пожежа",
+      "prompt": "A person pushes a rolled cloth under a closed door to block smoke, calls rescuers on a phone, and waves a cloth from the window. A crossed-out bathroom and closet show places to avoid hiding. The scene conveys how to survive trapped in a room during a fire."
+    },
+    {
+      "filename": "safety_fire_4.png",
+      "alt": "Як зменшити ризик пожежі",
+      "section": "Як зменшити ризик пожежі",
+      "prompt": "Four prevention icons in a grid: an unattended stove with a red X, an overloaded power strip with a red X, a hand installing a smoke detector on the ceiling, and a person safely unplugging an appliance. The scene conveys simple habits that reduce the risk of a home fire."
+    },
+    {
+      "filename": "transport_car_buy_1.png",
+      "alt": "Вибір авто",
+      "section": "З чого починати вибір авто",
+      "prompt": "A person at a laptop compares several used car listings. Beside the screen: a budget sheet icon showing the car purchase cost splitting into insurance, registration, and maintenance sub-costs. Three car silhouettes in a row: a small hatchback, an SUV, and a wagon. The scene conveys planning a realistic used car purchase budget."
+    },
+    {
+      "filename": "transport_car_buy_2.png",
+      "alt": "Перевірка авто",
+      "section": "Обов'язкові перевірки перед купівлею авто",
+      "prompt": "A car is elevated on a service lift while a mechanic inspects underneath. A technician presses a paint thickness meter against the car body. A laptop nearby shows a vehicle history report screen. The scene conveys the essential technical and documentary checks before buying a used car."
+    },
+    {
+      "filename": "transport_car_buy_3.png",
+      "alt": "Оформлення угоди",
+      "section": "Оформлення угоди купівлі-продажу авто",
+      "prompt": "A buyer and seller sign a vehicle purchase agreement at an official service center desk. Documents are spread out: an ID card, a vehicle registration certificate. A car key is passed across the table. The scene conveys the official legal process of completing a car purchase transaction."
+    },
+    {
+      "filename": "transport_car_buy_4.png",
+      "alt": "Ризики при купівлі авто",
+      "section": "Типові ризики та шахрайські схеми при купівлі авто",
+      "prompt": "A suspicious car seller hides a damaged car panel behind their back. A speedometer with a tampering tool shows a rolled-back odometer. A chain and padlock icon hangs over a car document indicating a financial lien. A clock shows artificial urgency pressure. The scene conveys common used car scams to watch out for."
+    },
+    {
+      "filename": "transport_public_1.png",
+      "alt": "Транспортна картка",
+      "section": "Транспортна картка — громадський транспорт",
+      "prompt": "A contactless transit card taps a metro turnstile reader with a green confirmation light. A smartphone pays via NFC at a tram door. A kiosk shows a card top-up option. A student ID transit card sits nearby. The scene conveys the convenient and cost-effective ways to pay for city public transport."
+    },
+    {
+      "filename": "transport_public_2.png",
+      "alt": "Маршрути і пересадки",
+      "section": "Як будувати маршрут — громадський транспорт",
+      "prompt": "A person holds a smartphone displaying a city map with colored public transport lines — bus, tram, and metro — with a highlighted multi-transfer route. A clock icon shows time saved. The scene conveys using a navigation app to find the fastest public transport route with transfers."
+    },
+    {
+      "filename": "transport_public_3.png",
+      "alt": "Лайфхаки транспорту",
+      "section": "Лайфхаки для щоденних поїздок",
+      "prompt": "A person sits comfortably in a metro car with wireless headphones listening to a podcast. A wall clock shows an off-peak quiet hour. A transit card with a full balance glows. A monthly pass card sits prominently beside a single-trip coin to show savings. The scene conveys smart daily commuting habits."
+    },
+    {
+      "filename": "transport_public_4.png",
+      "alt": "Міжміський транспорт",
+      "section": "Міжміські поїздки: автобус і поїзд",
+      "prompt": "A person books an intercity ticket on a phone app. A train and an intercity coach bus appear side by side outside a terminal window. A digital ticket glows on the phone screen. A calendar shows early booking with remaining seat icons running out. The scene conveys planning intercity travel by train or bus."
+    },
+    {
+      "filename": "travel_abroad_1.png",
+      "alt": "Документи",
+      "section": "Документи — поїздка за кордон",
+      "prompt": "A neat travel document wallet lies open showing: an international passport, a printed flight ticket, an insurance card, and a hotel booking printout. A visual check confirms the name on the ticket matches the passport. The scene conveys preparing and verifying all travel documents before an international trip."
+    },
+    {
+      "filename": "travel_abroad_2.png",
+      "alt": "Гроші та оплата",
+      "section": "Гроші та оплата — поїздка за кордон",
+      "prompt": "A person fans out two different bank cards and a small wallet of foreign cash. A warning icon highlights a foreign transaction fee on one card. A second backup card lies beside the main one. The scene conveys having multiple payment methods and understanding fees before traveling abroad."
+    },
+    {
+      "filename": "travel_abroad_3.png",
+      "alt": "Інтернет і зв'язок",
+      "section": "Інтернет і зв'язок — поїздка за кордон",
+      "prompt": "A person checks roaming settings on a phone, downloads an offline city map, and compares a physical SIM card against an eSIM chip icon. A signal bar indicator shows good connection. The scene conveys preparing phone connectivity options before traveling to another country."
+    },
+    {
+      "filename": "travel_abroad_4.png",
+      "alt": "Дорога та житло",
+      "section": "Дорога та житло — поїздка за кордон",
+      "prompt": "A person reviews a map route from an airport icon to a hotel building on a smartphone. The accommodation address and host contact icon are saved. A paper note with the same address sits in their bag pocket. The scene conveys planning the journey from arrival point to accommodation before landing abroad."
+    },
+    {
+      "filename": "travel_abroad_5.png",
+      "alt": "Резервні копії",
+      "section": "Резервні копії документів — поїздка за кордон",
+      "prompt": "A passport, insurance card, and flight ticket appear in two places simultaneously: on a cloud storage icon on a phone screen, and as physical printout copies in a folder. The scene conveys making backup copies of important travel documents in case the originals are lost."
+    },
+    {
+      "filename": "travel_airport_1.png",
+      "alt": "Перед поїздкою",
+      "section": "Перед поїздкою — аеропорт",
+      "prompt": "A map shows a travel route from a city to a foreign airport with road and border crossing icons. A person holds a checklist: transport to airport, overnight stay option, and extra buffer time shown as a wide clock arrow. The scene conveys the importance of planning ahead for reaching a foreign departure airport."
+    },
+    {
+      "filename": "travel_airport_2.png",
+      "alt": "Що взяти з собою",
+      "section": "Що взяти з собою — аеропорт",
+      "prompt": "A carry-on bag sits open with essential items laid out: a passport, a digital boarding pass on a phone, a bank card, a phone charger, a power bank, and a blister pack of medicine. A document pocket inside the bag highlights a separate safe spot for papers. The scene conveys packing only the essentials for an airport trip."
+    },
+    {
+      "filename": "travel_airport_3.png",
+      "alt": "Коли приїжджати",
+      "section": "Коли приїжджати в аеропорт",
+      "prompt": "A large wall clock shows the recommended early arrival margin before a flight. An airport terminal queue is visible in the background growing longer. A calm traveler arrives ahead of time and walks in smoothly. The scene conveys arriving at the airport with enough time to avoid stress at check-in."
+    },
+    {
+      "filename": "travel_airport_4.png",
+      "alt": "Що робити в аеропорту",
+      "section": "Що робити в аеропорту",
+      "prompt": "A sequential airport journey shown left to right: a departure board, a baggage drop conveyor, a security scanner arch, a passport control booth, a gate sign, and finally a person boarding a plane. Arrows connect each step. The scene conveys the typical airport journey from arrival to boarding for a first-time traveler."
+    },
+    {
+      "filename": "travel_airport_5.png",
+      "alt": "Що не можна брати в ручну поклажу",
+      "section": "Що не можна брати в ручну поклажу",
+      "prompt": "Five prohibited carry-on items displayed in a grid each with a red X circle: a pocket knife, a large liquid bottle, a gas canister, a power drill, and an oversized battery. A security scanner silhouette frames them. The scene conveys objects that are not allowed in airplane hand luggage."
+    },
+    {
+      "filename": "travel_airport_6.png",
+      "alt": "Якщо летиш лоукостером",
+      "section": "Якщо летиш лоукостером",
+      "prompt": "A low-cost airline ticket with a very small price tag on the left grows into a much larger total cost on the right after adding icons: a suitcase fee, a seat selection fee, a boarding priority fee, and an airport check-in fee. The scene conveys that budget airline tickets often have hidden extra costs."
+    },
+    {
+      "filename": "travel_airport_7.png",
+      "alt": "Якщо рейс затримали",
+      "section": "Якщо рейс затримали",
+      "prompt": "A departure board shows a flight status icon changed to a delay symbol. A person checks their phone for an airline notification. They stay seated near their gate area rather than wandering. An airline staff member stands at a service desk ready to help. The scene conveys how to handle a delayed flight calmly."
+    },
+    {
+      "filename": "travel_airport_8.png",
+      "alt": "Якщо загубився багаж",
+      "section": "Якщо загубився багаж",
+      "prompt": "A lone suitcase with a question mark sits on an empty baggage carousel. A person walks to the lost luggage service counter and shows a baggage tag to the staff member. The staff types on a computer and hands back a reference slip. The scene conveys the correct steps when checked baggage does not arrive."
+    },
+    {
+      "filename": "travel_phone_1.png",
+      "alt": "Зв'язок і eSIM",
+      "section": "Зв'язок: eSIM і роумінг",
+      "prompt": "A phone displays a settings screen with two SIM options: a physical SIM card chip and an eSIM chip symbol side by side with comparison icons. Signal bars and roaming indicators appear. A backup connectivity icon sits in the corner. The scene conveys comparing physical SIM and eSIM options to stay connected while traveling."
+    },
+    {
+      "filename": "travel_phone_2.png",
+      "alt": "Офлайн-карти та резервні копії",
+      "section": "Офлайн-карти і резервні копії",
+      "prompt": "Left: a phone downloads a city map with a progress bar — the WiFi icon shows it is done offline. Right: a cloud sync icon moves photo thumbnails and contact icons from phone to cloud storage. A padlock reminds to remember the account password. The scene conveys preparing offline maps and cloud backups before a trip."
+    },
+    {
+      "filename": "travel_phone_3.png",
+      "alt": "Захист акаунтів",
+      "section": "Захист акаунтів у подорожі",
+      "prompt": "A phone with a shield shows: a two-step login icon, a VPN on/off toggle active over a public WiFi signal, a fingerprint screen lock, and a sessions list with old devices being removed. The scene conveys securing online accounts and device access while traveling away from home."
+    },
+    {
+      "filename": "travel_phone_4.png",
+      "alt": "Додаткова підготовка",
+      "section": "Додаткова підготовка телефону до подорожі",
+      "prompt": "A travel bag contains a charger, a power bank, and a plug adapter with multiple country outlet types. A phone shows an offline downloaded boarding pass screenshot. A cloud storage icon holds a backup of documents. A phone storage gauge shows free space cleared. The scene conveys the full phone preparation checklist before a trip."
+    },
+    {
+      "filename": "travel_tickets_1.png",
+      "alt": "Де шукати квитки",
+      "section": "Де шукати квитки",
+      "prompt": "A laptop browser shows multiple flight search tabs open side by side, comparing prices with up and down arrows. An airline logo website tab is checked as the final step before purchase. A person makes a thoughtful comparison gesture. The scene conveys using multiple flight comparison sites to find the best ticket price."
+    },
+    {
+      "filename": "travel_tickets_2.png",
+      "alt": "На що звернути увагу перед купівлею",
+      "section": "На що звернути увагу перед купівлею квитків",
+      "prompt": "A ticket purchase review screen shows a checklist of icons to verify: a suitcase (baggage included or not), a carry-on bag (size limit), a return arrow (refund policy), an airport pin (correct departure airport), and a clock (transfer duration). The scene conveys the critical details to check before paying for a flight ticket."
+    },
+    {
+      "filename": "travel_tickets_3.png",
+      "alt": "Лоукостери",
+      "section": "Лоукостери: що потрібно знати",
+      "prompt": "A small initial ticket price coin grows step by step into a large coin stack as extra fee icons stack on top: a suitcase, a seat, a boarding priority badge, and a check-in desk. The scene conveys that budget airline base prices expand significantly when mandatory extras are added."
+    },
+    {
+      "filename": "travel_tickets_4.png",
+      "alt": "Безпечна купівля",
+      "section": "Безпечна купівля квитків",
+      "prompt": "A person pays for a flight ticket on a trusted official booking website using a bank card. A passport and name confirmation appear side by side to verify identity. A booking confirmation PDF downloads to their phone. A crossed-out icon shows avoiding unknown third-party money transfer apps. The scene conveys buying tickets safely online."
+    },
+    {
+      "filename": "travel_tickets_5.png",
+      "alt": "Якщо плани можуть змінитися",
+      "section": "Якщо плани можуть змінитися",
+      "prompt": "A flight ticket shows two icons: a locked padlock (non-refundable) and an unlocked padlock (flexible). A person holds a calendar with an uncertain date marked with a question mark. An insurance shield icon sits beside the flexible ticket option. The scene conveys checking refund and date-change policies when travel plans might change."
+    },
+    {
+      "filename": "work_first_week_1.png",
+      "alt": "Перший день на роботі",
+      "section": "Перший день на роботі: що важливо",
+      "prompt": "A person arrives slightly early to a new office and is greeted by the manager and two colleagues. They listen attentively while a coworker shows them around: pointing to the kitchen, restrooms, and workspace. The scene conveys absorbing the new environment and building first impressions on the first day at a new job."
+    },
+    {
+      "filename": "work_first_week_2.png",
+      "alt": "Питання до керівника",
+      "section": "Що уточнити у керівника",
+      "prompt": "A new employee sits across from their manager in a calm one-on-one meeting. The employee holds a notebook with question icons floating as speech bubbles: a target for priorities, a chat icon for communication style, a person for the contact during absence. The scene conveys asking the right clarifying questions when starting a new role."
+    },
+    {
+      "filename": "work_first_week_3.png",
+      "alt": "Адаптація в команді",
+      "section": "Адаптація в команді",
+      "prompt": "A new team member is warmly welcomed by smiling colleagues who show them to their desk. The newcomer helps a coworker carry something small. Everyone works at a comfortable, unhurried pace. The scene conveys gradually integrating into a new team through helpfulness and respect for the company culture."
+    },
+    {
+      "filename": "work_first_week_4.png",
+      "alt": "Як не вигоріти на старті",
+      "section": "Як не вигоріти на старті",
+      "prompt": "A new employee takes a proper coffee break, writes careful notes in a notebook, and focuses on completing one task thoroughly rather than rushing through many. They glance calmly at an experienced colleague without comparing themselves. The scene conveys protecting your energy and focus during the first weeks at a new job."
+    },
+    {
+      "filename": "work_red_flags_1.png",
+      "alt": "Підозрілі вакансії",
+      "section": "Підозрілі формулювання у вакансіях",
+      "prompt": "A job listing on a laptop screen has several sections highlighted with orange warning triangles: a hidden salary slot, a vague duties section, and an unrealistic income promise icon. A person squints skeptically at the screen. The scene conveys identifying suspicious warning signs in job postings."
+    },
+    {
+      "filename": "work_red_flags_2.png",
+      "alt": "Червоні прапорці на співбесіді",
+      "section": "Червоні прапорці на співбесіді",
+      "prompt": "An interview scene shows several red flag moments: an empty chair where the interviewer is very late, an interviewer asking inappropriate personal questions with a warning icon, an aggressive facial expression with a warning triangle, and vague hand gestures when answering job questions. The scene conveys recognizing unprofessional behavior during a job interview."
+    },
+    {
+      "filename": "work_red_flags_3.png",
+      "alt": "Проблемні умови роботи",
+      "section": "Проблемні умови роботи",
+      "prompt": "A work contract document shows red warning icons over several clauses: a crossed-out official stamp (unofficial employment), a cash envelope with a warning sign, a penalty icon, an overtime clock with no payment, and an empty job description section. The scene conveys identifying risky and exploitative employment conditions."
+    },
+    {
+      "filename": "work_red_flags_4.png",
+      "alt": "Що робити якщо помітив прапорці",
+      "section": "Що робити, якщо помітив «прапорці»",
+      "prompt": "A person searches company reviews on a professional platform on their laptop, reading feedback from past employees. They pause thoughtfully with a pen in hand before signing anything. A calendar shows a measured timeline with no rush. The scene conveys carefully verifying an employer's reputation before accepting a job offer."
+    }
+  ]
+}

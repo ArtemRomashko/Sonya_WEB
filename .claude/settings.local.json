@@ -29,7 +29,17 @@
       "Bash(curl -s http://localhost:8742/)",
       "WebFetch(domain:localhost)",
       "Bash(read f *)",
-      "Bash([ -f \"pages/$f\" ])"
+      "Bash([ -f \"pages/$f\" ])",
+      "Bash(pip3 show *)",
+      "Bash(curl *)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(kill 23302)",
+      "Bash(echo \"New PID: $!\")",
+      "Bash(kill 23400)",
+      "Bash(xargs -I{} basename {})",
+      "Bash(xargs -I{} rm -f assets/img/category_img/{})",
+      "Bash(python3 -u generate_images.py --only documents_notarial_2.png)",
+      "Bash(python3 -u generate_images.py --only documents_notarial_3.png)"
     ]
   }
 }
