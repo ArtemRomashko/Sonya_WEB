@@ -11,7 +11,6 @@
     <style>
       .lh-item {
         cursor: pointer;
-        user-select: none;
       }
 
       .lh-item__header {
@@ -19,6 +18,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 12px;
+        user-select: none;
       }
 
       .lh-item__title {
@@ -131,7 +131,8 @@
 
         const body = item.querySelector('.lh-item__body');
 
-        item.addEventListener('click', () => {
+        item.addEventListener('click', (e) => {
+          if (e.target.closest('.lh-item__body')) return;
           if (item.classList.contains('open')) {
             closeItem(item, body);
           } else {
