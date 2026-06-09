@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk" data-base="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Архів лайфхаків – SelfMode</title>
+
+    <link rel="icon" href="../assets/icons/Home.ico" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <style>
+      .lh-item {
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .lh-item__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .lh-item__title {
+        font-size: 1.05rem;
+        font-weight: 600;
+      }
+
+      .lh-item__arrow {
+        flex-shrink: 0;
+        font-size: 0.85rem;
+        transition: transform 0.2s ease;
+        opacity: 0.5;
+      }
+
+      .lh-item.open .lh-item__arrow {
+        transform: rotate(180deg);
+      }
+
+      .lh-item__body {
+        overflow: hidden;
+        height: 0;
+        transition: height 0.35s ease;
+      }
+
+      .lh-item__body-inner {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="site-header"></div>
+
+    <!-- MAIN -->
+    <main class="container">
+
+      <!-- PAGE HEAD -->
+      <section class="pagehead">
+        <div class="breadcrumbs">
+          <a href="../index.html">Головна</a> /
+          <a href="lifehack.html">Лайфхак дня</a> /
+          Архів
+        </div>
+
+        <h1 class="h1">Архів лайфхаків</h1>
+        <p class="lead">
+          Всі лайфхаки в одному місці. Натисни на будь-який, щоб розгорнути.
+        </p>
+
+        <div class="pills">
+          <a class="pill" href="lifehack.html">Лайфхак дня</a>
+          <a class="pill" href="guides.html">Усі гайди</a>
+        </div>
+      </section>
+
+      <!-- LIST -->
+      <section class="section">
+        <div id="archive-list" style="display: flex; flex-direction: column; gap: 12px;">
+          <!-- заповнюється через JS -->
+        </div>
+      </section>
+
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/transitions.js"></script>
+    <script src="../assets/js/lifehacks-data.js"></script>
+    <script>
+      const todayIdx = Math.floor(Date.now() / 86400000) % lifehacks.length;
+      const list = document.getElementById('archive-list');
+
+      function openItem(item, body) {
+        item.classList.add('open');
+        body.style.height = body.scrollHeight + 'px';
+        body.addEventListener('transitionend', () => {
+          if (item.classList.contains('open')) body.style.height = 'auto';
+        }, { once: true });
+      }
+
+      function closeItem(item, body) {
+        body.style.height = body.scrollHeight + 'px';
+        body.getBoundingClientRect();
+        body.style.height = '0';
+        item.classList.remove('open');
+      }
+
+      lifehacks.forEach((lh, i) => {
+        const isToday = i === todayIdx;
+        const isTomorrow = i === (todayIdx + 1) % lifehacks.length;
+        const badge = isToday ? ' <span style="opacity:0.5;font-size:0.8rem;font-weight:400">— сьогодні</span>'
+                    : isTomorrow ? ' <span style="opacity:0.5;font-size:0.8rem;font-weight:400">— завтра</span>'
+                    : '';
+
+        const item = document.createElement('div');
+        item.className = 'card feature lh-item';
+        item.innerHTML = `
+          <div class="lh-item__header">
+            <div class="lh-item__title">💡 ${lh.title}${badge}</div>
+            <div class="lh-item__arrow">▼</div>
+          </div>
+          <div class="lh-item__body">
+            <div class="lh-item__body-inner">${lh.html}</div>
+          </div>
+        `;
+
+        const body = item.querySelector('.lh-item__body');
+
+        item.addEventListener('click', () => {
+          if (item.classList.contains('open')) {
+            closeItem(item, body);
+          } else {
+            const currentOpen = list.querySelector('.lh-item.open');
+            if (currentOpen) {
+              closeItem(currentOpen, currentOpen.querySelector('.lh-item__body'));
+            }
+            openItem(item, body);
+          }
+        });
+
+        list.appendChild(item);
+      });
+    </script>
+  </body>
+</html>

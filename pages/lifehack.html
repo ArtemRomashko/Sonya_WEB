@@ -53,14 +53,14 @@
       <!-- MORE -->
       <section class="section">
         <div class="grid">
-          <a class="card category is-disabled" href="#">
+          <a class="card category" id="btn-tomorrow" href="lifehack.html?offset=1">
             <div class="category__name">Лайфхак завтра</div>
-            <div class="category__desc">Скоро зʼявиться</div>
+            <div class="category__desc">Подивитись заздалегідь</div>
           </a>
 
-          <a class="card category is-disabled" href="#">
+          <a class="card category" href="lifehacks-archive.html">
             <div class="category__name">Архів лайфхаків</div>
-            <div class="category__desc">В розробці</div>
+            <div class="category__desc">Усі лайфхаки списком</div>
           </a>
         </div>
       </section>
@@ -71,8 +71,21 @@
     <script src="../assets/js/transitions.js"></script>
     <script src="../assets/js/lifehacks-data.js"></script>
     <script>
-      const dayIndex = Math.floor(Date.now() / 86400000) % lifehacks.length;
+      const params  = new URLSearchParams(window.location.search);
+      const offset  = parseInt(params.get('offset') || '0', 10);
+      const todayIdx = Math.floor(Date.now() / 86400000) % lifehacks.length;
+      const dayIndex = (todayIdx + offset) % lifehacks.length;
       const lh = lifehacks[dayIndex];
+
+      if (offset === 1) {
+        document.querySelector('.h1').textContent = 'Лайфхак завтра';
+        document.title = 'Лайфхак завтра – SelfMode';
+        const btn = document.getElementById('btn-tomorrow');
+        btn.href = 'lifehack.html';
+        btn.querySelector('.category__name').textContent = 'Лайфхак сьогодні';
+        btn.querySelector('.category__desc').textContent = 'Повернутись до поточного';
+      }
+
       document.getElementById('lifehack-card').innerHTML =
         `<h2 class="feature__title">💡 ${lh.title}</h2>` + lh.html;
     </script>
