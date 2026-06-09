@@ -251,20 +251,6 @@ const searchIndex = [
     {
         type:     "guide",
         folder:   "guide",
-        title:    "Що робити, якщо зламали Telegram або Instagram",
-        url:      "account-hack.html",
-        keywords: "зламали акаунт telegram instagram відновити доступ пароль двофакторна безпека"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
-        title:    "Безпечні знайомства та дейтинг онлайн",
-        url:      "dating-safe.html",
-        keywords: "дейтинг знайомства онлайн безпека фейк шахрайство перша зустріч"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
         title:    "Повітряна тривога",
         url:      "safety-air-alert.html",
         keywords: "тривога укриття безпека сигнал дії підвал вулиця вдома"
@@ -282,20 +268,6 @@ const searchIndex = [
         title:    "Пожежна безпека",
         url:      "safety-fire.html",
         keywords: "пожежа евакуація вогонь 101 дим датчик вогнегасник"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
-        title:    "Б/у техніка: що перевірити перед купівлею",
-        url:      "gadgets-check-buy.html",
-        keywords: "вживана техніка телефон ноутбук перевірити купівля б/у акаунт блокування батарея"
-    },
-    {
-        type:     "guide",
-        folder:   "guide",
-        title:    "Що робити після ДТП",
-        url:      "transport-accident.html",
-        keywords: "дтп аварія що робити поліція страхова євпротокол водій кроки"
     },
     {
         type:     "guide",
@@ -393,6 +365,8 @@ function initLiveSearch() {
 
     if (!input || !container) return;
 
+    container.innerHTML = '<p style="color:rgba(255,255,255,.50)">Введіть запит — результати зʼявляться автоматично.</p>';
+
     input.addEventListener("input", () => {
         const query = input.value.toLowerCase().trim();
         container.innerHTML = "";
@@ -420,9 +394,6 @@ function initLiveSearch() {
                     </div>
                     <div class="search-card-title">
                         ${item.title}
-                    </div>
-                    <div class="search-card-keywords">
-                        ${item.keywords}
                     </div>
                 </a>
             `)

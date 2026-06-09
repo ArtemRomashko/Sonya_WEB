@@ -408,11 +408,11 @@ body.page-exit {
     line-height: 1.7;
   }
   .note{
+    border: 1px solid rgba(124,92,255,.22);
     border-left: 3px solid rgba(124,92,255,.8);
     padding: 12px 12px;
     background: rgba(124,92,255,.10);
     border-radius: 14px;
-    border: 1px solid rgba(124,92,255,.22);
     color: rgba(255,255,255,.86);
   }
   .table{
@@ -833,6 +833,18 @@ body.nav-open {
     .media-block__media {
         height: 160px;
     }
+}
+
+a.is-disabled {
+    opacity: 0.45;
+    pointer-events: none;
+    cursor: default;
+}
+
+.nav__link.is-active,
+.mobile-nav__link.is-active {
+    color: var(--text);
+    background: rgba(255,255,255,.10);
 }
 
 .extlink {

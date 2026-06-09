@@ -37,6 +37,20 @@
         <a class="mobile-nav__link" href="${base}pages/contacts.html">📬 Контакти</a>
         <a class="mobile-nav__link" href="${base}pages/search.html">🔎 Пошук</a>
     </nav>`;
+
+        // Active nav link highlighting
+        const currentPath = window.location.pathname;
+        document.querySelectorAll('.nav .nav__link, .mobile-nav__link').forEach(function (link) {
+            if (link.pathname === currentPath) {
+                link.classList.add('is-active');
+                return;
+            }
+            if (currentPath.includes('/pages/category/') && link.href.includes('categories')) {
+                link.classList.add('is-active');
+            } else if (currentPath.includes('/pages/guide/') && link.href.includes('guides')) {
+                link.classList.add('is-active');
+            }
+        });
     }
 
     const footerEl = document.getElementById('site-footer');
@@ -46,9 +60,9 @@
         <div class="container footer__inner">
             <div>© <span id="y"></span> SelfMode</div>
             <div>
-                <a class="nav__link" href="${base}pages/privacy.html">Privacy</a>
-                <a class="nav__link" href="${base}pages/terms.html">Terms</a>
-                <a class="nav__link" href="${base}pages/contacts.html">Contacts</a>
+                <a class="nav__link" href="${base}pages/privacy.html">Конфіденційність</a>
+                <a class="nav__link" href="${base}pages/terms.html">Умови</a>
+                <a class="nav__link" href="${base}pages/contacts.html">Контакти</a>
             </div>
         </div>
     </footer>`;
@@ -91,5 +105,13 @@
         mobileNav.querySelectorAll('.mobile-nav__link').forEach(function (link) {
             link.addEventListener('click', closeMenu);
         });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && burger.classList.contains('is-open')) {
+                closeMenu();
+            }
+        });
     }
+
+
 })();

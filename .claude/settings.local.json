@@ -24,7 +24,12 @@
       "Bash(read file *)",
       "Bash([ ! -f \"/Users/bigmag/Desktop/Sonya_WEB/pages/guide/$file\" ])",
       "Bash(read url *)",
-      "Bash([ ! -f \"/Users/bigmag/Desktop/Sonya_WEB/pages/category/$url\" ])"
+      "Bash([ ! -f \"/Users/bigmag/Desktop/Sonya_WEB/pages/category/$url\" ])",
+      "Bash(python3 -m http.server 8742)",
+      "Bash(curl -s http://localhost:8742/)",
+      "WebFetch(domain:localhost)",
+      "Bash(read f *)",
+      "Bash([ -f \"pages/$f\" ])"
     ]
   }
 }
