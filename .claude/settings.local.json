@@ -39,7 +39,11 @@
       "Bash(xargs -I{} basename {})",
       "Bash(xargs -I{} rm -f assets/img/category_img/{})",
       "Bash(python3 -u generate_images.py --only documents_notarial_2.png)",
-      "Bash(python3 -u generate_images.py --only documents_notarial_3.png)"
+      "Bash(python3 -u generate_images.py --only documents_notarial_3.png)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
