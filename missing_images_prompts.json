@@ -592,12 +592,6 @@
       "prompt": "A person arrives slightly early to a new office and is greeted by the manager and two colleagues. They listen attentively while a coworker shows them around: pointing to the kitchen, restrooms, and workspace. The scene conveys absorbing the new environment and building first impressions on the first day at a new job."
     },
     {
-      "filename": "work_first_week_2.png",
-      "alt": "Питання до керівника",
-      "section": "Що уточнити у керівника",
-      "prompt": "A new employee sits across from their manager in a calm one-on-one meeting. The employee holds a notebook with question icons floating as speech bubbles: a target for priorities, a chat icon for communication style, a person for the contact during absence. The scene conveys asking the right clarifying questions when starting a new role."
-    },
-    {
       "filename": "work_first_week_3.png",
       "alt": "Адаптація в команді",
       "section": "Адаптація в команді",
@@ -610,22 +604,10 @@
       "prompt": "A new employee takes a proper coffee break, writes careful notes in a notebook, and focuses on completing one task thoroughly rather than rushing through many. They glance calmly at an experienced colleague without comparing themselves. The scene conveys protecting your energy and focus during the first weeks at a new job."
     },
     {
-      "filename": "work_red_flags_1.png",
-      "alt": "Підозрілі вакансії",
-      "section": "Підозрілі формулювання у вакансіях",
-      "prompt": "A job listing on a laptop screen has several sections highlighted with orange warning triangles: a hidden salary slot, a vague duties section, and an unrealistic income promise icon. A person squints skeptically at the screen. The scene conveys identifying suspicious warning signs in job postings."
-    },
-    {
       "filename": "work_red_flags_2.png",
       "alt": "Червоні прапорці на співбесіді",
       "section": "Червоні прапорці на співбесіді",
       "prompt": "An interview scene shows several red flag moments: an empty chair where the interviewer is very late, an interviewer asking inappropriate personal questions with a warning icon, an aggressive facial expression with a warning triangle, and vague hand gestures when answering job questions. The scene conveys recognizing unprofessional behavior during a job interview."
-    },
-    {
-      "filename": "work_red_flags_3.png",
-      "alt": "Проблемні умови роботи",
-      "section": "Проблемні умови роботи",
-      "prompt": "A work contract document shows red warning icons over several clauses: a crossed-out official stamp (unofficial employment), a cash envelope with a warning sign, a penalty icon, an overtime clock with no payment, and an empty job description section. The scene conveys identifying risky and exploitative employment conditions."
     },
     {
       "filename": "work_red_flags_4.png",
@@ -740,6 +722,48 @@
       "alt": "Податкова знижка",
       "section": "Податкова знижка: частину коштів можна повернути",
       "prompt": "A hand holds an open wallet, and banknotes and coins of money are flying down into the open wallet. Simple clean minimal scene, no extra objects, no clutter. The scene conveys getting money back into your wallet."
+    },
+    {
+      "filename": "work-interview_1.png",
+      "alt": "Як поводитись на співбесіді",
+      "section": "Як поводитись на співбесіді",
+      "prompt": "A young woman in smart business clothes standing and smiling, holding a laptop and some documents in her arms. Above her head floats a thought bubble cloud, and inside that cloud she is shown standing at a table together with another woman having a job interview. Simple clean minimal scene, no extra objects, no clutter. The scene conveys preparing confidently for a job interview."
+    },
+    {
+      "filename": "work-interview_3.png",
+      "alt": "Що варто питати роботодавця",
+      "section": "Що варто питати роботодавця",
+      "prompt": "A young woman sitting at a desk in front of a laptop, crying with tears because she has too much work piled up around her. Simple clean minimal scene, no extra objects, no clutter. The scene conveys feeling overwhelmed by too much work."
+    },
+    {
+      "filename": "work_resume_3.png",
+      "alt": "Досвід роботи",
+      "section": "Досвід роботи",
+      "prompt": "A young man sitting at a desk writing his resume on a computer, looking very focused and concentrated on the screen. Simple clean minimal scene, no extra objects, no clutter. The scene conveys carefully writing a resume."
+    },
+    {
+      "filename": "work_resume_4.png",
+      "alt": "Типові помилки в резюме",
+      "section": "Типові помилки в резюме",
+      "prompt": "A single sheet of paper showing an example resume document. There is NO readable text and NO letters on it, instead the content is represented only by simple horizontal placeholder lines, as if something is written there but it is unreadable. Some of these lines are colored red, and next to the red lines there is a red exclamation mark warning symbol, pointing out mistakes in the resume. Simple clean minimal scene, no extra objects, no clutter. The scene conveys highlighting errors in a resume."
+    },
+    {
+      "filename": "work_red_flags_1.png",
+      "alt": "Підозрілі вакансії",
+      "section": "Підозрілі формулювання у вакансіях",
+      "prompt": "A young woman standing and reading a document in her hands, looking very scared and surprised with a shocked expression. Around her, five to seven red warning flags are flying in the air. Simple clean minimal scene, no extra objects, no clutter. The scene conveys spotting many red flags in a suspicious job offer."
+    },
+    {
+      "filename": "work_red_flags_3.png",
+      "alt": "Проблемні умови роботи",
+      "section": "Проблемні умови роботи",
+      "prompt": "A young woman sitting at a computer working late in an office. Behind her is a large panoramic window showing night outside. The office is dark and only a desk lamp lights up her desk. She looks exhausted with dark circles under her eyes. Above her floats a small empty open wallet, showing she is worried she has no money. Simple clean minimal scene, no extra objects, no clutter. The scene conveys being overworked and underpaid."
+    },
+    {
+      "filename": "work_first_week_2.png",
+      "alt": "Питання до керівника",
+      "section": "Що уточнити у керівника",
+      "prompt": "A young woman sitting at a desk writing notes on paper, while her boss sits across from her on the other side of the desk explaining something and talking to her. Simple clean minimal scene, no extra objects, no clutter. The scene conveys a new employee taking notes while the manager explains tasks."
     }
   ]
 }
