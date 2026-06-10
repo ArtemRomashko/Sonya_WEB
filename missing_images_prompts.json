@@ -16,12 +16,6 @@
       "prompt": "One person hands a sealed official document to another person with a handshake of trust. An ID card and a notary stamp sit on the desk between them. The scene conveys delegating authority to act on someone's behalf."
     },
     {
-      "filename": "documents_notarial_3.png",
-      "alt": "Засвідчення копій",
-      "section": "Засвідчення копій документів",
-      "prompt": "An original document and its certified copy lie side by side on a desk. A notary presses an official stamp onto the copy. A smartphone nearby shows a government app screen. The scene conveys official document verification."
-    },
-    {
       "filename": "documents_notarial_4.png",
       "alt": "Як знайти нотаріуса",
       "section": "Як знайти нотаріуса і скільки це коштує",
@@ -680,6 +674,24 @@
       "alt": "Як оплатити",
       "section": "Як оплатити",
       "prompt": "A young man standing and holding a smartphone in his hand, with a single round dollar money coin and a curved arrow beside him indicating money being sent from the phone. Simple clean minimal scene with just the man and his phone, no extra objects, no clutter. The scene conveys paying a utility bill by transferring money from a phone."
+    },
+    {
+      "filename": "doc_dia_1.png",
+      "alt": "Як створити Дія ID",
+      "section": "Як створити Дія ID",
+      "prompt": "A young man standing and holding a smartphone that displays a digital electronic passport ID card on its screen. Beside him floats a matching physical paper passport ID document of the same kind. Simple clean minimal scene with just the man, his phone and the physical document, no extra objects, no clutter. The scene conveys a digital ID inside the phone matching a physical passport."
+    },
+    {
+      "filename": "doc_dia_3.png",
+      "alt": "Цифрові документи",
+      "section": "Цифрові документи",
+      "prompt": "A laptop on a desk with its screen showing a grid of several digital document cards: an ID card, an international passport, a tax number card, a driver's license and a student card. A young boy sits next to the laptop smiling and giving a thumbs up gesture. Simple clean minimal scene with just the boy and the laptop, no extra objects, no clutter. The scene conveys digital documents stored on a laptop being convenient and approved."
+    },
+    {
+      "filename": "documents_notarial_3.png",
+      "alt": "Засвідчення копій",
+      "section": "Засвідчення копій документів",
+      "prompt": "A notary sitting at a desk pressing an official round stamp down onto an ordinary paper document. An original paper document and its paper copy lie side by side on the desk. Simple clean minimal scene focused on the notary stamping the paper document, no phone, no extra objects, no clutter. The scene conveys official notarial certification of a paper document copy."
     }
   ]
 }
