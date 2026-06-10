@@ -94,12 +94,6 @@
       "prompt": "Three saving options displayed side by side: a savings account bank card, a sealed bank deposit envelope, and two currency coins of different kinds. A person stands thoughtfully in the center, weighing the options. The scene conveys choosing the right place to keep savings."
     },
     {
-      "filename": "finance_taxes_1.png",
-      "alt": "Основні податки",
-      "section": "Які податки платить звичайна людина",
-      "prompt": "A salary coin stack on the left splits into three separate smaller coin piles via arrows — representing automatic tax deductions flowing away before the money reaches a person's wallet on the right. The scene conveys how income taxes are automatically taken from official employment earnings."
-    },
-    {
       "filename": "finance_taxes_2.png",
       "alt": "ФОП",
       "section": "ФОП: коли і навіщо реєструватися",
@@ -740,6 +734,12 @@
       "alt": "Безпека карток",
       "section": "Безпека та захист грошей",
       "prompt": "In the center a big glass jar filled with lots of money, coins and banknotes inside. The jar is wrapped and tied around with a metal chain secured by a padlock. Simple clean minimal scene, no extra objects, no clutter. The scene conveys keeping and protecting your money safe."
+    },
+    {
+      "filename": "finance_taxes_1.png",
+      "alt": "Основні податки",
+      "section": "Які податки платить звичайна людина",
+      "prompt": "On the left a boy stands holding a big stack of money in his hands. An arrow points from him to the right, and above the arrow is a percent sign symbol. The arrow leads to the same boy standing again on the right, also holding money but a noticeably smaller amount than before. Simple clean minimal scene, no extra objects, no clutter. The scene conveys that after taxes a person is left with less money."
     }
   ]
 }
