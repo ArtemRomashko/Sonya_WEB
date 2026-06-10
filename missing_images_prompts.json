@@ -728,6 +728,18 @@
       "alt": "Дебетова картка",
       "section": "Дебетова картка",
       "prompt": "A girl standing in the center holding a bank card in her hands. Around and above her are three small circular vignette pictures: a graduation cap like the ones university graduates wear, a small picture of the same girl working at a laptop, and a small picture of the same girl standing holding a shopping bag after shopping. From each of the three small pictures a green arrow points toward the bank card the girl is holding in the center. Simple clean minimal scene, no extra objects, no clutter. The scene conveys money from studies, work and spending all going onto one bank card."
+    },
+    {
+      "filename": "finance_card_3.png",
+      "alt": "Кредитна картка",
+      "section": "Кредитна картка",
+      "prompt": "A simple horizontal sequence on a plain background. On the left a bank card, then an arrow pointing right to a round clock, then another arrow pointing right to a large percent sign symbol. Simple clean minimal scene, no extra objects, no clutter. The scene conveys that a credit card accrues interest over time."
+    },
+    {
+      "filename": "finance_card_4.png",
+      "alt": "Безпека карток",
+      "section": "Безпека та захист грошей",
+      "prompt": "In the center a big glass jar filled with lots of money, coins and banknotes inside. The jar is wrapped and tied around with a metal chain secured by a padlock. Simple clean minimal scene, no extra objects, no clutter. The scene conveys keeping and protecting your money safe."
     }
   ]
 }
