@@ -716,6 +716,12 @@
       "alt": "Терміни дії медкнижки",
       "section": "Терміни дії та переоформлення",
       "prompt": "A simple horizontal sequence of three items on a plain background. On the LEFT a closed medical health record booklet that looks old and slightly worn, like a small passport-sized book with a colored cover. In the MIDDLE a round clock with a curved circular arrow drawn all the way around it, showing that a lot of time has passed. On the RIGHT another medical health record booklet of the same kind but new and fresh, the renewed one. Both left and right items are clearly the same type of small booklet. Simple clean minimal scene, no extra objects, no clutter. The scene conveys an old medical booklet being renewed into a new one after time passes."
+    },
+    {
+      "filename": "finance_budget_2.png",
+      "alt": "Як почати планувати бюджет",
+      "section": "Як почати планувати бюджет",
+      "prompt": "A boy standing in the center with both arms held out to his sides, palms facing up like balancing scales. Floating above his LEFT palm are essential needs: a small house, and food items (an apple, a fish, a can of canned food). Floating above his RIGHT palm are wants: a shiny new smartphone and a pair of new jeans with a price tag still attached. Above the boy in the center floats a dollar money sign. The boy looks thoughtful, as if deciding what to spend money on and trying to keep balance between needs and wants. Simple clean minimal scene, no extra objects, no clutter. The scene conveys balancing a budget between needs and wants."
     }
   ]
 }
