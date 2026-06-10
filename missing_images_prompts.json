@@ -424,18 +424,6 @@
       "prompt": "A buyer and seller sign a vehicle purchase agreement at an official service center desk. Documents are spread out: an ID card, a vehicle registration certificate. A car key is passed across the table. The scene conveys the official legal process of completing a car purchase transaction."
     },
     {
-      "filename": "transport_car_buy_4.png",
-      "alt": "Ризики при купівлі авто",
-      "section": "Типові ризики та шахрайські схеми при купівлі авто",
-      "prompt": "A suspicious car seller hides a damaged car panel behind their back. A speedometer with a tampering tool shows a rolled-back odometer. A chain and padlock icon hangs over a car document indicating a financial lien. A clock shows artificial urgency pressure. The scene conveys common used car scams to watch out for."
-    },
-    {
-      "filename": "transport_public_1.png",
-      "alt": "Транспортна картка",
-      "section": "Транспортна картка — громадський транспорт",
-      "prompt": "A contactless transit card taps a metro turnstile reader with a green confirmation light. A smartphone pays via NFC at a tram door. A kiosk shows a card top-up option. A student ID transit card sits nearby. The scene conveys the convenient and cost-effective ways to pay for city public transport."
-    },
-    {
       "filename": "transport_public_2.png",
       "alt": "Маршрути і пересадки",
       "section": "Як будувати маршрут — громадський транспорт",
@@ -800,6 +788,18 @@
       "alt": "Як обрати страхову компанію",
       "section": "Як обрати страхову компанію",
       "prompt": "A girl seen from behind with her back to the viewer, one hand on her chin thinking and her other arm pointing toward a board on the wall, choosing between two options. On the board stand two tall vertical rectangular cards side by side, with no writing. Inside the left card, arranged vertically from top to bottom: a small row of yellow stars (star star star) on top, and just below within the same card a small row of green rectangular dollar banknotes (banknote banknote banknote). Inside the right card, arranged vertically from top to bottom: a small row of yellow stars (star star star star star) on top, and just below within the same card a small row of green rectangular dollar banknotes (banknote banknote banknote banknote banknote). Within each card the yellow stars are directly above the green banknotes. The bottom items are flat green paper money bills, not stars. The right card has more stars and more banknotes than the left card."
+    },
+    {
+      "filename": "transport_public_1.png",
+      "alt": "Транспортна картка",
+      "section": "Транспортна картка",
+      "prompt": "A boy standing inside a metro subway station, holding up his smartphone toward the viewer and showing the screen, which displays a QR code. Simple clean minimal scene, no extra objects, no clutter. The scene conveys using a QR code on a phone to pay for public transport."
+    },
+    {
+      "filename": "transport_car_buy_4.png",
+      "alt": "Ризики при купівлі авто",
+      "section": "Ризики при купівлі авто",
+      "prompt": "On the left stands a new car. On the right two young men are talking to each other. Above one of the men a red warning flag is shown, and that same man is wearing a black balaclava mask over his face, looking like a criminal trying to sell the car illegally. The other man looks scared and worried. Simple clean minimal scene, no extra objects, no clutter. The scene conveys the risk of a scam when buying a car."
     }
   ]
 }
