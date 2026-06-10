@@ -232,18 +232,6 @@
       "prompt": "A person at a medical clinic reception desk presents their personal ID document. A clinic building with a red health cross on its facade is visible in the background. A doctor waits at a consultation desk. The scene conveys going to a licensed medical center to obtain a health record booklet."
     },
     {
-      "filename": "medicine_book_3.png",
-      "alt": "Що входить у медогляд",
-      "section": "Що входить у медогляд",
-      "prompt": "A flow of medical examination steps shown as connected icons: a stethoscope (general doctor), a chest X-ray frame, blood test tubes, a urine sample cup, and a dermatologist examining skin. Arrows connect each step. The scene conveys the typical sequence of a professional medical checkup."
-    },
-    {
-      "filename": "medicine_book_4.png",
-      "alt": "Терміни дії медкнижки",
-      "section": "Терміни дії та переоформлення",
-      "prompt": "A medical booklet sits beside a yearly circular renewal calendar with a loop arrow. A doctor adds a new stamp to it. A person carries the same booklet while walking between two office buildings. The scene conveys that a medical booklet requires regular renewal and stays with the employee."
-    },
-    {
       "filename": "medicine_faq_1.png",
       "alt": "Запис до лікаря",
       "section": "Як записатись до лікаря",
@@ -716,6 +704,18 @@
       "alt": "Алергічна реакція: що робити",
       "section": "Алергічна реакція: що робити",
       "prompt": "A young boy standing while holding a handkerchief, with a red runny nose as if he is sneezing. Next to him a cat is circled inside a red warning circle, indicating the cat is the cause of his allergy. Beside the boy a girl hands him a pack of pills as allergy medicine. Simple clean minimal scene, no extra objects, no clutter. The scene conveys a boy with a cat allergy being given medicine."
+    },
+    {
+      "filename": "medicine_book_3.png",
+      "alt": "Що входить у медогляд",
+      "section": "Що входить у медогляд",
+      "prompt": "In the center, a young woman sits and talks with a doctor during a medical check-up. The doctor sits behind a desk and the woman sits in front of the desk facing him. Above them in the background floats a small laboratory test tube filled with red liquid, representing a blood sample taken for analysis, drawn in a friendly non-scary clean way. Nearby also a chest x-ray scan image and a stethoscope used to listen to the lungs. Simple clean minimal scene, no extra objects, no clutter, nothing scary or gross. The scene conveys what a medical examination includes."
+    },
+    {
+      "filename": "medicine_book_4.png",
+      "alt": "Терміни дії медкнижки",
+      "section": "Терміни дії та переоформлення",
+      "prompt": "A simple horizontal sequence of three items on a plain background. On the LEFT a closed medical health record booklet that looks old and slightly worn, like a small passport-sized book with a colored cover. In the MIDDLE a round clock with a curved circular arrow drawn all the way around it, showing that a lot of time has passed. On the RIGHT another medical health record booklet of the same kind but new and fresh, the renewed one. Both left and right items are clearly the same type of small booklet. Simple clean minimal scene, no extra objects, no clutter. The scene conveys an old medical booklet being renewed into a new one after time passes."
     }
   ]
 }
