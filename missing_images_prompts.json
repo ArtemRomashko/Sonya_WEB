@@ -698,6 +698,24 @@
       "alt": "Безкоштовний пакет послуг",
       "section": "Що входить у безкоштовний пакет",
       "prompt": "A young girl standing in a clinic at a reception desk, holding and reading a document in her hands. A doctor behind the reception desk looks at her. Beside the girl floats a crossed-out dollar money sign indicating that the services are free of charge. Simple clean minimal scene with just the girl, the doctor at the desk and the crossed-out money sign, no extra objects, no clutter. The scene conveys free medical services at a clinic."
+    },
+    {
+      "filename": "med_emerg_1.png",
+      "alt": "Опіки: перша допомога",
+      "section": "Опіки: перша допомога",
+      "prompt": "A collage split into a left half and a right half by a clear vertical divider line. LEFT HALF: a young girl crying with tears, clutching and holding her own injured hand in pain, standing right next to an open kitchen oven with a warm glow, as if she just burned her hand on the hot oven. RIGHT HALF: the same young girl now happy and smiling, holding up her hand which is clearly wrapped in a white gauze bandage around the palm and wrist. The white bandage on her hand must be clearly visible. Simple clean minimal scene, no extra objects, no clutter. The scene conveys getting a burn on the left and the bandaged healed hand on the right."
+    },
+    {
+      "filename": "med_emerg_2.png",
+      "alt": "Кровотеча: перша допомога",
+      "section": "Кровотеча: перша допомога",
+      "prompt": "A simple horizontal step sequence on a plain background. On the left a water tap with cold water pouring out, then an arrow pointing right to a roll of bandage placed in the middle, then another arrow pointing right to a hand having a piece of bandage applied to it. No blood. Simple clean minimal scene, no extra objects, no clutter. The scene conveys cooling a wound with water then bandaging it."
+    },
+    {
+      "filename": "med_emerg_5.png",
+      "alt": "Алергічна реакція: що робити",
+      "section": "Алергічна реакція: що робити",
+      "prompt": "A young boy standing while holding a handkerchief, with a red runny nose as if he is sneezing. Next to him a cat is circled inside a red warning circle, indicating the cat is the cause of his allergy. Beside the boy a girl hands him a pack of pills as allergy medicine. Simple clean minimal scene, no extra objects, no clutter. The scene conveys a boy with a cat allergy being given medicine."
     }
   ]
 }
