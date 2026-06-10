@@ -106,12 +106,6 @@
       "prompt": "A person submits a tax declaration through a government website on a laptop. A calendar with a marked deadline hangs on the wall. An income document and a tax office building icon appear beside them. The scene conveys filing an annual income tax declaration on time."
     },
     {
-      "filename": "finance_taxes_4.png",
-      "alt": "Податкова знижка",
-      "section": "Податкова знижка: частину коштів можна повернути",
-      "prompt": "An arrow arcs from a government tax office icon back toward a person's open wallet with coins returning. Around the scene: icons for tuition, a house mortgage, and a charity heart. The scene conveys getting money back from the state through tax deduction eligibility."
-    },
-    {
       "filename": "housing_moving_1.png",
       "alt": "Що беремо з собою",
       "section": "Що беремо з собою — переїзд",
@@ -740,6 +734,12 @@
       "alt": "Основні податки",
       "section": "Які податки платить звичайна людина",
       "prompt": "On the left a boy stands holding a big stack of money in his hands. An arrow points from him to the right, and above the arrow is a percent sign symbol. The arrow leads to the same boy standing again on the right, also holding money but a noticeably smaller amount than before. Simple clean minimal scene, no extra objects, no clutter. The scene conveys that after taxes a person is left with less money."
+    },
+    {
+      "filename": "finance_taxes_4.png",
+      "alt": "Податкова знижка",
+      "section": "Податкова знижка: частину коштів можна повернути",
+      "prompt": "A hand holds an open wallet, and banknotes and coins of money are flying down into the open wallet. Simple clean minimal scene, no extra objects, no clutter. The scene conveys getting money back into your wallet."
     }
   ]
 }
