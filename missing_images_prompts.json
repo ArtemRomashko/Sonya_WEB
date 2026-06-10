@@ -788,6 +788,18 @@
       "alt": "Отримання посвідчення",
       "section": "Отримання посвідчення",
       "prompt": "A boy standing behind a government service desk hands a small plastic ID card to a girl standing in front of the desk. The card is a small plastic driver's license the size of a bank card, NOT a large paper sheet or folder. The girl reaches out to take the small plastic card. Simple clean minimal scene, no extra objects, no clutter. The scene conveys receiving an official plastic driver's license card."
+    },
+    {
+      "filename": "transport_insurance_1.png",
+      "alt": "Обов’язкова автоцивілка",
+      "section": "ОСЦПВ – обов’язкова автоцивілка",
+      "prompt": "A single large banknote of money lying flat on a table. On top of the banknote stands a small miniature car, tiny in size compared to the big banknote. Simple clean minimal scene, no extra objects, no clutter. The scene conveys the cost of car insurance."
+    },
+    {
+      "filename": "transport_insurance_4.png",
+      "alt": "Як обрати страхову компанію",
+      "section": "Як обрати страхову компанію",
+      "prompt": "A girl seen from behind with her back to the viewer, one hand on her chin thinking and her other arm pointing toward a board on the wall, choosing between two options and thinking hard. The board shows two groups side by side, with no writing on it. The left group at the top has a horizontal row of yellow stars: star star star. Directly below it a horizontal row of green dollar banknotes: banknote banknote banknote. The right group at the top has a horizontal row of yellow stars: star star star star star. Directly below it a horizontal row of green dollar banknotes: banknote banknote banknote banknote banknote. Yellow stars on top, green dollar banknotes on the bottom. The right group has clearly more stars and more banknotes than the left group."
     }
   ]
 }
