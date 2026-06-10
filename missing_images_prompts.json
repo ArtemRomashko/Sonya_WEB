@@ -1,10 +1,7 @@
 {
   "style_base": "NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS, NO LABELS anywhere in the image. Flat 2D anime-style educational illustration, very light periwinkle lavender BRICK WALL TEXTURE background, soft muted lavender-blue overall color palette, muted purple-blue shadows, anime-style characters in light blue-grey clothing. NOT photorealistic, NOT 3D render, 2D flat digital illustration, Freepik flat illustration style.",
-
   "prompt_template": "NO TEXT, NO WORDS, NO LETTERS, NO NUMBERS, NO LABELS anywhere in the image. Flat 2D anime-style educational illustration. [CONTENT]. Style: very light periwinkle lavender BRICK WALL TEXTURE background, soft muted lavender-blue overall color palette tinting everything, muted purple-blue shadows, anime-style characters in light blue-grey clothing. NOT photorealistic, NOT 3D render, 2D flat digital illustration. Freepik flat illustration style. ZERO text or numbers anywhere.",
-
   "total_missing": 110,
-
   "images": [
     {
       "filename": "documents_notarial_1.png",
@@ -665,6 +662,24 @@
       "alt": "Що робити якщо помітив прапорці",
       "section": "Що робити, якщо помітив «прапорці»",
       "prompt": "A person searches company reviews on a professional platform on their laptop, reading feedback from past employees. They pause thoughtfully with a pen in hand before signing anything. A calendar shows a measured timeline with no rush. The scene conveys carefully verifying an employer's reputation before accepting a job offer."
+    },
+    {
+      "filename": "home_utilities_2.png",
+      "alt": "Де передавати показники",
+      "section": "Де передавати показники",
+      "prompt": "A young woman sitting at a desk in front of a computer, calmly submitting her utility meter readings online. Simple clean minimal scene with just the woman and her computer, no extra objects, no clutter. The scene conveys submitting monthly utility readings online."
+    },
+    {
+      "filename": "home_utilities_3.png",
+      "alt": "Як перевірити чи правильно нарахували",
+      "section": "Як перевірити чи правильно нарахували",
+      "prompt": "A young woman sitting at a desk and thinking, working something out on paper. On the desk next to her are a calculator and a laptop, and she holds a sheet of paper and a pen in her hands. Simple clean minimal scene, no extra objects, no clutter. The scene conveys a person carefully calculating and double-checking a utility bill."
+    },
+    {
+      "filename": "home_utilities_4.png",
+      "alt": "Як оплатити",
+      "section": "Як оплатити",
+      "prompt": "A young man standing and holding a smartphone in his hand, with a single round dollar money coin and a curved arrow beside him indicating money being sent from the phone. Simple clean minimal scene with just the man and his phone, no extra objects, no clutter. The scene conveys paying a utility bill by transferring money from a phone."
     }
   ]
 }
