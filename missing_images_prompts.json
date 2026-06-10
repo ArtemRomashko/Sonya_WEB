@@ -764,6 +764,30 @@
       "alt": "Питання до керівника",
       "section": "Що уточнити у керівника",
       "prompt": "A young woman sitting at a desk writing notes on paper, while her boss sits across from her on the other side of the desk explaining something and talking to her. Simple clean minimal scene, no extra objects, no clutter. The scene conveys a new employee taking notes while the manager explains tasks."
+    },
+    {
+      "filename": "transport_license_1.png",
+      "alt": "Медична довідка та автошкола",
+      "section": "Як отримати водійське посвідчення в Україні",
+      "prompt": "A collage split into a left half and a right half by a clear vertical divider line. LEFT HALF: a boy sitting across a desk from a doctor, and the doctor is writing out a medical certificate for him. RIGHT HALF: the same boy now sitting at a school desk while a female teacher stands in front of him holding up and showing him a round road traffic sign, like a driving school lesson. Simple clean minimal scene, no extra objects, no clutter. The scene conveys the first steps to a driver's license: medical certificate and driving school."
+    },
+    {
+      "filename": "transport_license_2.png",
+      "alt": "Підготовка до теорії та іспити",
+      "section": "Підготовка до теорії та іспити",
+      "prompt": "A collage split into a left half and a right half by a clear vertical divider line. LEFT HALF: a young man taking a test on a desktop computer in an exam hall, with several other people around him in rows also taking tests on their own computers. RIGHT HALF: inside a car, the same young man sits in the driver's seat with both hands on the steering wheel, looking ahead and driving, while a male examiner sits clearly next to him in the front passenger seat holding a clipboard, like a practical driving exam. Two people are clearly visible inside the car. Simple clean minimal scene, no extra objects, no clutter. The scene conveys the theory computer test and the practical driving exam with an examiner."
+    },
+    {
+      "filename": "transport_license_3.png",
+      "alt": "Інструктор та вартість",
+      "section": "Інструктор та вартість",
+      "prompt": "A young man sitting in the front seat of a car, holding an open laptop in his hands and looking at it, with some papers on his lap. Plain brick wall background behind the car. There is only ONE laptop, the one in his hands, and NO other laptop, screen or monitor anywhere in the background. Simple clean minimal scene, no extra objects, no clutter. The scene conveys browsing for a driving instructor and planning the cost."
+    },
+    {
+      "filename": "transport_license_4.png",
+      "alt": "Отримання посвідчення",
+      "section": "Отримання посвідчення",
+      "prompt": "A boy standing behind a government service desk hands a small plastic ID card to a girl standing in front of the desk. The card is a small plastic driver's license the size of a bank card, NOT a large paper sheet or folder. The girl reaches out to take the small plastic card. Simple clean minimal scene, no extra objects, no clutter. The scene conveys receiving an official plastic driver's license card."
     }
   ]
 }
